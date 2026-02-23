@@ -5,5 +5,16 @@ color_scheme: dark
 
 url: https://docs.lsr.gg
 
+favicon_ico: "/images/favicon.ico"
+nav_enabled: true
+
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Lovely Sim Racing: https://store.lsr.gg
+
+aux_links_new_tab: true
+
+footer_content: "Copyright &copy; 2026 Lovely Sim Racing."
+
+# Footer last edited timestamp
+last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
