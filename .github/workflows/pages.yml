@@ -54,6 +54,10 @@ jobs:
         uses: actions/upload-pages-artifact@v4
         with:
           path: docs/_site/
+           Working Directory
+    defaults:
+        run:
+          working-directory: docs
 
   # Deployment job
   deploy:
@@ -67,7 +71,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-  # Working Directory
-  defaults:
-      run:
-        working-directory: docs
+  
