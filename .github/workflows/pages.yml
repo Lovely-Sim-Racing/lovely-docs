@@ -54,7 +54,6 @@ jobs:
         uses: actions/upload-pages-artifact@v4
         with:
           path: docs/_site/
-           Working Directory
     defaults:
         run:
           working-directory: docs
@@ -70,5 +69,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-  
