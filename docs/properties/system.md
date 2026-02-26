@@ -1,0 +1,22 @@
+---
+title: System
+layout: default
+parent: Properties
+nav_order: 10
+---
+
+# System
+Always use the full property name, as demonstrated below:
+
+**LovelyPlugin.ld_Telemetry.** + `Property Name`
+{: .note }
+
+## General
+
+| Property Name | Type | Definition |
+| :--- | :---- | :---- |
+| `Time` | `DateTime`{: .green-100 } | Returns the PC Time |
+| `SimHubVersion` | `string` | Returns the SimHub Version |
+| `PluginVersion` | `string` | Returns the Lovely Plugin Version |
+| `GamePaused` | `int` | Returns `1` or `0` if game is paused |
+| `GameRunning` | `int` | Returns `1` or `0` if game is running |
