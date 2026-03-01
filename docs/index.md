@@ -20,7 +20,12 @@ TeamLINQ properties act as a proxy between SimHub's native properties and your D
 ### Smart Property Mapping
 TeamLINQ properties also make it easier to build your project as it internally resolves them to the correct data source, ensuring your dashboard works seamlessly across multiple games without reconfiguration.
 
+### Remote & Local Telemetry
+The Lovely Plugin introduces a set of new properties which mirror the native Simhub data. When TeamLINQ is enabled and you have selected to observe a driver in your team, the same properties will deliver streaming data in real-time from your selected teammate's Simhub.
+
 {: .highlight }
+> The same TeamLINQ properties are used across all sims, and for both local and remote telemetry.
+>
 > {: .note .mt-3 }
 > **ACC** - `DataCorePlugin.GameRawData.Graphics.TCCut` 👉 **Vehicle.TC**
 > 
@@ -33,12 +38,6 @@ TeamLINQ properties also make it easier to build your project as it internally r
 {: .important .mt-3 }
 > * Using TeamLINQ is **absolutley free** and **does not require a membership** or **account**. By including it in your projects you can take advantage of the TeamLINQ Property benefits.
 > * **Real-time Telemetry sharing** on the other hand does require a [Team Pro Membership](https://store.lsr.gg/pages/business-solutions-teams-monthly), and it unlocks for all members of the team.
-
-## How it works
-The Lovely Plugin introduces a set of new properties which mirror the native Simhub data. When TeamLINQ is enabled and you have selected to observe a driver in your team, the same properties will deliver streaming data in real-time from your selected teammate's Simhub.
-
-The same TeamLINQ properties are used for **both local** and **remote telemetry**.
-{: .highlight }
 
 ## Calling all Sim Racing Developers
 Your dashboards and applications are already impressive - now take them to the next level by integrating TeamLINQ's properties. Unlock real-time data sharing and transform how teams experience your work.

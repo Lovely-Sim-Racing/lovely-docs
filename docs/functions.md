@@ -7,7 +7,7 @@ last_modified_date: Feb 26, 2026, 19:13
 
 # JavaScript Extensions
 
-The TeamLINQ JavaScript Extensions are a series of functions that replace the native SimHub JavaScript functions, for easier access to data within you dashboard, while takign advantage of all of TeamLINQ's features. 
+The TeamLINQ JavaScript Extensions are a series of functions that replace the native SimHub JavaScript functions in the dash editor, while taking advantage of all of TeamLINQ's features.
 
 ## Download & Usage
 Download the TeamLINQ JavaScript Extensions for your Dashboard. To use these functions, copy this file into your dashboard's `JavascriptExtensions` folder.
