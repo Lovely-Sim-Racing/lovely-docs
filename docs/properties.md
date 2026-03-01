@@ -1,14 +1,15 @@
 ---
 title: Properties
 layout: default
-has_toc: true
 nav_order: 30
+last_modified_date: Feb 26, 2026, 19:13
 ---
 
 # Properties
 
 TeamLINQ acts as a proxy between Simhub properties and your Dashboard or Application.
 
+**Lovely Plugin v2.4.0.2**
 
 ## Syntax
 All TeamLINQ properties can be directly accessed within Dash Editor. You must always use the full property name, as demonstrated below:

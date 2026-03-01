@@ -2,6 +2,7 @@
 title: JavaScript Extensions
 layout: default
 nav_order: 40
+last_modified_date: Feb 26, 2026, 19:13
 ---
 
 # JavaScript Extensions
