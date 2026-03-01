@@ -14,13 +14,13 @@ TeamLINQ enables real-time sharing of SimHub telemetry among teammates[^1]. Its 
 
 [**Learn more about TeamLINQ**](https://lsr.gg/teamlinq)
 
-### Real-time Telemetry sharing
+### 1. Real-time Telemetry sharing
 TeamLINQ properties act as a proxy between SimHub's native properties and your Dashboard or Application. The same properties work as you'd expect them to work when running a local session, but also deliver your teammate's telemetry when enabled.
 
-### Smart Property Mapping
+### 2. Smart Property Mapping
 TeamLINQ properties also make it easier to build your project as it internally resolves them to the correct data source, ensuring your dashboard works seamlessly across multiple games without reconfiguration.
 
-### Remote & Local Telemetry
+### 3. Remote & Local Telemetry
 The Lovely Plugin introduces a set of new properties which mirror the native Simhub data. When TeamLINQ is enabled and you have selected to observe a driver in your team, the same properties will deliver streaming data in real-time from your selected teammate's Simhub.
 
 {: .highlight }
@@ -47,7 +47,7 @@ Your dashboards and applications are already impressive - now take them to the n
 {: .mb-2 }
 
 {: .mt-0 }
-### Showcase that your product is TeamLINQ ready.
+### Showcase that your product Works with TeamLINQ
 Whether you're designing a dashboard, building an application, or converting your team's secret stint calculator, TeamLINQ makes it instantly accessible to every teammate. And when your creation harnesses TeamLINQ's features, you can display our official "Works with TeamLINQ" badge—letting the community know they can use your product together, in real-time.
 {: .mb-4 }
 
