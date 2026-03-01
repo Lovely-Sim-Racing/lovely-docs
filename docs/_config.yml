@@ -1,5 +1,5 @@
-title: Lovely Docs
-description: Documention, coming soon
+title: TeamLINQ Docs
+description: Create your own Dashboards or Applications using TeamLINQ’s SimHub Properties.
 theme: just-the-docs
 color_scheme: dark
 color_scheme: lovely
@@ -14,7 +14,7 @@ aux_links:
 
 aux_links_new_tab: true
 
-footer_content: "Copyright &copy; 2026 Lovely Sim Racing."
+footer_content: "&copy; 2026 Lovely Sim Racing."
 
 callouts:
   highlight:

@@ -1,7 +1,7 @@
 ---
 title: LeMans Ultimate
 layout: default
-parent: Properties
+parent: Game Specific
 nav_order: 120
 last_modified_date: Feb 26, 2026, 19:13
 ---

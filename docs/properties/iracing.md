@@ -1,7 +1,7 @@
 ---
 title: iRacing
 layout: default
-parent: Properties
+parent: Game Specific
 nav_order: 60
 last_modified_date: Feb 26, 2026, 19:13
 ---
@@ -16,6 +16,8 @@ Always use the full property name, as demonstrated below:
 
 | Property Name | Type | Definition |
 | :--- | :--- | :--- |
+| `Session.Time` | `DateTime` |   |
+
 | `Session.IsLimitedTime` | `int` |  |
 | `Session.IsLimitedLaps` | `int` |  |
 

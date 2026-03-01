@@ -1,7 +1,7 @@
 ---
 title: rFactor 2
 layout: default
-parent: Properties
+parent: Game Specific
 nav_order: 110
 last_modified_date: Feb 26, 2026, 19:13
 ---

@@ -1,7 +1,7 @@
 ---
 title: Assetto Corsa Competizione
 layout: default
-parent: Properties
+parent: Game Specific
 nav_order: 50
 last_modified_date: Feb 26, 2026, 19:13
 ---
@@ -20,6 +20,7 @@ Always use the full property name, as demonstrated below:
 
 ## Session 
 
+| `Session.Time` | `DateTime` |   |
 | `Session.WindSpeed` | `double` |   |
 | `Session.WindDirection` | `double` |   |
 | `Session.TrackStatus` | `string` | |

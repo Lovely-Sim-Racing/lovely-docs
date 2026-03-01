@@ -12,7 +12,18 @@ The TeamLINQ JavaScript Extensions are a series of functions that replace the na
 ## Download & Usage
 Download the TeamLINQ JavaScript Extensions for your Dashboard. To use these functions, copy this file into your dashboard's `JavascriptExtensions` folder.
 
-[**Download Extensions**](https://lsr.gg/TeamnLINQJSDL){: .btn .mr-4  }
+[**Download JS Extensions**](https://lsr.gg/TeamnLINQJS){: .btn .mr-4  }
+
+## Helper
+
+{: .mt-6 }
+### Convert String to TimeSpan
+```js
+ld_stringToTimespan()
+```
+Converts a TimeSpan string to a TimeSpan Object.
+{: .mb-8 }
+
 
 ## Player
 
@@ -193,7 +204,7 @@ Returns for the race position and the sector (starting from 1) the driver's sess
 {: .mt-6 }
 ### Get Driver Sector Best Lap
 ```js
-ld_driversectorbestlap(position, sector, includePreviousSectorsTime)
+ld_driversectorbestlap(position, sector, includePreviousSectorsTime = true)
 ```
 Returns for the race position and the sector (starting from 1) the driver's best lap sector time. When `includePreviousSectorsTime` is `true` the value cumulates the previous sectors.
 {: .mb-8 }
