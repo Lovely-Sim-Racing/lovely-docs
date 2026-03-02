@@ -3,7 +3,6 @@ title: iRacing
 layout: default
 parent: Game Specific
 nav_order: 60
-last_modified_date: Feb 26, 2026, 19:13
 ---
 
 # iRacing

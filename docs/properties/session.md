@@ -3,7 +3,6 @@ title: Session
 layout: default
 parent: Properties
 nav_order: 20
-last_modified_date: Feb 26, 2026, 19:13
 ---
 
 # Session
