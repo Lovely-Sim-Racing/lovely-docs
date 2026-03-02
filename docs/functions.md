@@ -9,9 +9,15 @@ nav_order: 40
 The TeamLINQ JavaScript Extensions are a series of functions that replace the native SimHub JavaScript functions in the dash editor, while taking advantage of all of TeamLINQ's features.
 
 ## Download & Usage
-Download the TeamLINQ JavaScript Extensions for your Dashboard. To use these functions, copy this file into your dashboard's `JavascriptExtensions` folder.
+To use these functions, copy the file into your dashboard's `JavascriptExtensions` folder or link it directly from the Lovely API.
 
-[**Download JS Extensions**](https://lsr.gg/TeamnLINQJS){: .btn .mr-4  }
+[**Download JS Extensions**](https://lsr.gg/TeamLINQJS){: .btn .mr-4  }
+
+or
+
+```
+https://api.lsr.gg/teamlinqjs
+```
 
 ## Helper
 
@@ -390,6 +396,14 @@ Returns for the race position how long the last pit stop took (when available).
 ld_getopponentleaderboardposition_aheadbehind(relativePos)
 ```
 Returns the leaderboard position of the player's ahead/behind on track opponents (0 = player, -1 = the first ahead, 1 the first behind).
+{: .mb-8 }
+
+{: .mt-6 }
+### Get Opponent Leaderboard Position Ahead/Behind Class Only
+```js
+ld_getopponentleaderboardposition_aheadbehind_playerclassonly(relativePos)
+```
+Returns the leaderboard position of the player's ahead/behind on track opponents for the player class (0 = player, -1 = the first ahead, 1 the first behind)
 {: .mb-8 }
 
 {: .mt-6 }

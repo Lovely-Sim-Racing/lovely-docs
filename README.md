@@ -8,7 +8,12 @@ SimHub Telemetry Sharing in real-time, made easy.
 
 ---
 
-To build the docs locally using Jekyll:
+TeamLINQ enables real-time sharing of SimHub telemetry among teammates. Its intuitive interface makes team racing feel more authentic than ever.
 
-1. In Terminal navigate to the `docs` folder.
-2. run `bundle exec jekyll serve`.
+[**Learn more about TeamLINQ**](https://lsr.gg/teamlinq)
+
+--- 
+
+Create your own Dashboards or Applications using TeamLINQ's SimHub Properties.
+
+[**Read the Documentation**](https://docs.lsr.gg)

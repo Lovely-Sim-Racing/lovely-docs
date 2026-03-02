@@ -27,7 +27,9 @@ The Lovely Plugin introduces a set of new properties which mirror the native Sim
 > The same TeamLINQ properties are used across all sims, and for both local and remote telemetry.
 > 
 > {: .note .green }
-> **Use** `LovelyPlugin.TeamLINQ.Vehicle.TC` instead of:
+> **Use** - `LovelyPlugin.TeamLINQ.Vehicle.TC`
+> 
+> instead of:
 > 
 > {: .note .red }
 > **ACC** - `DataCorePlugin.GameRawData.Graphics.TCCut` 

@@ -558,7 +558,7 @@ function ld_driverpitlastduration(position) {
 //
 //
 // Replaces getopponentleaderboardposition_aheadbehind()
-// Returns the leaderboard position of the player's ahead/behind oin track opponents (0 = player, -1 = the first ahead, 1 the first behind)
+// Returns the leaderboard position of the player's ahead/behind on track opponents (0 = player, -1 = the first ahead, 1 the first behind)
 function ld_getopponentleaderboardposition_aheadbehind(relativePos) {
 	let relativeDistance = JSON.parse($prop('LovelyPlugin.TeamLINQ.Opponents.DistanceToPlayerRelative'));
 	let driversPosition = JSON.parse($prop('LovelyPlugin.TeamLINQ.Opponents.Position'));
@@ -572,6 +572,40 @@ function ld_getopponentleaderboardposition_aheadbehind(relativePos) {
 		targetIndex += relativeDistance.length;
 	}
 	return driversPosition[targetIndex];
+}
+
+
+//
+//
+// Replaces getopponentleaderboardposition_aheadbehind_playerclassonly()
+// Returns the leaderboard position of the player's ahead/behind on track opponents for the player class (0 = player, -1 = the first ahead, 1 the first behind)
+function ld_getopponentleaderboardposition_aheadbehind_playerclassonly(relativePos) {
+	let carClass = $prop('LovelyPlugin.TeamLINQ.Session.CarClass');
+	let driversClass = JSON.parse($prop('LovelyPlugin.TeamLINQ.Opponents.Class'));
+	let relativeDistance = JSON.parse($prop('LovelyPlugin.TeamLINQ.Opponents.DistanceToPlayerRelative'));
+	let driversPosition = JSON.parse($prop('LovelyPlugin.TeamLINQ.Opponents.Position'));
+	const sameClassIndices = [];
+	for (let i = 0; i < driversClass.length; i++) {
+		if (driversClass[i] === carClass) {
+			sameClassIndices.push(i);
+		}
+	}
+	let filteredRelativeDistance = [];
+	let filteredDriversPosition = [];
+	for (let index of sameClassIndices) {
+		filteredRelativeDistance.push(relativeDistance[index]);
+		filteredDriversPosition.push(driversPosition[index]);
+	}
+	const isAllZeros = filteredDriversPosition.every(pos => pos === 0);
+	if (isAllZeros) {
+		filteredDriversPosition = Array.from({ length: filteredDriversPosition.length }, (_, i) => i + 1);
+	}
+	const myIndex = filteredRelativeDistance.indexOf(null);
+	let targetIndex = (myIndex + relativePos) % filteredRelativeDistance.length;
+	if (targetIndex < 0) {
+		targetIndex += filteredRelativeDistance.length;
+	}
+	return filteredDriversPosition[targetIndex];
 }
 
 // 
