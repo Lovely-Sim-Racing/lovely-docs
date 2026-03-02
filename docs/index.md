@@ -5,4 +5,4 @@ layout: home
 
 # Documentation
 
-Lovely Sim Racing documnentation coming soon.
+Lovely Sim Racing documentation coming ***VERY*** soon.
