@@ -23,14 +23,17 @@ TeamLINQ properties also make it easier to build your project as it internally r
 ### 3. Remote & Local Telemetry
 The Lovely Plugin introduces a set of new properties which mirror the native Simhub data. When TeamLINQ is enabled and you have selected to observe a driver in your team, the same properties will deliver streaming data in real-time from your selected teammate's Simhub.
 
-{: .highlight }
+{: .highlight .my-6 }
 > The same TeamLINQ properties are used across all sims, and for both local and remote telemetry.
->
-> {: .note .mt-3 }
-> **ACC** - `DataCorePlugin.GameRawData.Graphics.TCCut` 👉 **Vehicle.TC**
 > 
-> {: .note }
-> **iRacing** - `DataCorePlugin.GameRawData.Telemetry.dcTractionControl2` 👉 **Vehicle.TC**
+> {: .note .green }
+> **Use** `LovelyPlugin.TeamLINQ.Vehicle.TC` instead of:
+> 
+> {: .note .red }
+> **ACC** - `DataCorePlugin.GameRawData.Graphics.TCCut` 
+> 
+> {: .note .red }
+> **iRacing** - `DataCorePlugin.GameRawData.Telemetry.dcTractionControl2`
 
 
 ## Free & Paid versions
@@ -60,4 +63,4 @@ All data payloads are optimised, obscured and transferred over a secure connecti
 
 ---
 
-[^1]: **Team Pro Membership Required** - TeamLINQ Real-time telemetry sharing requires a [Team Pro Membership](https://store.lsr.gg/pages/business-solutions-teams-monthly) during the Beta phase. It is under evaluation until we have more data before we decide if it can be included in other membership tiers.
+[^1]: **Team Pro Membership Required** - TeamLINQ Real-time telemetry sharing requires a [Team Pro Membership](https://store.lsr.gg/pages/business-solutions-teams-monthly) during the Beta phase. As the product evolves, we will continue evaluating our options for broader access. 

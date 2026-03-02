@@ -8,7 +8,7 @@ nav_order: 120
 # LeMans Ultimate
 Always use the full property name, as demonstrated below:
 
-**LovelyPlugin.ld_Telemetry.** + `Property Name`
+**LovelyPlugin.TeamLINQ.** + `Property Name`
 {: .note }
 
 ## Info

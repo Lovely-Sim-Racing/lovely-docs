@@ -14,8 +14,6 @@ aux_links:
 
 aux_links_new_tab: true
 
-footer_content: "&copy; 2026 Lovely Sim Racing."
-
 callouts:
   highlight:
     title: Did you know?
@@ -28,6 +26,12 @@ callouts:
     color: green
   note:
     color: purple
+  green:
+    color: green
+  yellow:
+    color: yellow
+  red:
+    color: red
   warning:
     title: Warning
     color: red

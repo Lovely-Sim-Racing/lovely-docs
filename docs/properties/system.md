@@ -8,7 +8,7 @@ nav_order: 10
 # System
 Always use the full property name, as demonstrated below:
 
-**LovelyPlugin.ld_Telemetry.** + `Property Name`
+**LovelyPlugin.TeamLINQ.** + `Property Name`
 {: .note }
 
 ## General

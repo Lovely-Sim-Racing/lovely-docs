@@ -24,7 +24,7 @@ function ld_stringToTimespan(timeString) {
 // Replaces getplayerleaderboardposition()
 // Returns the leaderboard position of the current player.
 function ld_getplayerleaderboardposition() {
-    return $prop('LovelyPlugin.ld_Telemetry.Session.Position');
+    return $prop('LovelyPlugin.TeamLINQ.Session.Position');
 }
 
 //
@@ -33,7 +33,7 @@ function ld_getplayerleaderboardposition() {
 // Returns the time of the given sector (sector starting from 1). When `includePreviousSectorTime` is `true` the value cumulates the previous sectors.
 function ld_currentlapgetsectortime(sector, includePreviousSectorsTime = true) {
 	let position = ld_getplayerleaderboardposition();
-	let drivers = $prop('LovelyPlugin.ld_Telemetry.Opponents.SectorsCurrentLap');
+	let drivers = $prop('LovelyPlugin.TeamLINQ.Opponents.SectorsCurrentLap');
 	let driver_data = JSON.parse(drivers);
 	let sectorTime = 0;
 	if (includePreviousSectorsTime || sector == 1 ) {
@@ -51,7 +51,7 @@ function ld_currentlapgetsectortime(sector, includePreviousSectorsTime = true) {
 // Returns the time of the given sector for the last completed lap (sector starting from 1). When `includePreviousSectorTime` is `true` the value cumulates the previous sectors.
 function ld_lastlapgetsectortime(sector, includePreviousSectorsTime = true) {
 	let position = ld_getplayerleaderboardposition();
-	let drivers = $prop('LovelyPlugin.ld_Telemetry.Opponents.SectorsLastLap');
+	let drivers = $prop('LovelyPlugin.TeamLINQ.Opponents.SectorsLastLap');
 	let driver_data = JSON.parse(drivers);
 	let sectorTime = 0;
 	if (includePreviousSectorsTime || sector == 1 ) {
@@ -69,7 +69,7 @@ function ld_lastlapgetsectortime(sector, includePreviousSectorsTime = true) {
 // Returns the time of the given sector for the session best completed lap (sector starting from 1). When `includePreviousSectorTime` is `true` the value cumulates the previous sectors.
 function ld_sessionbestlapgetsectortime(sector, includePreviousSectorsTime = true) {
 	let position = ld_getplayerleaderboardposition();
-	let drivers = $prop('LovelyPlugin.ld_Telemetry.Opponents.SectorsBestLap');
+	let drivers = $prop('LovelyPlugin.TeamLINQ.Opponents.SectorsBestLap');
 	let driver_data = JSON.parse(drivers);
 	let sectorTime = 0;
 	if (includePreviousSectorsTime || sector == 1 ) {
@@ -88,7 +88,7 @@ function ld_sessionbestlapgetsectortime(sector, includePreviousSectorsTime = tru
 function ld_getbestsplittime(sector) {
 	let position = ld_getplayerleaderboardposition();
 	position ??= 1;
-	let drivers = $prop('LovelyPlugin.ld_Telemetry.Opponents.SectorsBestSplits');
+	let drivers = $prop('LovelyPlugin.TeamLINQ.Opponents.SectorsBestSplits');
 	let driver_data = JSON.parse(drivers);
 	sectorTime = driver_data[ position - 1 ]?.['Data']?.[sector]?.['SplitTimeMS'] / 1000;
 	return sectorTime ? secondstotimespan( sectorTime ) : null
@@ -100,7 +100,7 @@ function ld_getbestsplittime(sector) {
 // Returns the best sector time of the given sector (sector starting from 1). When `includePreviousSectorTime` is `true` the value cumulates the previous sectors.
 function ld_bestsectortime(sector, includePreviousSectorsTime = true) {
 	let position = ld_getplayerleaderboardposition();
-	let drivers = $prop('LovelyPlugin.ld_Telemetry.Opponents.SectorsBestSplits');
+	let drivers = $prop('LovelyPlugin.TeamLINQ.Opponents.SectorsBestSplits');
 	let driver_data = JSON.parse(drivers);
 	let sectorTime = 0;
 	if (includePreviousSectorsTime && sector > 1 ) {
@@ -129,7 +129,7 @@ function ld_bestsectortime(sector, includePreviousSectorsTime = true) {
 // Replaces getleaderboardcarclasscount()
 // Returns how many car classes are available on the leaderboard.
 function ld_getleaderboardcarclasscount() {
-	let drivers = $prop('LovelyPlugin.ld_Telemetry.Opponents.Class');
+	let drivers = $prop('LovelyPlugin.TeamLINQ.Opponents.Class');
 	let driver_data = JSON.parse(drivers);
 	const classCount = new Set(driver_data).size;
 	return classCount;
@@ -145,7 +145,7 @@ function ld_getleaderboardcarclasscount() {
 // Replaces driveravailable()
 // Returns true for the race position if a driver is avaialble (when avaialble).
 function ld_driveravailable(position) {
-	let drivers = $prop('LovelyPlugin.ld_Telemetry.Opponents.Position');
+	let drivers = $prop('LovelyPlugin.TeamLINQ.Opponents.Position');
 	let driver_data = JSON.parse(drivers);
     return driver_data[ position - 1 ] !== undefined ? true : false; // Zero array correction
 }
@@ -155,7 +155,7 @@ function ld_driveravailable(position) {
 // Replaces driverisplayer()
 // Returns true for the race position if the driver is the actual player (when available).
 function ld_driverisplayer(position) {
-	let drivers = $prop('LovelyPlugin.ld_Telemetry.Opponents.isPlayer');
+	let drivers = $prop('LovelyPlugin.TeamLINQ.Opponents.isPlayer');
 	let driver_data = JSON.parse(drivers);
     return driver_data[ position - 1 ] ? true : false; // Zero array correction
 }
@@ -165,7 +165,7 @@ function ld_driverisplayer(position) {
 // Replaces drivername()
 // Returns for the race position the driver's name (when available).
 function ld_drivername(position) {
-	let drivers = $prop('LovelyPlugin.ld_Telemetry.Opponents.DriverName');
+	let drivers = $prop('LovelyPlugin.TeamLINQ.Opponents.DriverName');
 	let driver_data = JSON.parse(drivers);
     return driver_data[ position - 1 ]; // Zero array correction
 }
@@ -175,7 +175,7 @@ function ld_drivername(position) {
 // Replaces driverid()
 // Returns for the race position the driver's unique id (when available).
 function ld_driverid(position) {
-	let drivers = $prop('LovelyPlugin.ld_Telemetry.Opponents.Id');
+	let drivers = $prop('LovelyPlugin.TeamLINQ.Opponents.Id');
 	let driver_data = JSON.parse(drivers);
     return driver_data[ position - 1 ]; // Zero array correction
 }
@@ -185,7 +185,7 @@ function ld_driverid(position) {
 // Replaces drivercarnumber()
 // Returns for the race position the driver's car number (when available).
 function ld_drivercarnumber(position) {
-	let drivers = $prop('LovelyPlugin.ld_Telemetry.Opponents.Number');
+	let drivers = $prop('LovelyPlugin.TeamLINQ.Opponents.Number');
 	let driver_data = JSON.parse(drivers);
     return driver_data[ position - 1 ]; // Zero array correction
 }
@@ -195,7 +195,7 @@ function ld_drivercarnumber(position) {
 // Replaces drivercarname()
 // Returns for the race position the driver's car name (when available).
 function ld_drivercarname(position) {
-	let drivers = $prop('LovelyPlugin.ld_Telemetry.Opponents.CarName');
+	let drivers = $prop('LovelyPlugin.TeamLINQ.Opponents.CarName');
 	let driver_data = JSON.parse(drivers);
     return driver_data[ position - 1 ]; // Zero array correction
 }
@@ -205,7 +205,7 @@ function ld_drivercarname(position) {
 // Replaces drivercurrentlap()
 // Returns for the race position the driver's current lap (when available).
 function ld_drivercurrentlap(position) {
-	let drivers = $prop('LovelyPlugin.ld_Telemetry.Opponents.CurrentLap');
+	let drivers = $prop('LovelyPlugin.TeamLINQ.Opponents.CurrentLap');
 	let driver_data = JSON.parse(drivers);
     return driver_data[ position - 1 ]; // Zero array correction
 }
@@ -215,7 +215,7 @@ function ld_drivercurrentlap(position) {
 // Replaces drivercurrentlaphighprecision()
 // Returns for the race position the driver's guessed lap in the race including the actual lap percent (when available).
 function ld_drivercurrentlaphighprecision(position) {
-	let drivers = $prop('LovelyPlugin.ld_Telemetry.Opponents.CurrentLapPrecise');
+	let drivers = $prop('LovelyPlugin.TeamLINQ.Opponents.CurrentLapPrecise');
 	let driver_data = JSON.parse(drivers);
     return driver_data[ position - 1 ]; // Zero array correction
 }
@@ -226,7 +226,7 @@ function ld_drivercurrentlaphighprecision(position) {
 // Returns for the race position the driver's best lap time (when available).
 function ld_driverbestlap(position) {
 	position ??= 1;
-	let drivers = $prop('LovelyPlugin.ld_Telemetry.Opponents.BestLapTime');
+	let drivers = $prop('LovelyPlugin.TeamLINQ.Opponents.BestLapTime');
 	let driver_data = JSON.parse(drivers);	
 	return ld_stringToTimespan( driver_data[ position - 1 ] ); // Zero array correction
 }
@@ -237,7 +237,7 @@ function ld_driverbestlap(position) {
 // Returns for the race position the driver's last lap time (when available).
 function ld_driverlastlap(position) {
 	position ??= 1;
-	let drivers = $prop('LovelyPlugin.ld_Telemetry.Opponents.LastLapTime');
+	let drivers = $prop('LovelyPlugin.TeamLINQ.Opponents.LastLapTime');
 	let driver_data = JSON.parse(drivers);
 	return ld_stringToTimespan( driver_data[ position - 1 ] ); // Zero array correction
 }
@@ -248,7 +248,7 @@ function ld_driverlastlap(position) {
 // Returns for the race position the driver's current sector (starting from 1) (when available).
 function ld_drivercurrentsector(position) {
 	position ??= 1;
-	let drivers = $prop('LovelyPlugin.ld_Telemetry.Opponents.SectorIndex');
+	let drivers = $prop('LovelyPlugin.TeamLINQ.Opponents.SectorIndex');
 	let driver_data = JSON.parse(drivers);
 	return driver_data[ position - 1 ]; // Zero array correction
 }
@@ -259,7 +259,7 @@ function ld_drivercurrentsector(position) {
 // Returns for the race position and the sector (starting from 1) the driver's current lap sector time. When `includePreviousSectorTime` is `true` the value cumulates the previous sectors.
 function ld_driversectorcurrentlap(position, sector, includePreviousSectorsTime = true) {
 	position ??= 1;
-	let drivers = $prop('LovelyPlugin.ld_Telemetry.Opponents.SectorsCurrentLap');
+	let drivers = $prop('LovelyPlugin.TeamLINQ.Opponents.SectorsCurrentLap');
 	let driver_data = JSON.parse(drivers);
 	let sectorTime = 0;
 	if (includePreviousSectorsTime || sector == 1 ) {
@@ -277,7 +277,7 @@ function ld_driversectorcurrentlap(position, sector, includePreviousSectorsTime 
 // Returns for the race position and the sector (starting from 1) the driver's last completed lap sector time. When `includePreviousSectorTime` is `true` the value cumulates the previous sectors.
 function ld_driversectorlastlap(position, sector, includePreviousSectorsTime = true) {
 	position ??= 1;
-	let drivers = $prop('LovelyPlugin.ld_Telemetry.Opponents.SectorsLastLap');
+	let drivers = $prop('LovelyPlugin.TeamLINQ.Opponents.SectorsLastLap');
 	let driver_data = JSON.parse(drivers);
 	let sectorTime = 0;
 	if (includePreviousSectorsTime || sector == 1 ) {
@@ -295,7 +295,7 @@ function ld_driversectorlastlap(position, sector, includePreviousSectorsTime = t
 // Returns for the race position and the sector (starting from 1) the driver's session best sector time. When `includePreviousSectorTime` is `true` the value cumulates the previous sectors.
 function ld_driversectorbest(position, sector, includePreviousSectorsTime = true) {
 	position ??= 1;
-	let drivers = $prop('LovelyPlugin.ld_Telemetry.Opponents.SectorsBestSplits');
+	let drivers = $prop('LovelyPlugin.TeamLINQ.Opponents.SectorsBestSplits');
 	let driver_data = JSON.parse(drivers);
 	let sectorTime = 0;
 	let totalTime = 0;
@@ -321,7 +321,7 @@ function ld_driversectorbest(position, sector, includePreviousSectorsTime = true
 // Returns for the race position and the sector (starting from 1) the driver's best lap sector time. When `includePreviousSectorTime` is `true` the value cumulates the previous sectors.
 function ld_driversectorbestlap(position, sector, includePreviousSectorsTime) {
 	position ??= 1;
-	let drivers = $prop('LovelyPlugin.ld_Telemetry.Opponents.SectorsBestLap');
+	let drivers = $prop('LovelyPlugin.TeamLINQ.Opponents.SectorsBestLap');
 	let driver_data = JSON.parse(drivers);
 	let sectorTime = 0;
 	if (includePreviousSectorsTime || sector == 1 ) {
@@ -338,7 +338,7 @@ function ld_driversectorbestlap(position, sector, includePreviousSectorsTime) {
 // Replaces driverclassposition()
 // Returns for the race position the driver's position in his own class (when available).]
 function ld_driverclassposition(position) {
-	let drivers = $prop('LovelyPlugin.ld_Telemetry.Opponents.ClassPosition');
+	let drivers = $prop('LovelyPlugin.TeamLINQ.Opponents.ClassPosition');
 	let driver_data = JSON.parse(drivers);
     return driver_data[ position - 1 ]; // Zero array correction
 }
@@ -348,7 +348,7 @@ function ld_driverclassposition(position) {
 // Replaces drivercarclass()
 // Returns for the race position the driver's car class (when available).
 function ld_drivercarclass(position) {
-	let drivers = $prop('LovelyPlugin.ld_Telemetry.Opponents.Class');
+	let drivers = $prop('LovelyPlugin.TeamLINQ.Opponents.Class');
 	let driver_data = JSON.parse(drivers);
     return driver_data[ position - 1 ]; // Zero array correction
 }
@@ -358,7 +358,7 @@ function ld_drivercarclass(position) {
 // Replaces drivercarclasscolor()
 // Returns for the race position the driver's car class color, provided by iRacing, autoassigned otherwise (when available).
 function ld_drivercarclasscolor(position) {
-	let drivers = $prop('LovelyPlugin.ld_Telemetry.Opponents.ClassColor');
+	let drivers = $prop('LovelyPlugin.TeamLINQ.Opponents.ClassColor');
 	let driver_data = JSON.parse(drivers);
     return driver_data[ position - 1 ]; // Zero array correction
 }
@@ -368,7 +368,7 @@ function ld_drivercarclasscolor(position) {
 // Replaces drivercarclasstextcolor()
 // Returns for the race position the driver's car class text color, white or black to be readable over car class color (when available).
 function ld_drivercarclasstextcolor(position) {
-	let drivers = $prop('LovelyPlugin.ld_Telemetry.Opponents.ClassColorText');
+	let drivers = $prop('LovelyPlugin.TeamLINQ.Opponents.ClassColorText');
 	let driver_data = JSON.parse(drivers);
     return driver_data[ position - 1 ]; // Zero array correction
 }
@@ -378,7 +378,7 @@ function ld_drivercarclasstextcolor(position) {
 // Driver Category (ACC ONLY)
 // Returns for the race position the driver's category, ACC only (when available).
 function ld_drivercategory(position) {
-	let drivers = $prop('LovelyPlugin.ld_Telemetry.Opponents.Category');
+	let drivers = $prop('LovelyPlugin.TeamLINQ.Opponents.Category');
 	let driver_data = JSON.parse(drivers).split(",");
     return driver_data[ position - 1 ]; // Zero array correction
 }
@@ -389,7 +389,7 @@ function ld_drivercategory(position) {
 // Replaces driveriracingirating()
 // Returns for the race position the driver's iRating (when available).
 function ld_driveriracingirating(position) {
-	let drivers = $prop('LovelyPlugin.ld_Telemetry.Opponents.iRating');
+	let drivers = $prop('LovelyPlugin.TeamLINQ.Opponents.iRating');
 	let driver_data = JSON.parse(drivers);
     return driver_data[ position - 1 ]; // Zero array correction
 }
@@ -400,7 +400,7 @@ function ld_driveriracingirating(position) {
 // Replaces driverlicencestring()
 // Returns for the race position the driver's license string (when available).
 function ld_driverlicencestring(position) {
-	let drivers = $prop('LovelyPlugin.ld_Telemetry.Opponents.License');
+	let drivers = $prop('LovelyPlugin.TeamLINQ.Opponents.License');
 	let driver_data = JSON.parse(drivers);
     return driver_data[ position - 1 ]; // Zero array correction
 }
@@ -410,7 +410,7 @@ function ld_driverlicencestring(position) {
 // Replaces driverpositiongain()
 // Returns for the race position the driver's position gain since the start of the race/connection (when available).
 function ld_driverpositiongain(position) {
-	let drivers = $prop('LovelyPlugin.ld_Telemetry.Opponents.PositionGain');
+	let drivers = $prop('LovelyPlugin.TeamLINQ.Opponents.PositionGain');
 	let driver_data = JSON.parse(drivers);
     return driver_data[ position - 1 ]; // Zero array correction
 }
@@ -420,7 +420,7 @@ function ld_driverpositiongain(position) {
 // Replaces driverpositiongainclass()
 // Returns for the race position the driver's position gain in his own class since the start of the race/connection (when available).
 function ld_driverpositiongainclass(position) {
-	let drivers = $prop('LovelyPlugin.ld_Telemetry.Opponents.ClassPositionGain');
+	let drivers = $prop('LovelyPlugin.TeamLINQ.Opponents.ClassPositionGain');
 	let driver_data = JSON.parse(drivers);
     return driver_data[ position - 1 ]; // Zero array correction
 }
@@ -430,7 +430,7 @@ function ld_driverpositiongainclass(position) {
 // Replaces drivertrackpositionpercent()
 // Returns for the race position the driver's track position, 0.0-1.0 (when available).
 function ld_drivertrackpositionpercent(position) {
-	let drivers = $prop('LovelyPlugin.ld_Telemetry.Opponents.TrackPosition');
+	let drivers = $prop('LovelyPlugin.TeamLINQ.Opponents.TrackPosition');
 	let driver_data = JSON.parse(drivers);
     return driver_data[ position - 1 ] ?? 0; // Zero array correction
 }
@@ -440,7 +440,7 @@ function ld_drivertrackpositionpercent(position) {
 // Replaces driverdeltatoplayer()
 // Returns for the race position the driver's delta to the opponent's best lap (when available).
 function ld_driverdeltatoplayer(position) {
-	let drivers = $prop('LovelyPlugin.ld_Telemetry.Opponents.DeltaToPlayer');
+	let drivers = $prop('LovelyPlugin.TeamLINQ.Opponents.DeltaToPlayer');
 	let driver_data = JSON.parse(drivers);
     return driver_data[ position - 1 ]; // Zero array correction
 }
@@ -450,7 +450,7 @@ function ld_driverdeltatoplayer(position) {
 // Replaces drivergaptoplayer()
 // Returns for the race position the driver's gap to the player (when available).
 function ld_drivergaptoplayer(position) {
-	let drivers = $prop('LovelyPlugin.ld_Telemetry.Opponents.GapToPlayer');
+	let drivers = $prop('LovelyPlugin.TeamLINQ.Opponents.GapToPlayer');
 	let driver_data = JSON.parse(drivers);
     return driver_data[ position - 1 ]; // Zero array correction
 }
@@ -460,7 +460,7 @@ function ld_drivergaptoplayer(position) {
 // Replaces drivergaptoleader()
 // Returns for the race position the driver's gap to the leader (when available).
 function ld_drivergaptoleader(position) {
-	let drivers = $prop('LovelyPlugin.ld_Telemetry.Opponents.GapToLeader');
+	let drivers = $prop('LovelyPlugin.TeamLINQ.Opponents.GapToLeader');
 	let driver_data = JSON.parse(drivers);
     return driver_data[ position - 1 ]; // Zero array correction
 }
@@ -470,7 +470,7 @@ function ld_drivergaptoleader(position) {
 // Replaces drivergaptoclassleader()
 // Returns for the race position the driver's gap to his own class leader (when available).
 function ld_drivergaptoclassleader(position) {
-	let drivers = $prop('LovelyPlugin.ld_Telemetry.Opponents.GapToClassLeader');
+	let drivers = $prop('LovelyPlugin.TeamLINQ.Opponents.GapToClassLeader');
 	let driver_data = JSON.parse(drivers);
     return driver_data[ position - 1 ]; // Zero array correction
 }
@@ -480,7 +480,7 @@ function ld_drivergaptoclassleader(position) {
 // Replaces driverrelativegaptoplayer()
 // Returns for the race position the driver's relative gap to player (when available).
 function ld_driverrelativegaptoplayer(position) {
-	let drivers = $prop('LovelyPlugin.ld_Telemetry.Opponents.GapToPlayerRelative');
+	let drivers = $prop('LovelyPlugin.TeamLINQ.Opponents.GapToPlayerRelative');
 	let driver_data = JSON.parse(drivers);
     return driver_data[ position - 1 ]; // Zero array correction
 }
@@ -490,7 +490,7 @@ function ld_driverrelativegaptoplayer(position) {
 // Replaces driverrelativedistancetoplayer()
 // Returns for the race position the driver's relative distance to player (when available).
 function ld_driverrelativedistancetoplayer(position) {
-	let drivers = $prop('LovelyPlugin.ld_Telemetry.Opponents.DistanceToPlayerRelative');
+	let drivers = $prop('LovelyPlugin.TeamLINQ.Opponents.DistanceToPlayerRelative');
 	let driver_data = JSON.parse(drivers);
     return driver_data[ position - 1 ]; // Zero array correction
 }
@@ -500,7 +500,7 @@ function ld_driverrelativedistancetoplayer(position) {
 // Replaces driveriscarinpit()
 // Returns for the race position if the driver's car is in the pit (when available).
 function ld_driveriscarinpit(position) {
-	let drivers = $prop('LovelyPlugin.ld_Telemetry.Opponents.IsInPit');
+	let drivers = $prop('LovelyPlugin.TeamLINQ.Opponents.IsInPit');
 	let driver_data = JSON.parse(drivers);
     return driver_data[ position - 1 ]; // Zero array correction
 }
@@ -510,7 +510,7 @@ function ld_driveriscarinpit(position) {
 // Replaces driveriscarinpitlane()
 // Returns for the race position if the driver's car is in the pit lane (when available).
 function ld_driveriscarinpitlane(position) {
-	let drivers = $prop('LovelyPlugin.ld_Telemetry.Opponents.IsInPitLane');
+	let drivers = $prop('LovelyPlugin.TeamLINQ.Opponents.IsInPitLane');
 	let driver_data = JSON.parse(drivers);
     return driver_data[ position - 1 ]; // Zero array correction
 }
@@ -520,7 +520,7 @@ function ld_driveriscarinpitlane(position) {
 // Replaces driveriscaringarage()\
 // Returns for the race position if the driver's car is in the garage (when available).
 function ld_driveriscaringarage(position) {
-	let drivers = $prop('LovelyPlugin.ld_Telemetry.Opponents.IsInGarage');
+	let drivers = $prop('LovelyPlugin.TeamLINQ.Opponents.IsInGarage');
 	let driver_data = JSON.parse(drivers);
     return driver_data[ position - 1 ]; // Zero array correction
 }
@@ -530,7 +530,7 @@ function ld_driveriscaringarage(position) {
 // Replaces driverpitcount()
 // Returns for the race position how many times the driver went to the pits (when available).
 function ld_driverpitcount(position) {
-	let drivers = $prop('LovelyPlugin.ld_Telemetry.Opponents.PitCount');
+	let drivers = $prop('LovelyPlugin.TeamLINQ.Opponents.PitCount');
 	let driver_data = JSON.parse(drivers);
     return driver_data[ position - 1 ]; // Zero array correction
 }
@@ -540,7 +540,7 @@ function ld_driverpitcount(position) {
 // Replaces driverlapsdonesincelastpitout()
 // Returns for the race position how many laps the driver drove since the last pit exit, 0.0 to X.0 - guessed (when available).
 function ld_driverlapsdonesincelastpitout(position) {
-	let drivers = $prop('LovelyPlugin.ld_Telemetry.Opponents.PitLapsSince');
+	let drivers = $prop('LovelyPlugin.TeamLINQ.Opponents.PitLapsSince');
 	let driver_data = JSON.parse(drivers);
     return driver_data[ position - 1 ]; // Zero array correction
 }
@@ -550,7 +550,7 @@ function ld_driverlapsdonesincelastpitout(position) {
 // Replaces driverpitlastduration()
 // Returns for the race position how long the last pit stop took (when available).
 function ld_driverpitlastduration(position) {
-	let drivers = $prop('LovelyPlugin.ld_Telemetry.Opponents.PitLastDuration');
+	let drivers = $prop('LovelyPlugin.TeamLINQ.Opponents.PitLastDuration');
 	let driver_data = JSON.parse(drivers);
 	return ld_stringToTimespan( driver_data[ position - 1 ] ); // Zero array correction
 }
@@ -560,8 +560,8 @@ function ld_driverpitlastduration(position) {
 // Replaces getopponentleaderboardposition_aheadbehind()
 // Returns the leaderboard position of the player's ahead/behind oin track opponents (0 = player, -1 = the first ahead, 1 the first behind)
 function ld_getopponentleaderboardposition_aheadbehind(relativePos) {
-	let relativeDistance = JSON.parse($prop('LovelyPlugin.ld_Telemetry.Opponents.DistanceToPlayerRelative'));
-	let driversPosition = JSON.parse($prop('LovelyPlugin.ld_Telemetry.Opponents.Position'));
+	let relativeDistance = JSON.parse($prop('LovelyPlugin.TeamLINQ.Opponents.DistanceToPlayerRelative'));
+	let driversPosition = JSON.parse($prop('LovelyPlugin.TeamLINQ.Opponents.Position'));
 	const isAllZeros = driversPosition.every(pos => pos === 0);
 	if (isAllZeros) {
 		driversPosition = Array.from({ length: driversPosition.length }, (_, i) => i + 1);
@@ -580,10 +580,10 @@ function ld_getopponentleaderboardposition_aheadbehind(relativePos) {
 // Returns the leaderboard position of the opponents of the same class as player (1 = first opponent of the class)
 function ld_getopponentleaderboardposition_playerclassonly(position) {
 	if ( ld_getleaderboardcarclasscount() === 1 ) { return position };
-	let playerClass = $prop('LovelyPlugin.ld_Telemetry.Session.CarClass');
-	let driversClass = JSON.parse($prop('LovelyPlugin.ld_Telemetry.Opponents.Class'));
-	let driversPosition = JSON.parse($prop('LovelyPlugin.ld_Telemetry.Opponents.Position'));
-	let driversClassPosition = JSON.parse($prop('LovelyPlugin.ld_Telemetry.Opponents.ClassPosition'));
+	let playerClass = $prop('LovelyPlugin.TeamLINQ.Session.CarClass');
+	let driversClass = JSON.parse($prop('LovelyPlugin.TeamLINQ.Opponents.Class'));
+	let driversPosition = JSON.parse($prop('LovelyPlugin.TeamLINQ.Opponents.Position'));
+	let driversClassPosition = JSON.parse($prop('LovelyPlugin.TeamLINQ.Opponents.ClassPosition'));
 	const isAllZeros = driversPosition.every(pos => pos === 0);
 	if (isAllZeros) {
 		driversPosition = Array.from({ length: driversPosition.length }, (_, i) => i + 1);
