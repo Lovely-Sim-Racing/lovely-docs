@@ -3,7 +3,8 @@ description: Create your own Dashboards or Applications using TeamLINQ’s SimHu
 theme: just-the-docs
 color_scheme: lovely
 
-url: https://docs.lsr.gg
+url: https://docs.lsr.gg/
+# baseurl: docs
 
 favicon_ico: "/images/favicon.ico"
 nav_enabled: true

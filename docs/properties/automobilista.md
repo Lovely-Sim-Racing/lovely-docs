@@ -29,10 +29,13 @@ Always use the full property name, as demonstrated below:
 | `Info.FuelPressure` | `double` |   |
 | `Info.Torque` | `double` |   |
 
-## Status
+## Status **UPDATED**{: .lable .label-blue }
 
-| `Status.DamageAero` | `double` |   |
-| `Status.DamageSuspension` | `double` |   |
+| `Status.Damage1` | `double` | 0-1 Front Left Suspension |
+| `Status.Damage2` | `double` | 0-1 Front Right Suspension  |
+| `Status.Damage3` | `double` | 0-1 Rear Left Suspension |
+| `Status.Damage4` | `double` | 0-1 Rear Right Suspension |
+| `Status.Damage5` | `double` | 0-1 Damage Aero |
 
 ## Fuel
 

@@ -15,44 +15,44 @@ Always use the full property name, as demonstrated below:
 
 | Property Name | Type | Definition |
 | :--- | :--- | :--- |
-| `Session.PlayerName` | `string` | Firstname Lastname |
-| `Session.Position` | `int` | 1 |
-| `Session.TrackPositionPercent` | `double` | 0.820544838905334 |
-| `Session.TrackPositionDistance` | `double` | 4069.08185613155 |
-| `Session.CarId` | `string` | ferrari_296_gt3 |
-| `Session.CarModel` | `string` | Ferrari 296 GT3 2023 |
-| `Session.CarClass` | `string` | GT3 |
-| `Session.CurrentLap` | `int` | 5 |
-| `Session.CompletedLaps` | `int` | 4 |
-| `Session.RemainingLaps` | `int` | 12 |
-| `Session.LapInvalidated` | `int` | 1 |
-| `Session.CurrentSector` | `int` | 3 |
+| `Session.PlayerName` | `string` |  |
+| `Session.Position` | `int` |  |
+| `Session.TrackPositionPercent` | `double` |  |
+| `Session.TrackPositionDistance` | `double` |  |
+| `Session.CarId` | `string` |  |
+| `Session.CarModel` | `string` |  |
+| `Session.CarClass` | `string` |  |
+| `Session.CurrentLap` | `int` |  |
+| `Session.CompletedLaps` | `int` |  |
+| `Session.RemainingLaps` | `int` |  |
+| `Session.LapInvalidated` | `int` |  |
+| `Session.CurrentSector` | `int` |  |
 
 ## Info
 
 | Property Name | Type | Definition |
 | :--- | :--- | :--- |
-| `Info.Gear` | `int` | 5 |
-| `Info.GearMax` | `int` | 6 |
-| `Info.Speed` | `double` | 222.4 |
-| `Info.Throttle` | `double` | 5.7750016450882 |
-| `Info.Brake` | `double` | 0 |
-| `Info.Clutch` | `double` | 0 |
-| `Info.Handbrake` | `double` | 0 |
-| `Info.TurnIndicatorLeft` | `int` | 0 |
-| `Info.TurnIndicatorRight` | `int` | 0 |
-| `Info.Rpms` | `double` | 4266.76 |
-| `Info.RpmsMax` | `int` | 8000 |
-| `Info.RpmsRedLine` | `int` | 7100 |
-| `Info.RpmsRedLineSetting` | `int` | 7100 |
-| `Info.RpmsCurrentGearRedLine` | `int` | 7100 |
-| `Info.RpmsRedLineReached` | `int` | 0 |
-| `Info.RpmsPercent` | `double` | 53.325 |
-| `Info.PitLimiterSpeed` | `int` | 60 |
-| `Info.PitLimiterOn` | `int` | 0 |
-| `Info.IgnitionOn` | `int` | 1 |
-| `Info.EngineStarted` | `int` | 1 |
-| `Info.WaterTemp` | `double` | 85.23 |
+| `Info.Gear` | `int` |  |
+| `Info.GearMax` | `int` |  |
+| `Info.Speed` | `double` |  |
+| `Info.Throttle` | `double` | 0-100 |
+| `Info.Brake` | `double` | 0-100 |
+| `Info.Clutch` | `double` | 0-100 |
+| `Info.Handbrake` | `double` | 0-100 |
+| `Info.TurnIndicatorLeft` | `int` |  |
+| `Info.TurnIndicatorRight` | `int` |  |
+| `Info.Rpms` | `double` |  |
+| `Info.RpmsMax` | `int` |  |
+| `Info.RpmsRedLine` | `int` |  |
+| `Info.RpmsRedLineSetting` | `int` |  |
+| `Info.RpmsCurrentGearRedLine` | `int` |  |
+| `Info.RpmsRedLineReached` | `int` |  |
+| `Info.RpmsPercent` | `double` |  |
+| `Info.PitLimiterSpeed` | `int` |  |
+| `Info.PitLimiterOn` | `int` |  |
+| `Info.IgnitionOn` | `int` |  |
+| `Info.EngineStarted` | `int` |  |
+| `Info.WaterTemp` | `double` |  |
 | `Info.OilPressure` | `double` |  |
 | `Info.OilTemp` | `double` |  |
 | `Info.Battery` | `double` |  |
@@ -75,11 +75,11 @@ Always use the full property name, as demonstrated below:
 | :--- | :--- | :--- |
 | `Status.IsInPit` | `int` |  |
 | `Status.IsInPitLane` | `int` |  |
-| `Status.Damage1` | `double` |  |
-| `Status.Damage2` | `double` |  |
-| `Status.Damage3` | `double` |  |
-| `Status.Damage4` | `double` |  |
-| `Status.Damage5` | `double` |  |
+| `Status.Damage1` | `double` | 0-100 Damage Front |
+| `Status.Damage2` | `double` | 0-100 Damage Rear |
+| `Status.Damage3` | `double` | 0-100 Damage Left |
+| `Status.Damage4` | `double` | 0-100 Damage Right |
+| `Status.Damage5` | `double` | 0-100 Damage Overall |
 
 ## Fuel
 

@@ -15,7 +15,10 @@ Always use the full property name, as demonstrated below:
 
 | Property Name | Type | Definition |
 | :--- | :---- | :---- |
-| `Time` | `DateTime`{: .green-100 } | Returns the PC Time |
+| `PcName` | `string` | Returns the registered name |
+| `IsStreaming` | `bool` | Returns true when data is remote |
+
+| `Time` | `DateTime` | Returns the PC Time |
 | `SimHubVersion` | `string` | Returns the SimHub Version |
 | `PluginVersion` | `string` | Returns the Lovely Plugin Version |
 | `GamePaused` | `int` | Returns `1` or `0` if game is paused |

@@ -36,7 +36,7 @@ Before you start using the TeamLINQ properties, it is advised that you first che
 return $prop('LovelyPlugin.Version') === $prop('LovelyPlugin.TeamLINQ.PluginVersion')
 
 // Local user is streaming data from remote 
-// Returns 'int': 1 if true, 0 if false
+// Returns 'bool'
 return $prop('LovelyPlugin.TeamLINQ.IsStreaming')
 ``` 
 
@@ -61,7 +61,7 @@ if ( TeamLINQ ) {
 }
 ```
 
-## SimHub Plugins
+## SimHub Plugin Development
 Similarily, when developing your plguin, you can access TeamLINQ properties as you would access any other property in SImHub.
 
 

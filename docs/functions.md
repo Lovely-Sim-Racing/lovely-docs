@@ -9,15 +9,9 @@ nav_order: 40
 The TeamLINQ JavaScript Extensions are a series of functions that replace the native SimHub JavaScript functions in the dash editor, while taking advantage of all of TeamLINQ's features.
 
 ## Download & Usage
-To use these functions, copy the file into your dashboard's `JavascriptExtensions` folder or link it directly from the Lovely API.
+To use these functions, copy the file into your dashboard's `JavascriptExtensions` folder.
 
-[**Download JS Extensions**](https://lsr.gg/TeamLINQJS){: .btn .mr-4  }
-
-or
-
-```
-https://api.lsr.gg/teamlinqjs
-```
+[**Download JS Extensions**](https://staging-api.lsr.gg/docs/downloads/Lovely-Dashboard_sh-extensions.js){: .btn .mr-4  }
 
 ## Helper
 

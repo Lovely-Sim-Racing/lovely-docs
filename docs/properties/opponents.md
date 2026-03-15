@@ -30,7 +30,6 @@ The Opponent Leaderboard properties return an array, representing each driver on
 | `Opponents.Id` | `Array` of `string ` |   |
 | `Opponents.TeamName` | `Array` of `string` |   |
 | `Opponents.Class` | `Array` of `string` |   |
-| `Opponents.ClassId` | `Array` of `string` |   |
 | `Opponents.ClassColor` | `Array` of `string` |   |
 | `Opponents.ClassColorText` | `Array` of `string` |   |
 | `Opponents.CarName` | `Array` of `string` |   |
@@ -51,7 +50,6 @@ The Opponent Leaderboard properties return an array, representing each driver on
 | `Opponents.CurrentLap` | `Array` of `string ` |   |
 | `Opponents.CurrentLapPrecise` | `Array` of `string ` |   |
 | `Opponents.TrackPosition` | `Array` of `string ` |   |
-| `Opponents.Coordinates` | `Array` of `string ` |   |
 
 | `Opponents.SectorIndex` | `Array` of `string ` |   |
 | `Opponents.SectorsCurrentLap` | `Array` of `string ` |   |
