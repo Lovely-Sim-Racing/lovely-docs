@@ -39,8 +39,10 @@ Always use the full property name, as demonstrated below:
 | `Info.Brake` | `double` | 0-100 |
 | `Info.Clutch` | `double` | 0-100 |
 | `Info.Handbrake` | `double` | 0-100 |
+
 | `Info.TurnIndicatorLeft` | `int` |  |
 | `Info.TurnIndicatorRight` | `int` |  |
+
 | `Info.Rpms` | `double` |  |
 | `Info.RpmsMax` | `int` |  |
 | `Info.RpmsRedLine` | `int` |  |
@@ -48,6 +50,7 @@ Always use the full property name, as demonstrated below:
 | `Info.RpmsCurrentGearRedLine` | `int` |  |
 | `Info.RpmsRedLineReached` | `int` |  |
 | `Info.RpmsPercent` | `double` |  |
+
 | `Info.PitLimiterSpeed` | `int` |  |
 | `Info.PitLimiterOn` | `int` |  |
 | `Info.IgnitionOn` | `int` |  |
@@ -57,6 +60,10 @@ Always use the full property name, as demonstrated below:
 | `Info.OilTemp` | `double` |  |
 | `Info.Battery` | `double` |  |
 | `Info.OilLevel` | `double` |  |
+
+| `Info.AccelerationHeave` **NEW**{: .label .label-green } | `double` |  |
+| `Info.AccelerationSurge` **NEW**{: .label .label-green } | `double` |  |
+| `Info.AccelerationSway` **NEW**{: .label .label-green } | `double` |  |
 
 ## Spotter
 

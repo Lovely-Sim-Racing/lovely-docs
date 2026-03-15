@@ -7,7 +7,11 @@ nav_order: 50
 # Changelog
 All notable TeamLINQ changes related to the available properties and features are documented in this file. 
 
-## v2.4.0.5 (March 13, 2026) **Beta**{: .label .label-red .mx-0 } **Latest**{: .label .label-green .mx-0 }
+## v2.4.0.6 (March XX, 2026) **Beta**{: .label .label-red .mx-0 } **Latest**{: .label .label-green .mx-0 }
+
+* Added Acceleration Data
+
+## v2.4.0.5 (March 13, 2026) **Beta**{: .label .label-red .mx-0 }
 
 * Added new Formula 1 properties
 * Added `NeoRed` and `LMU Electronic Bridge` properties
