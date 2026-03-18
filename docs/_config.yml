@@ -1,10 +1,12 @@
-title: TeamLINQ Docs
-description: Create your own Dashboards or Applications using TeamLINQ’s SimHub Properties.
+title: "TeamLINQ Docs"
+description: "Create your own Dashboards or Applications using TeamLINQ’s SimHub Properties."
 theme: just-the-docs
 color_scheme: lovely
 
-url: https://docs.lsr.gg/
-# baseurl: docs
+url: "https://docs.lsr.gg/"
+# baseurl: "/docs/" #/docs
+
+# logo: "/images/TeamLINQ-logo-light.png"
 
 favicon_ico: "/images/favicon.ico"
 nav_enabled: true

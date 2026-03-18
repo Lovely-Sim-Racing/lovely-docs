@@ -11,6 +11,12 @@ Always use the full property name, as demonstrated below:
 **LovelyPlugin.TeamLINQ.** + `Property Name`
 {: .note }
 
+## Session
+
+| Property Name | Type | Definition |
+| :--- | :--- | :--- |
+| `Session.Wetness` **NEW**{: .label .label-green } | `double` | 0 (Dry) ... 1 (Flooded) |
+
 ## Info
 
 | Property Name | Type | Definition |

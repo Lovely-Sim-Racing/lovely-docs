@@ -10,6 +10,7 @@ All notable TeamLINQ changes related to the available properties and features ar
 ## v2.4.0.6 (March XX, 2026) **Beta**{: .label .label-red .mx-0 } **Latest**{: .label .label-green .mx-0 }
 
 * Added Acceleration Data
+* LMU Session Wetness
 
 ## v2.4.0.5 (March 13, 2026) **Beta**{: .label .label-red .mx-0 }
 

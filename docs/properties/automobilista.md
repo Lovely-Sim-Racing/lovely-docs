@@ -22,15 +22,21 @@ Always use the full property name, as demonstrated below:
 
 ## DRS
 
-| `DRS.Status` | `bool` |   |
+| Property Name | Type | Definition |
+| :--- | :--- | :--- |
+| `DRS.Status` | `int` |   |
 
 ## Info
 
+| Property Name | Type | Definition |
+| :--- | :--- | :--- |
 | `Info.FuelPressure` | `double` |   |
 | `Info.Torque` | `double` |   |
 
 ## Status **UPDATED**{: .lable .label-blue }
 
+| Property Name | Type | Definition |
+| :--- | :--- | :--- |
 | `Status.Damage1` | `double` | 0-1 Front Left Suspension |
 | `Status.Damage2` | `double` | 0-1 Front Right Suspension  |
 | `Status.Damage3` | `double` | 0-1 Rear Left Suspension |
@@ -39,10 +45,14 @@ Always use the full property name, as demonstrated below:
 
 ## Fuel
 
+| Property Name | Type | Definition |
+| :--- | :--- | :--- |
 | `Flag.Global` | `int` |   |
 
 ## Tyres 
 
+| Property Name | Type | Definition |
+| :--- | :--- | :--- |
 | `Tyres.Compound` | `string` |   |
 | `Tyres.Grip01` | `double` |   |
 | `Tyres.Grip02` | `double` |   |

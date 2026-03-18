@@ -32,7 +32,7 @@ Always use the full property name, as demonstrated below:
 
 | Property Name | Type | Definition |
 | :--- | :--- | :--- |
-| `Info.Gear` | `int` |  |
+| `Info.Gear` | `string` | R, N, 0 ... n |
 | `Info.GearMax` | `int` |  |
 | `Info.Speed` | `double` |  |
 | `Info.Throttle` | `double` | 0-100 |

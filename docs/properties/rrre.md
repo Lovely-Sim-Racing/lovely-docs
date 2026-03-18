@@ -24,6 +24,12 @@ Always use the full property name, as demonstrated below:
 | `Incident.Count` | `int` |   |
 | `Incident.Max` | `int` |   |
 
+## DRS
+
+| Property Name | Type | Definition |
+| :--- | :--- | :--- |
+| `DRS.Available` | `int` |   |
+
 ## Tyres 
 
 | Property Name | Type | Definition |
