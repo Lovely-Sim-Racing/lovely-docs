@@ -33,7 +33,14 @@ Always use the full property name, as demonstrated below:
 | `Info.FuelPressure` | `double` |   |
 | `Info.Torque` | `double` |   |
 
-## Status **UPDATED**{: .lable .label-blue }
+## Vehicle **NEW**{: .label .label-green }
+
+| Property Name | Type | Definition |
+| :--- | :--- | :--- |
+| `Vehicle.BoostActive` | `bool` |   |
+| `Vehicle.Boost` | `int` |   |
+
+## Status **UPDATED**{: .label .label-blue }
 
 | Property Name | Type | Definition |
 | :--- | :--- | :--- |
