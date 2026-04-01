@@ -36,6 +36,9 @@ The Lovely Plugin introduces a set of new properties which mirror the native Sim
 > 
 > {: .note .red }
 > **iRacing** - `DataCorePlugin.GameRawData.Telemetry.dcTractionControl2`
+> 
+> {: .note .red }
+> **LeMans Ultimate** - `DataCorePlugin.GameRawData.PlayerNativeTelemetry.mTCCut`
 
 
 ## Free & Paid versions
