@@ -57,7 +57,7 @@ Whether you're designing a dashboard, building an application, or converting you
 {: .mb-4 }
 
 <span class="fs-5">
-[**Download Badge**](https://docs.lsr.gg/download/teamlinq-badge.zip){: .btn .btn-blue .mr-4  }
+[**Download Badge**](https://docs.lsr.gg/downloads/teamlinq-badge.zip){: .btn .btn-blue .mr-4  }
 </span>
 
 ## Security
