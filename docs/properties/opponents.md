@@ -19,6 +19,7 @@ Always use the full property name, as demonstrated below:
 | `Opponents.ClassCount` | `int` |  |
 | `Session.BestLapOpponentPosition` | `int` |  |
 | `Session.BestLapOpponentSameClassPosition ` | `int` |  |
+| `Session.MultipleClass` | `bool` |  |
 
 
 ## Leaderboard
