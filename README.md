@@ -1,6 +1,19 @@
-# lovely-docs
+<p align="center">
+<img height="80" alt="Lovely Sim Racing" src="docs/images/TeamLINQ-logo-light.png">
+</p>
 
-To build the docs locally using Jekyll:
+<p align="center">
+SimHub Telemetry Sharing in real-time, made easy.
+</p>
 
-1. In Terminal navigate to the `docs` folder.
-2. run `bundle exec jekyll serve`.
+---
+
+TeamLINQ enables real-time sharing of SimHub telemetry among teammates. Its intuitive interface makes team racing feel more authentic than ever.
+
+[**Learn more about TeamLINQ**](https://lsr.gg/teamlinq)
+
+--- 
+
+Create your own Dashboards or Applications using TeamLINQ's SimHub Properties.
+
+[**Read the Documentation**](https://docs.lsr.gg)
