@@ -15,6 +15,8 @@ Always use the full property name, as demonstrated below:
 
 | Property Name | Type | Definition |
 | :--- | :--- | :--- |
+| `Session.Time` | `DateTime` |   |
+| `Session.lapInvalidated` **NEW**{: .label .label-green .mx-0 } | `int` |   |
 | `Session.Wetness` **NEW**{: .label .label-green } | `double` | 0 (Dry) ... 1 (Flooded) |
 
 ## Info
@@ -23,6 +25,13 @@ Always use the full property name, as demonstrated below:
 | :--- | :--- | :--- |
 | `Info.ElectricBoostMotorState` | `int` |   |
 | `Info.HeadLights` | `int` |   |
+| `Info.Wiper` **NEW**{: .label .label-green .mx-0 } | `int` |   |
+
+## Fuel
+
+| Property Name | Type | Definition |
+| :--- | :--- | :--- |
+| `VE.Current` | `double` |   |
 
 ## Tyres
 
@@ -35,7 +44,14 @@ Always use the full property name, as demonstrated below:
 | `Tyres.SlipSpeed03` | `double` |   |
 | `Tyres.SlipSpeed04` | `double` |   |
 
-## Neored Plugin **NEW**{: .label .label-green }
+## Vehicle
+
+| Property Name | Type | Definition |
+| :--- | :--- | :--- |
+| `Vehicle.SoC` | `double` |   |
+| `Vehicle.LiCo` | `int` |   |
+
+## Neored Plugin **UPDATED**{: .label .label-blue }
 
 Read more about the [NeoRed Plugin](https://lsr.gg/neored)
 
@@ -51,30 +67,16 @@ Read more about the [NeoRed Plugin](https://lsr.gg/neored)
 | `Tyres.CompoundRL` | `string` |   |
 | `Tyres.CompoundRR` | `string` |   |
 
-| `VE.Current` | `double` |   |
 | `VE.Max` | `double` |   |
 | `VE.LastLapConsumption` | `double` |   |
 
-| `Vehicle.TCSlip` | `int` |   |
-| `Vehicle.FARB` | `int` |   |
-| `Vehicle.RARB` | `int` |   |
-| `Vehicle.FuelMix` | `int` |   |
-| `Vehicle.Regen` | `int` |   |
-| `Vehicle.BrakeMIG` | `int` |   |
 
-## LMU Electronic Bridge Plugin **NEW**{: .label .label-green }
+## LMU Electronic Bridge Plugin **UPDATED**{: .label .label-blue }
 
 LMU Electronic Bridge properties override NeoRed propeties when used together. Read more about the [LMU Electronic Bridge Plugin](https://lsr.gg/lmubridge)
 
 | Property Name | Type | Definition |
 | :--- | :--- | :--- |
-| `Vehicle.TCSlip` | `int` |   |
-| `Vehicle.FARB` | `int` |   |
-| `Vehicle.RARB` | `int` |   |
-| `Vehicle.FuelMix` | `int` |   |
-| `Vehicle.Regen` | `int` |   |
-| `Vehicle.BrakeMIG` | `int` |   |
-
 | `Status.Damage1` | `double` | 0-1 Front Left Suspension |
 | `Status.Damage2` | `double` | 0-1 Front Right Suspension  |
 | `Status.Damage3` | `double` | 0-1 Rear Left Suspension |

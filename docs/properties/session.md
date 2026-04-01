@@ -27,6 +27,7 @@ Always use the full property name, as demonstrated below:
 | `Session.TimeLeft` | `TimeSpan` |  |
 | `Session.TotalLaps` | `int` |  |
 | `Session.SectorsCount` | `int` |  |
+| `Session.MultipleClass` | `bool` |  |
 
 ## Units
 
