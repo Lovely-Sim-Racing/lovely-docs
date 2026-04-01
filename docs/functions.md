@@ -11,7 +11,7 @@ The TeamLINQ JavaScript Extensions are a series of functions that replace the na
 ## Download & Usage
 To use these functions, copy the file into your dashboard's `JavascriptExtensions` folder.
 
-[**Download JS Extensions**](https://staging-api.lsr.gg/docs/downloads/Lovely-Dashboard_sh-extensions.js){: .btn .mr-4  }
+[**Download JS Extensions**](https://docs.lsr.gg/downloads/teamlinq-extensions.zip){: .btn .mr-4  }
 
 ## Helper
 
