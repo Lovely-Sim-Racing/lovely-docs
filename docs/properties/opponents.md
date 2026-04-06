@@ -15,11 +15,16 @@ Always use the full property name, as demonstrated below:
 
 | Property Name | Type | Definition |
 | :--- | :--- | :--- |
-| `Opponents.Count` | `int` |  |
-| `Opponents.ClassCount` | `int` |  |
 | `Session.BestLapOpponentPosition` | `int` |  |
 | `Session.BestLapOpponentSameClassPosition ` | `int` |  |
 | `Session.MultipleClass` | `bool` |  |
+
+| `Opponents.Count` | `int` |  |
+| `Opponents.ClassCount` | `int` |  |
+| `Opponents.Ahead` | `Array` of `string` | Returns Array of Driver Positions Ahead |
+| `Opponents.AheadInClass` | `Array` of `string` | Returns Array of Driver Positions Ahead |
+| `Opponents.Behind` | `Array` of `string` | Returns Array of Driver Positions Behind |
+| `Opponents.BehindInClass` | `Array` of `string` | Returns Array of Driver Positions Behind |
 
 
 ## Leaderboard

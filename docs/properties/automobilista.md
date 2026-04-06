@@ -33,22 +33,22 @@ Always use the full property name, as demonstrated below:
 | `Info.FuelPressure` | `double` |   |
 | `Info.Torque` | `double` |   |
 
-## Vehicle **NEW**{: .label .label-green }
+## Vehicle
 
 | Property Name | Type | Definition |
 | :--- | :--- | :--- |
 | `Vehicle.BoostActive` | `bool` |   |
 | `Vehicle.Boost` | `int` |   |
 
-## Status **UPDATED**{: .label .label-blue }
+## Damage **NEW**{: .label .label-green }
 
 | Property Name | Type | Definition |
 | :--- | :--- | :--- |
-| `Status.Damage1` | `double` | 0-1 Front Left Suspension |
-| `Status.Damage2` | `double` | 0-1 Front Right Suspension  |
-| `Status.Damage3` | `double` | 0-1 Rear Left Suspension |
-| `Status.Damage4` | `double` | 0-1 Rear Right Suspension |
-| `Status.Damage5` | `double` | 0-1 Damage Aero |
+| `Damage.SuspensionFL` | `double` | 0-1 Front Left Suspension |
+| `Damage.SuspensionFR` | `double` | 0-1 Front Right Suspension  |
+| `Damage.SuspensionRL` | `double` | 0-1 Rear Left Suspension |
+| `Damage.SuspensionRR` | `double` | 0-1 Rear Right Suspension |
+| `Damage.Aero` | `double` | 0-1 Damage Aero |
 
 ## Fuel
 

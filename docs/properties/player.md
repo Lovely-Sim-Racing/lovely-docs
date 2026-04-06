@@ -82,11 +82,16 @@ Always use the full property name, as demonstrated below:
 | :--- | :--- | :--- |
 | `Status.IsInPit` | `int` |  |
 | `Status.IsInPitLane` | `int` |  |
-| `Status.Damage1` | `double` | 0-100 Damage Front |
-| `Status.Damage2` | `double` | 0-100 Damage Rear |
-| `Status.Damage3` | `double` | 0-100 Damage Left |
-| `Status.Damage4` | `double` | 0-100 Damage Right |
-| `Status.Damage5` | `double` | 0-100 Damage Overall |
+
+## Damage **NEW**{: .label .label-green }
+
+| Property Name | Type | Definition |
+| :--- | :--- | :--- |
+| `Damage.Front` | `double` | 0-100 Damage Front |
+| `Damage.Rear` | `double` | 0-100 Damage Rear |
+| `Damage.Left` | `double` | 0-100 Damage Left |
+| `Damage.Right` | `double` | 0-100 Damage Right |
+| `Damage.Overall` | `double` | 0-100 Damage Overall |
 
 ## Fuel
 

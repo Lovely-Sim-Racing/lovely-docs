@@ -16,8 +16,8 @@ Always use the full property name, as demonstrated below:
 | Property Name | Type | Definition |
 | :--- | :--- | :--- |
 | `Session.Time` | `DateTime` |   |
-| `Session.lapInvalidated` **NEW**{: .label .label-green .mx-0 } | `int` |   |
-| `Session.Wetness` **NEW**{: .label .label-green } | `double` | 0 (Dry) ... 1 (Flooded) |
+| `Session.lapInvalidated` | `int` |   |
+| `Session.Wetness` | `double` | 0 (Dry) ... 1 (Flooded) |
 
 ## Info
 
@@ -25,7 +25,7 @@ Always use the full property name, as demonstrated below:
 | :--- | :--- | :--- |
 | `Info.ElectricBoostMotorState` | `int` |   |
 | `Info.HeadLights` | `int` |   |
-| `Info.Wiper` **NEW**{: .label .label-green .mx-0 } | `int` |   |
+| `Info.Wiper` | `int` |   |
 
 ## Fuel
 
@@ -51,7 +51,7 @@ Always use the full property name, as demonstrated below:
 | `Vehicle.SoC` | `double` |   |
 | `Vehicle.LiCo` | `int` |   |
 
-## Neored Plugin **UPDATED**{: .label .label-blue }
+## Neored Plugin
 
 Read more about the [NeoRed Plugin](https://lsr.gg/neored)
 
@@ -71,16 +71,18 @@ Read more about the [NeoRed Plugin](https://lsr.gg/neored)
 | `VE.LastLapConsumption` | `double` |   |
 
 
-## LMU Electronic Bridge Plugin **UPDATED**{: .label .label-blue }
+## LMU Electronic Bridge Plugin
 
 LMU Electronic Bridge properties override NeoRed propeties when used together. Read more about the [LMU Electronic Bridge Plugin](https://lsr.gg/lmubridge)
 
+### Damage **NEW**{: .label .label-green }
+
 | Property Name | Type | Definition |
 | :--- | :--- | :--- |
-| `Status.Damage1` | `double` | 0-1 Front Left Suspension |
-| `Status.Damage2` | `double` | 0-1 Front Right Suspension  |
-| `Status.Damage3` | `double` | 0-1 Rear Left Suspension |
-| `Status.Damage4` | `double` | 0-1 Rear Right Suspension |
-| `Status.Damage5` | `double` | 0-1 Damage Aero |
+| `Damage.SuspensionFL` | `double` | 0-1 Front Left Suspension |
+| `Damage.SuspensionFR` | `double` | 0-1 Front Right Suspension  |
+| `Damage.SuspensionRL` | `double` | 0-1 Rear Left Suspension |
+| `Damage.SuspensionRR` | `double` | 0-1 Rear Right Suspension |
+| `Damage.Aero` | `double` | 0-1 Damage Aero |
 
 
