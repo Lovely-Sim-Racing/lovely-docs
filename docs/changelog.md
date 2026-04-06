@@ -11,6 +11,7 @@ All notable TeamLINQ changes related to the available properties and features ar
 ## v3.0.0.2 (April XX, 2026) **Beta**{: .label .label-red .mx-0 } **Latest**{: .label .label-green .mx-0 }
 
 * LMU Native property updates
+* Updated [**TeamLINQ JS Extensions**](/functions.html)
 * Added `(string) Opponents.Ahead`
 * Added `(string) Opponents.AheadInClass`
 * Added `(string) Opponents.Behind`
