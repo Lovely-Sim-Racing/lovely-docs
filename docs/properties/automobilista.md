@@ -30,7 +30,6 @@ Always use the full property name, as demonstrated below:
 
 | Property Name | Type | Definition |
 | :--- | :--- | :--- |
-| `Info.FuelPressure` | `double` |   |
 | `Info.Torque` | `double` |   |
 
 ## Vehicle
@@ -39,6 +38,7 @@ Always use the full property name, as demonstrated below:
 | :--- | :--- | :--- |
 | `Vehicle.BoostActive` | `bool` |   |
 | `Vehicle.Boost` | `int` |   |
+| `Vehicle.ERSDeployMode` | `double` |   |
 
 ## Damage **NEW**{: .label .label-green }
 

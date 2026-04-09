@@ -191,6 +191,24 @@ Always use the full property name, as demonstrated below:
 | `LapTime.EstimatedSessionBestBasedSimhub` | `TimeSpan` |  |
 | `LapTime.EstimatedLapTime_AllTimeBestBased` | `TimeSpan` |  |
 
+## Sector Times **NEW**{: .label .label-green } 
+
+| Property Name | Type | Definition |
+| :--- | :--- | :--- |
+| `Session.S1Time` | `TimeSpan` |  |
+| `Session.S1LastTime` | `TimeSpan` |  |
+| `Session.S1BestTime` | `TimeSpan` |  |
+| `Session.S1BestLapTime` | `TimeSpan` |  |
+
+| `Session.S2Time` | `TimeSpan` |  |
+| `Session.S2LastTime` | `TimeSpan` |  |
+| `Session.S2BestTime` | `TimeSpan` |  |
+| `Session.S2BestLapTime` | `TimeSpan` |  |
+
+| `Session.S3LastTime` | `TimeSpan` |  |
+| `Session.S3BestTime` | `TimeSpan` |  |
+| `Session.S3BestLapTime` | `TimeSpan` |  |
+
 ## Lap History
 
 | Property Name | Type | Definition |

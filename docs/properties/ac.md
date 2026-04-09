@@ -18,3 +18,9 @@ Always use the full property name, as demonstrated below:
 | `DRS.Status` | `int` |   |
 | `DRS.Enabled` | `int` |   |
 | `DRS.Available` | `int` |   |
+
+## ERS
+
+| Property Name | Type | Definition |
+| :--- | :--- | :--- |
+| `ERS.Available` | `int` |   |

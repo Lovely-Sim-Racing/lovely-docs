@@ -7,8 +7,7 @@ nav_order: 50
 # Changelog
 All notable TeamLINQ changes related to the available properties and features are documented in this file. 
 
-
-## v3.0.0.2 (April XX, 2026) **Beta**{: .label .label-red .mx-0 } **Latest**{: .label .label-green .mx-0 }
+## v3.1.0.0 (April 9, 2026) **Beta**{: .label .label-red .mx-0 } **Latest**{: .label .label-green .mx-0 }
 
 * LMU Native property updates
 * Updated [**TeamLINQ JS Extensions**](/functions.html)
@@ -16,6 +15,7 @@ All notable TeamLINQ changes related to the available properties and features ar
 * Added `(string) Opponents.AheadInClass`
 * Added `(string) Opponents.Behind`
 * Added `(string) Opponents.BehindInClass`
+* Added/Removed `Damage` properties across all sims to make them more consistent.
 
 ## v3.0.0.0 (April 1, 2026) **Beta**{: .label .label-red .mx-0 }
 

@@ -15,7 +15,7 @@ Always use the full property name, as demonstrated below:
 
 | Property Name | Type | Definition |
 | :--- | :--- | :--- |
-| `Info.HeadLights` | `bool` |   |
+| `Info.HeadLights` | `int` |   |
 
 ## Incidents
 
@@ -29,6 +29,10 @@ Always use the full property name, as demonstrated below:
 | Property Name | Type | Definition |
 | :--- | :--- | :--- |
 | `DRS.Available` | `int` |   |
+| `DRS.Enagged` | `int` |   |
+| `DRS.Equipped` | `int` |   |
+| `DRS.ActivationsLeft` | `int` |   |
+| `DRS.ActivationsTotal` | `int` |   |
 
 ## Tyres 
 

@@ -17,12 +17,14 @@ Always use the full property name, as demonstrated below:
 | :--- | :--- | :--- |
 | `Session.Time` | `DateTime` |   |
 
-| `Session.IsLimitedTime` | `int` |  |
+| `Session.IsLimitedTime` | `bool` |  |
 | `Session.IsLimitedLaps` | `int` |  |
 
 | `Session.Skies` | `string` |  |
 | `Session.WindSpeed` | `double` |  |
 | `Session.WindDirection` | `double` |  |
+
+| `Session.TrackStatus` | `double` |  |
 
 ## DRS
 

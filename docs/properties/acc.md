@@ -28,7 +28,7 @@ Always use the full property name, as demonstrated below:
 | `Session.RainIntensity` | `double` |   |
 | `Session.RainIntensityIn10` | `double` |   |
 | `Session.RainIntensityIn30` | `double` |   |
-| `Session.TrackGrip` | `double` |   |
+| `Session.TrackGrip` | `string` |   |
 
 | `Session.Penalty` | `int` |   |
 
@@ -46,7 +46,7 @@ Always use the full property name, as demonstrated below:
 | `Info.HeadLights` | `int` |   |
 | `Info.RainLights` | `int` |   |
 | `Info.FlashingLights` | `int` |   |
-| `Info.Wiper` | `string` |   |
+| `Info.Wiper` | `int` |   |
 
 ## Tyres 
 

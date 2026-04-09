@@ -51,6 +51,19 @@ Always use the full property name, as demonstrated below:
 | `Vehicle.SoC` | `double` |   |
 | `Vehicle.LiCo` | `int` |   |
 
+## Damage **NEW**{: .label .label-green }
+
+| Property Name | Type | Definition |
+| :--- | :--- | :--- |
+| `Damage.Front` | `double` | 0-100 |
+| `Damage.FrontLeft` | `double` | 0-100 |
+| `Damage.Left` | `double` | 0-100 |
+| `Damage.RearLeft` | `double` | 0-100 |
+| `Damage.Rear` | `double` | 0-100 |
+| `Damage.RearRight` | `double` | 0-100 |
+| `Damage.Right` | `double` | 0-100 |
+| `Damage.FrontRight` | `double` | 0-100 |
+
 ## Neored Plugin
 
 Read more about the [NeoRed Plugin](https://lsr.gg/neored)
@@ -70,19 +83,10 @@ Read more about the [NeoRed Plugin](https://lsr.gg/neored)
 | `VE.Max` | `double` |   |
 | `VE.LastLapConsumption` | `double` |   |
 
+| `Vehicle.FuelMix` | `string` |   |
 
-## LMU Electronic Bridge Plugin
-
-LMU Electronic Bridge properties override NeoRed propeties when used together. Read more about the [LMU Electronic Bridge Plugin](https://lsr.gg/lmubridge)
-
-### Damage **NEW**{: .label .label-green }
-
-| Property Name | Type | Definition |
-| :--- | :--- | :--- |
 | `Damage.SuspensionFL` | `double` | 0-1 Front Left Suspension |
 | `Damage.SuspensionFR` | `double` | 0-1 Front Right Suspension  |
 | `Damage.SuspensionRL` | `double` | 0-1 Rear Left Suspension |
 | `Damage.SuspensionRR` | `double` | 0-1 Rear Right Suspension |
 | `Damage.Aero` | `double` | 0-1 Damage Aero |
-
-
