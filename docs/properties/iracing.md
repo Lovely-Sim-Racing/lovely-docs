@@ -89,7 +89,6 @@ Always use the full property name, as demonstrated below:
 | `Vehicle.ShockFR` | `double` |   |
 | `Vehicle.ShockRL` | `double` |   |
 | `Vehicle.ShockRR` | `double` |   |
-| `Vehicle.DiffPreload` | `double` |   |
 | `Vehicle.WingRear` | `double` |   |
 | `Vehicle.PlayerP2PCount` | `int` |   |
 | `Vehicle.PlayerP2PStatus` | `int` |   |
@@ -101,6 +100,8 @@ Always use the full property name, as demonstrated below:
 | `Vehicle.BiasFine` | `double` |   |
 | `Vehicle.BrakeMIG` | `double` |   |
 | `Vehicle.BrakeMAG` | `double` |   |
+| `Vehicle.DiffPreload` **DEPRECATED**{: .label .label-red } | `double` |   |
+| `Vehicle.Diff` **NEW**{: .label .label-green} | `double` |   |
 | `Vehicle.DiffEntry` | `double` |   |
 | `Vehicle.DiffMid` | `double` |   |
 | `Vehicle.DiffExit` | `double` |   |
