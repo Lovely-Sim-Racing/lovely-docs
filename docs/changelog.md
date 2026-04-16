@@ -9,7 +9,7 @@ All notable TeamLINQ changes related to the available properties and features ar
 
 ## v3.2.0.0 (April 16, 2026) **Beta**{: .label .label-red .mx-0 } **Latest**{: .label .label-green .mx-0 }
 
-* LMU Added `(string) Vehicle.EngineMapMax`
+* LMU Added `(int) Vehicle.EngineMapMax`
 
 ## v3.1.0.0 (April 9, 2026) **Beta**{: .label .label-red .mx-0 }
 
