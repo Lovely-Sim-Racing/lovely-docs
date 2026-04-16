@@ -50,6 +50,7 @@ Always use the full property name, as demonstrated below:
 | :--- | :--- | :--- |
 | `Vehicle.SoC` | `double` |   |
 | `Vehicle.LiCo` | `int` |   |
+| `Vehicle.EngineMapMax` **NEW**{: .label .label-green } | `int` |   |
 
 ## Damage **NEW**{: .label .label-green }
 
