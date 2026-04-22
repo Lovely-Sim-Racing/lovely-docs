@@ -7,7 +7,17 @@ nav_order: 50
 # Changelog
 All notable TeamLINQ changes related to the available properties and features are documented in this file. 
 
-## v3.2.0.0 (April 16, 2026) **Beta**{: .label .label-red .mx-0 } **Latest**{: .label .label-green .mx-0 }
+## v3.3.0.0 (April XX, 2026) **Beta**{: .label .label-red .mx-0 } **Latest**{: .label .label-green .mx-0 }
+
+* Support for Mutliple Tiers (Team Starter **STARTER**{: .label .label-starter .mx-0 } & Teamp Pro **PRO**{: .label .label-pro .mx-0 })
+* Added `ld_driverdeltatobest()` in [TeamLINQ_extensions.js](/functions.html)
+* New [LMU Properties](/properties/lmu.html) 
+  * Added `(double) TeamLINQ.Info.Torque`
+  * Added `(double) TeamLINQ.Info.ElectricMotorTemp`
+  * Added `(double) TeamLINQ.Info.ElectricWaterTemp`
+  * Added `(double) TeamLINQ.Info.ElectricMotorTorque`
+
+## v3.2.0.0 (April 16, 2026) **Beta**{: .label .label-red .mx-0 }
 
 * LMU Added `(int) Vehicle.EngineMapMax`
 

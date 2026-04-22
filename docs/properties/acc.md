@@ -13,48 +13,58 @@ Always use the full property name, as demonstrated below:
 
 ## System
 
-| Property Name | Type | Definition |
-| :--- | :--- | :--- |
-| `SetupMenu` | `int` |   |
+| Property Name | Type | Definition | Tier |
+| :--- | :--- | :--- | :--- |
+| `SetupMenu` | `int` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
 
 ## Session 
 
-| `Session.Time` | `DateTime` |   |
-| `Session.WindSpeed` | `double` |   |
-| `Session.WindDirection` | `double` |   |
-| `Session.TrackStatus` | `string` | |
-| `Session.RT.BestLapOpponentPosition` | `int` |   |
+| Property Name | Type | Definition | Tier |
+| :--- | :--- | :--- | :--- |
+| `Session.Time` | `double` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `Session.WindSpeed` | `double` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `Session.WindDirection` | `double` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `Session.TrackStatus` | `string` | | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `Session.RT.BestLapOpponentPosition` | `int` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
 
-| `Session.RainIntensity` | `double` |   |
-| `Session.RainIntensityIn10` | `double` |   |
-| `Session.RainIntensityIn30` | `double` |   |
-| `Session.TrackGrip` | `string` |   |
+| `Session.RainIntensity` | `double` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `Session.RainIntensityIn10` | `double` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `Session.RainIntensityIn30` | `double` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `Session.TrackGrip` | `string` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
 
-| `Session.Penalty` | `int` |   |
+| `Session.Penalty` | `int` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
 
 ## Flags 
 
-| `Flag.YellowACC` | `int` |   |
-| `Flag.WhiteACC` | `int` |   |
-| `Flag.WhiteGlobal` | `int` |   |
-| `Flag.Yellow1` | `int` |   |
-| `Flag.Yellow2` | `int` |   |
-| `Flag.Yellow3` | `int` |   |
+| Property Name | Type | Definition | Tier |
+| :--- | :--- | :--- | :--- |
+| `Flag.YellowACC` | `int` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `Flag.WhiteACC` | `int` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `Flag.WhiteGlobal` | `int` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `Flag.Yellow1` | `int` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `Flag.Yellow2` | `int` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `Flag.Yellow3` | `int` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
 
 ## Info
 
-| `Info.HeadLights` | `int` |   |
-| `Info.RainLights` | `int` |   |
-| `Info.FlashingLights` | `int` |   |
-| `Info.Wiper` | `int` |   |
+| Property Name | Type | Definition | Tier |
+| :--- | :--- | :--- | :--- |
+| `Info.HeadLights` | `int` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `Info.RainLights` | `int` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `Info.FlashingLights` | `int` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `Info.Wiper` | `int` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
 
 ## Tyres 
 
-| `Tyres.CurrentSet` | `string` |   |
-| `Tyres.Compound` | `string` |   |
+| Property Name | Type | Definition | Tier |
+| :--- | :--- | :--- | :--- |
+| `Tyres.CurrentSet` | `string` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `Tyres.Compound` | `string` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
 
 ## Lap Times
 
-| `LapTime.iCurrent` | `int` |   |
-| `LapTime.iLast` | `int` |   |
-| `LapTime.iBest` | `int` |   |
+| Property Name | Type | Definition | Tier |
+| :--- | :--- | :--- | :--- |
+| `LapTime.iCurrent` | `int` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `LapTime.iLast` | `int` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `LapTime.iBest` | `int` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |

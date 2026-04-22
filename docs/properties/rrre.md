@@ -13,63 +13,63 @@ Always use the full property name, as demonstrated below:
 
 ## Info
 
-| Property Name | Type | Definition |
-| :--- | :--- | :--- |
-| `Info.HeadLights` | `int` |   |
+| Property Name | Type | Definition | Tier |
+| :--- | :--- | :--- | :--- |
+| `Info.HeadLights` | `int` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
 
 ## Incidents
 
-| Property Name | Type | Definition |
-| :--- | :--- | :--- |
-| `Incident.Count` | `int` |   |
-| `Incident.Max` | `int` |   |
+| Property Name | Type | Definition | Tier |
+| :--- | :--- | :--- | :--- |
+| `Incident.Count` | `int` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `Incident.Max` | `int` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
 
 ## DRS
 
-| Property Name | Type | Definition |
-| :--- | :--- | :--- |
-| `DRS.Available` | `int` |   |
-| `DRS.Enagged` | `int` |   |
-| `DRS.Equipped` | `int` |   |
-| `DRS.ActivationsLeft` | `int` |   |
-| `DRS.ActivationsTotal` | `int` |   |
+| Property Name | Type | Definition | Tier |
+| :--- | :--- | :--- | :--- |
+| `DRS.Available` | `int` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `DRS.Enagged` | `int` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `DRS.Equipped` | `int` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `DRS.ActivationsLeft` | `int` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `DRS.ActivationsTotal` | `int` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
 
 ## Tyres 
 
-| Property Name | Type | Definition |
-| :--- | :--- | :--- |
-| `Tyres.ColdTempFL` | `double` |   |
-| `Tyres.OptimalTempFL` | `double` |   |
-| `Tyres.HotTempFL` | `double` |   |
+| Property Name | Type | Definition | Tier |
+| :--- | :--- | :--- | :--- |
+| `Tyres.ColdTempFL` | `double` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `Tyres.OptimalTempFL` | `double` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `Tyres.HotTempFL` | `double` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
 
-| `Tyres.ColdTempFR` | `double` |   |
-| `Tyres.OptimalTempFR` | `double` |   |
-| `Tyres.HotTempFR` | `double` |   |
+| `Tyres.ColdTempFR` | `double` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `Tyres.OptimalTempFR` | `double` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `Tyres.HotTempFR` | `double` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
 
-| `Tyres.ColdTempRL` | `double` |   |
-| `Tyres.OptimalTempRL` | `double` |   |
-| `Tyres.HotTempRL` | `double` |   |
+| `Tyres.ColdTempRL` | `double` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `Tyres.OptimalTempRL` | `double` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `Tyres.HotTempRL` | `double` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
 
-| `Tyres.ColdTempRR` | `double` |   |
-| `Tyres.OptimalTempRR` | `double` |   |
-| `Tyres.HotTempRR` | `double` |   |
+| `Tyres.ColdTempRR` | `double` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `Tyres.OptimalTempRR` | `double` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `Tyres.HotTempRR` | `double` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
 
 ## Brakes
 
-| Property Name | Type | Definition |
-| :--- | :--- | :--- |
-| `Brakes.ColdTempFL` | `double` |   |
-| `Brakes.OptimalTempFL` | `double` |   |
-| `Brakes.HotTempFL` | `double` |   |
+| Property Name | Type | Definition | Tier |
+| :--- | :--- | :--- | :--- |
+| `Brakes.ColdTempFL` | `double` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `Brakes.OptimalTempFL` | `double` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `Brakes.HotTempFL` | `double` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
 
-| `Brakes.ColdTempFR` | `double` |   |
-| `Brakes.OptimalTempFR` | `double` |   |
-| `Brakes.HotTempFR` | `double` |   |
+| `Brakes.ColdTempFR` | `double` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `Brakes.OptimalTempFR` | `double` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `Brakes.HotTempFR` | `double` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
 
-| `Brakes.ColdTempRL` | `double` |   |
-| `Brakes.OptimalTempRL` | `double` |   |
-| `Brakes.HotTempRL` | `double` |   |
+| `Brakes.ColdTempRL` | `double` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `Brakes.OptimalTempRL` | `double` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `Brakes.HotTempRL` | `double` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
 
-| `Brakes.ColdTempRR` | `double` |   |
-| `Brakes.OptimalTempRR` | `double` |   |
-| `Brakes.HotTempRR` | `double` |   |
+| `Brakes.ColdTempRR` | `double` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `Brakes.OptimalTempRR` | `double` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `Brakes.HotTempRR` | `double` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |

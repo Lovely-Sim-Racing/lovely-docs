@@ -293,6 +293,14 @@ Returns for the race position the driver's track position, 0.0-1.0 (when availab
 ```js
 ld_driverdeltatoplayer(position)
 ```
+Returns for the race position the driver's delta to the current player best lap (when available).
+{: .mb-8 }
+
+{: .mt-6 }
+### Get Driver Delta To Best
+```js
+ld_driverdeltatobest(position)
+```
 Returns for the race position the driver's delta to the opponent's best lap (when available).
 {: .mb-8 }
 

@@ -13,21 +13,21 @@ Always use the full property name, as demonstrated below:
 
 ## Info
 
-| Property Name | Type | Definition |
-| :--- | :--- | :--- |
-| `Info.ElectricBoostMotorState` | `int` |   |
-| `Info.HeadLights` | `int` |   |
+| Property Name | Type | Definition | Tier |
+| :--- | :--- | :--- | :--- |
+| `Info.ElectricBoostMotorState` | `int` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `Info.HeadLights` | `int` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
 
 ## Tyres
 
-| Property Name | Type | Definition |
-| :--- | :--- | :--- |
-| `Tyres.CompoundFront` | `int` |   |
-| `Tyres.CompoundRear` | `int` |   |
-| `Tyres.SlipSpeed01` | `double` |   |
-| `Tyres.SlipSpeed02` | `double` |   |
-| `Tyres.SlipSpeed03` | `double` |   |
-| `Tyres.SlipSpeed04` | `double` |   |
+| Property Name | Type | Definition | Tier |
+| :--- | :--- | :--- | :--- |
+| `Tyres.CompoundFront` | `int` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `Tyres.CompoundRear` | `int` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `Tyres.SlipSpeed01` | `double` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `Tyres.SlipSpeed02` | `double` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `Tyres.SlipSpeed03` | `double` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `Tyres.SlipSpeed04` | `double` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
 
 
 
