@@ -68,4 +68,4 @@ All data payloads are optimised, obscured and transferred over a secure connecti
 
 ---
 
-[^1]: **Team Membership Required** - TeamLINQ Real-time telemetry sharing requires a [Team Membership](https://store.lsr.gg/pages/business-solutions-teams-monthly) during the Beta phase. As the product evolves, we will continue evaluating our options for broader access. 
+[^1]: **Team Membership Required** - TeamLINQ Real-time telemetry sharing requires a [Team Membership](https://store.lsr.gg/pages/business-solutions-teams-monthly).
