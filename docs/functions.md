@@ -5,8 +5,17 @@ nav_order: 40
 ---
 
 # JavaScript Extensions
+{: .no_toc }
 
 The TeamLINQ JavaScript Extensions are a series of functions that replace the native SimHub JavaScript functions in the dash editor, while taking advantage of all of TeamLINQ's features.
+
+<details markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+1. TOC
+{:toc}
+</details>
 
 ## Download & Usage
 To use these functions, copy the file into your dashboard's `JavascriptExtensions` folder.
@@ -17,6 +26,7 @@ To use these functions, copy the file into your dashboard's `JavascriptExtension
 
 {: .mt-6 }
 ### Convert String to TimeSpan
+
 ```js
 ld_stringToTimespan()
 ```

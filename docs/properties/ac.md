@@ -6,21 +6,21 @@ nav_order: 70
 ---
 
 # Assetto Corsa
-Always use the full property name, as demonstrated below:
+The full inventory of Assetto Corsa related properties.
 
-**LovelyPlugin.TeamLINQ.** + `Property Name`
-{: .note }
+**P**{: .label .label-pro .mx-0 .mb-1 } Available in **Team Pro**{: .mr-6 }
+**S**{: .label .label-starter .mx-0 .mb-1 } Available in **Team Starter**
 
 ## DRS
 
 | Property Name | Type | Definition | Tier |
 | :--- | :--- | :--- |
-| `DRS.Status` | `int` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
-| `DRS.Enabled` | `int` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
-| `DRS.Available` | `int` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `DRS.Status` | `int` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `DRS.Enabled` | `int` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `DRS.Available` | `int` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## ERS
 
 | Property Name | Type | Definition | Tier |
 | :--- | :--- | :--- | :--- |
-| `ERS.Available` | `int` |   | **PRO**{: .label .label-pro .mx-0 } **STARTER**{: .label .label-starter .mx-0 } |
+| `ERS.Available` | `int` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |

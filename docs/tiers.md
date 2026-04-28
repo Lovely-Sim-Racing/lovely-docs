@@ -8,14 +8,20 @@ nav_order: 14
 TeamLINQ is available on both Team Membership plans, [**Team Starter**](https://store.lsr.gg/pages/business-solutions-teams-monthly) and [**Team Pro**](https://store.lsr.gg/pages/business-solutions-teams-monthly). The differeces between the two plans are mostly in regards to data availability and bandwidth.  
 
 | | Team Starter | Team Pro |
-| :--- | :--- | :--- |
+| :--- | :--: | :--: |
+| **All Lovely Dashes** | ✅ | ✅ |
+| **Full Features** | ✅ | ✅ |
+| **Lovely Pit Wall** | ❌ | ✅ |
 | **Frames Per Second** | 🟡 **15fps**{: .text-yellow-300 } | 🟢 **30fps**{: .text-green-200 } |
 | **Driver Data** | ✅ | ✅ |
 | **Game Specfic Data** | ✅ | ✅ |
 | [**Opponent Data**](/properties/opponents.html) [^1] | 🟡 **Partial**{: .text-yellow-300 } | ✅ |
 
+## For Developers
+The Opponent data that is not being shared in Team Starter will be replaced with `Team Pro Only`.
+
 ## Availability
-Tiers are avaialble as of v3.3.0.0 of the Lovely Plugin 
+Tiers are available as of **v3.3.0.0** of the Lovely Plugin 
 
 --- 
 
