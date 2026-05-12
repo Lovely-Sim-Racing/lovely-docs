@@ -6,64 +6,69 @@ nav_order: 120
 ---
 
 # LeMans Ultimate
-Always use the full property name, as demonstrated below:
+The full inventory of LeMans Ultimate related properties.
 
-**LovelyPlugin.TeamLINQ.** + `Property Name`
-{: .note }
+**P**{: .label .label-pro .mx-0 .mb-1 } Available in **Team Pro**{: .mr-6 }
+**S**{: .label .label-starter .mx-0 .mb-1 } Available in **Team Starter**
 
 ## Session
 
 | Property Name | Type | Definition |
 | :--- | :--- | :--- |
-| `Session.Time` | `DateTime` |   |
-| `Session.lapInvalidated` | `int` |   |
-| `Session.Wetness` | `double` | 0 (Dry) ... 1 (Flooded) |
+| `Session.Time` | `DateTime` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.lapInvalidated` | `int` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.Wetness` | `double` | 0 (Dry) ... 1 (Flooded) | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## Info
 
 | Property Name | Type | Definition |
 | :--- | :--- | :--- |
-| `Info.ElectricBoostMotorState` | `int` |   |
-| `Info.HeadLights` | `int` |   |
-| `Info.Wiper` | `int` |   |
+| `Info.HeadLights` | `int` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Info.Wiper` | `int` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+
+| `Info.Torque` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Info.ElectricBoostMotorState` | `int` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Info.ElectricMotorTemp` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Info.ElectricWaterTemp` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Info.ElectricMotorTorque` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## Fuel
 
 | Property Name | Type | Definition |
 | :--- | :--- | :--- |
-| `VE.Current` | `double` |   |
+| `VE.Current` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## Tyres
 
 | Property Name | Type | Definition |
 | :--- | :--- | :--- |
-| `Tyres.CompoundFront` | `int` |   |
-| `Tyres.CompoundRear` | `int` |   |
-| `Tyres.SlipSpeed01` | `double` |   |
-| `Tyres.SlipSpeed02` | `double` |   |
-| `Tyres.SlipSpeed03` | `double` |   |
-| `Tyres.SlipSpeed04` | `double` |   |
+| `Tyres.CompoundFront` | `int` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.CompoundRear` | `int` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.SlipSpeed01` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.SlipSpeed02` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.SlipSpeed03` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.SlipSpeed04` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## Vehicle
 
 | Property Name | Type | Definition |
 | :--- | :--- | :--- |
-| `Vehicle.SoC` | `double` |   |
-| `Vehicle.LiCo` | `int` |   |
-| `Vehicle.EngineMapMax` **NEW**{: .label .label-green } | `int` |   |
+| `Vehicle.SoC` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.LiCo` | `int` | 0-255 | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.EngineMapMax` | `int` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
-## Damage **NEW**{: .label .label-green }
+## Damage
 
 | Property Name | Type | Definition |
 | :--- | :--- | :--- |
-| `Damage.Front` | `double` | 0-100 |
-| `Damage.FrontLeft` | `double` | 0-100 |
-| `Damage.Left` | `double` | 0-100 |
-| `Damage.RearLeft` | `double` | 0-100 |
-| `Damage.Rear` | `double` | 0-100 |
-| `Damage.RearRight` | `double` | 0-100 |
-| `Damage.Right` | `double` | 0-100 |
-| `Damage.FrontRight` | `double` | 0-100 |
+| `Damage.Front` | `double` | 0-100 | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Damage.FrontLeft` | `double` | 0-100 | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Damage.Left` | `double` | 0-100 | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Damage.RearLeft` | `double` | 0-100 | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Damage.Rear` | `double` | 0-100 | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Damage.RearRight` | `double` | 0-100 | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Damage.Right` | `double` | 0-100 | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Damage.FrontRight` | `double` | 0-100 | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## Neored Plugin
 
@@ -71,23 +76,23 @@ Read more about the [NeoRed Plugin](https://lsr.gg/neored)
 
 | Property Name | Type | Definition |
 | :--- | :--- | :--- |
-| `Tyres.OptimalTempSoft` | `double` |   |
-| `Tyres.OptimalTempMedium` | `double` |   |
-| `Tyres.OptimalTempHard` | `double` |   |
-| `Tyres.OptimalTempWet` | `double` |   |
+| `Tyres.OptimalTempSoft` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.OptimalTempMedium` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.OptimalTempHard` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.OptimalTempWet` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
-| `Tyres.CompoundFL` | `string` |   |
-| `Tyres.CompoundFR` | `string` |   |
-| `Tyres.CompoundRL` | `string` |   |
-| `Tyres.CompoundRR` | `string` |   |
+| `Tyres.CompoundFL` | `string` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.CompoundFR` | `string` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.CompoundRL` | `string` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.CompoundRR` | `string` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
-| `VE.Max` | `double` |   |
-| `VE.LastLapConsumption` | `double` |   |
+| `VE.Max` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `VE.LastLapConsumption` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
-| `Vehicle.FuelMix` | `string` |   |
+| `Vehicle.FuelMix` | `string` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
-| `Damage.SuspensionFL` | `double` | 0-1 Front Left Suspension |
-| `Damage.SuspensionFR` | `double` | 0-1 Front Right Suspension  |
-| `Damage.SuspensionRL` | `double` | 0-1 Rear Left Suspension |
-| `Damage.SuspensionRR` | `double` | 0-1 Rear Right Suspension |
-| `Damage.Aero` | `double` | 0-1 Damage Aero |
+| `Damage.SuspensionFL` | `double` | 0-1 Front Left Suspension | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Damage.SuspensionFR` | `double` | 0-1 Front Right Suspension  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Damage.SuspensionRL` | `double` | 0-1 Rear Left Suspension | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Damage.SuspensionRR` | `double` | 0-1 Rear Right Suspension | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Damage.Aero` | `double` | 0-1 Damage Aero | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |

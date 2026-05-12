@@ -6,48 +6,48 @@ nav_order: 20
 ---
 
 # Session
-Always use the full property name, as demonstrated below:
+The full inventory of session related properties.
 
-**LovelyPlugin.TeamLINQ.** + `Property Name`
-{: .note }
+**P**{: .label .label-pro .mx-0 .mb-1 } Available in **Team Pro**{: .mr-6 }
+**S**{: .label .label-starter .mx-0 .mb-1 } Available in **Team Starter**
 
 ## Properties
 
-| Property Name | Type | Definition |
-| :--- | :---- | :---- |
-| `Session.GameId` | `string` |  |
-| `Session.Type` | `string` |  |
-| `Session.AirTemp` | `double` |  |
-| `Session.TrackTemp` | `double` |  |
-| `Session.TrackId` | `string` |  |
-| `Session.TrackLength` | `double` |  |
-| `Session.TrackName` | `string` |  |
-| `Session.TrackSegment` | `string` |  |
-| `Session.TrackTurn` | `int` |  |
-| `Session.TimeLeft` | `TimeSpan` |  |
-| `Session.TotalLaps` | `int` |  |
-| `Session.SectorsCount` | `int` |  |
-| `Session.MultiClass` | `string` |  |
+| Property Name | Type | Definition | Tier|
+| :--- | :---- | :---- | :---- |
+| `Session.GameId` | `string` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.Type` | `string` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.AirTemp` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.TrackTemp` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.TrackId` | `string` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.TrackLength` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.TrackName` | `string` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.TrackSegment` | `string` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.TrackTurn` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.TimeLeft` | `TimeSpan` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.TotalLaps` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.SectorsCount` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.MultiClass` | `string` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## Units
 
-| Property Name | Type | Definition |
-| :--- | :---- | :---- |
-| `Unit.Speed` | `string` |  |
-| `Unit.Fuel` | `string` |  |
-| `Unit.Pressure` | `string` |  |
-| `Unit.Temp` | `string` |  |
-| `Unit.OilPressure` | `string` |  |
+| Property Name | Type | Definition | Tier |
+| :--- | :---- | :---- | :---- |
+| `Unit.Speed` | `string` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Unit.Fuel` | `string` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Unit.Pressure` | `string` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Unit.Temp` | `string` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Unit.OilPressure` | `string` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 
 ## Flags
 
-| Property Name | Type | Definition |
-| :--- | :---- | :---- |
-| `Flag.Black` | `int` |  |
-| `Flag.Blue` | `int` |  |
-| `Flag.Checkered` | `int` |  |
-| `Flag.Green` | `int` |  |
-| `Flag.Orange` | `int` |  |
-| `Flag.White` | `int` |  |
-| `Flag.Yellow` | `int` |  |
+| Property Name | Type | Definition | Tier |
+| :--- | :---- | :---- | :---- |
+| `Flag.Black` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Flag.Blue` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Flag.Checkered` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Flag.Green` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Flag.Orange` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Flag.White` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Flag.Yellow` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |

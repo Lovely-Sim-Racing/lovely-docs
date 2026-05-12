@@ -9,6 +9,9 @@ nav_order: 10
 Create your own Dashboards or Applications using TeamLINQ's SimHub Properties.
 {: .fs-6 .fw-300 }
 
+{: .note .green .my-6 }
+**NEW in v3.3.0.0**{: .label .label-green } **TeamLINQ now available on all Team Plans.**{: .text-green-300 } [**Read more.**](/tiers.html)
+
 ## What is TeamLINQ
 TeamLINQ enables real-time sharing of SimHub telemetry among teammates[^1]. Its intuitive interface makes team racing feel more authentic than ever.
 
@@ -45,7 +48,7 @@ The Lovely Plugin introduces a set of new properties which mirror the native Sim
 
 {: .important .mt-3 }
 > * Using TeamLINQ is **absolutley free** and **does not require a membership** or **account**. By including it in your projects you can take advantage of the TeamLINQ Property benefits.
-> * **Real-time Telemetry sharing** on the other hand does require a [Team Pro Membership](https://store.lsr.gg/pages/business-solutions-teams-monthly), and it unlocks for all members of the team.
+> * **Real-time Telemetry sharing** on the other hand does require a [Team Membership](https://store.lsr.gg/pages/business-solutions-teams-monthly), and it unlocks for all members of the team.
 
 ## Calling all Sim Racing Developers
 Your dashboards and applications are already impressive - now take them to the next level by integrating TeamLINQ's properties. Unlock real-time data sharing and transform how teams experience your work.
@@ -68,4 +71,4 @@ All data payloads are optimised, obscured and transferred over a secure connecti
 
 ---
 
-[^1]: **Team Pro Membership Required** - TeamLINQ Real-time telemetry sharing requires a [Team Pro Membership](https://store.lsr.gg/pages/business-solutions-teams-monthly) during the Beta phase. As the product evolves, we will continue evaluating our options for broader access. 
+[^1]: **Team Membership Required** - TeamLINQ Real-time telemetry sharing requires a [Team Membership](https://store.lsr.gg/pages/business-solutions-teams-monthly).

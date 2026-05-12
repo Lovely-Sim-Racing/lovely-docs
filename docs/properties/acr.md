@@ -2,17 +2,17 @@
 title: Assetto Corsa Rally
 layout: default
 parent: Game Specific
-nav_order: 71
+nav_order: 76
 ---
 
 # Assetto Corsa Rally
-Always use the full property name, as demonstrated below:
+The full inventory of Assetto Corsa Rally related properties.
 
-**LovelyPlugin.TeamLINQ.** + `Property Name`
-{: .note }
+**P**{: .label .label-pro .mx-0 .mb-1 } Available in **Team Pro**{: .mr-6 }
+**S**{: .label .label-starter .mx-0 .mb-1 } Available in **Team Starter**
 
 ## Session
 
-| Property Name | Type | Definition |
-| :--- | :--- | :--- |
-| `Session.TrackPositionDistance` | `double` |   |  |
+| Property Name | Type | Definition | Tier |
+| :--- | :--- | :--- | :--- |
+| `Session.TrackPositionDistance` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |

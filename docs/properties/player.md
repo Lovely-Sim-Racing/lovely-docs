@@ -6,260 +6,260 @@ nav_order: 30
 ---
 
 # Player
-Always use the full property name, as demonstrated below:
+The full inventory of player related properties.
 
-**LovelyPlugin.TeamLINQ.** + `Property Name`
-{: .note }
+**P**{: .label .label-pro .mx-0 .mb-1 } Available in **Team Pro**{: .mr-6 }
+**S**{: .label .label-starter .mx-0 .mb-1 } Available in **Team Starter**
 
 ## Session
 
-| Property Name | Type | Definition |
-| :--- | :--- | :--- |
-| `Session.PlayerName` | `string` |  |
-| `Session.Position` | `int` |  |
-| `Session.TrackPositionPercent` | `double` |  |
-| `Session.TrackPositionDistance` | `double` |  |
-| `Session.CarId` | `string` |  |
-| `Session.CarModel` | `string` |  |
-| `Session.CarClass` | `string` |  |
-| `Session.CurrentLap` | `int` |  |
-| `Session.CompletedLaps` | `int` |  |
-| `Session.RemainingLaps` | `int` |  |
-| `Session.LapInvalidated` | `int` |  |
-| `Session.CurrentSector` | `int` |  |
+| Property Name | Type | Definition | Tier |
+| :--- | :--- | :--- | :---- |
+| `Session.PlayerName` | `string` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.Position` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.TrackPositionPercent` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.TrackPositionDistance` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.CarId` | `string` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.CarModel` | `string` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.CarClass` | `string` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.CurrentLap` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.CompletedLaps` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.RemainingLaps` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.LapInvalidated` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.CurrentSector` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## Info
 
-| Property Name | Type | Definition |
-| :--- | :--- | :--- |
-| `Info.Gear` | `string` | R, N, 0 ... n |
-| `Info.GearMax` | `int` |  |
-| `Info.Speed` | `double` |  |
-| `Info.Throttle` | `double` | 0-100 |
-| `Info.Brake` | `double` | 0-100 |
-| `Info.Clutch` | `double` | 0-100 |
-| `Info.Handbrake` | `double` | 0-100 |
+| Property Name | Type | Definition | Tier |
+| :--- | :--- | :--- | :---- |
+| `Info.Gear` | `string` | R, N, 0 ... n | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Info.GearMax` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Info.Speed` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Info.Throttle` | `double` | 0-100 | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Info.Brake` | `double` | 0-100 | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Info.Clutch` | `double` | 0-100 | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Info.Handbrake` | `double` | 0-100 | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
-| `Info.TurnIndicatorLeft` | `int` |  |
-| `Info.TurnIndicatorRight` | `int` |  |
+| `Info.TurnIndicatorLeft` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Info.TurnIndicatorRight` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
-| `Info.Rpms` | `double` |  |
-| `Info.RpmsMax` | `int` |  |
-| `Info.RpmsRedLine` | `int` |  |
-| `Info.RpmsRedLineSetting` | `int` |  |
-| `Info.RpmsCurrentGearRedLine` | `int` |  |
-| `Info.RpmsRedLineReached` | `int` |  |
-| `Info.RpmsPercent` | `double` |  |
+| `Info.Rpms` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Info.RpmsMax` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Info.RpmsRedLine` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Info.RpmsRedLineSetting` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Info.RpmsCurrentGearRedLine` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Info.RpmsRedLineReached` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Info.RpmsPercent` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
-| `Info.PitLimiterSpeed` | `int` |  |
-| `Info.PitLimiterOn` | `int` |  |
-| `Info.IgnitionOn` | `int` |  |
-| `Info.EngineStarted` | `int` |  |
-| `Info.WaterTemp` | `double` |  |
-| `Info.OilPressure` | `double` |  |
-| `Info.OilTemp` | `double` |  |
-| `Info.Battery` | `double` |  |
-| `Info.OilLevel` | `double` |  |
+| `Info.PitLimiterSpeed` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Info.PitLimiterOn` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Info.IgnitionOn` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Info.EngineStarted` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Info.WaterTemp` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Info.OilPressure` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Info.OilTemp` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Info.Battery` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Info.OilLevel` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
-| `Info.AccelerationHeave` **NEW**{: .label .label-green } | `double` |  |
-| `Info.AccelerationSurge` **NEW**{: .label .label-green } | `double` |  |
-| `Info.AccelerationSway` **NEW**{: .label .label-green } | `double` |  |
+| `Info.AccelerationHeave` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Info.AccelerationSurge` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Info.AccelerationSway` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## Spotter
 
-| Property Name | Type | Definition |
-| :--- | :--- | :--- |
-| `Spotter.Left` | `int` |  |
-| `Spotter.LeftAngle` | `double` |  |
-| `Spotter.LeftDistance` | `double` |  |
-| `Spotter.Right` | `int` |  |
-| `Spotter.RightAngle` | `double` |  |
-| `Spotter.RightDistance` | `double` |  |
+| Property Name | Type | Definition | Tier |
+| :--- | :--- | :--- | :--- |
+| `Spotter.Left` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Spotter.LeftAngle` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Spotter.LeftDistance` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Spotter.Right` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Spotter.RightAngle` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Spotter.RightDistance` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## Status
 
-| Property Name | Type | Definition |
-| :--- | :--- | :--- |
-| `Status.IsInPit` | `int` |  |
-| `Status.IsInPitLane` | `int` |  |
+| Property Name | Type | Definition | Tier |
+| :--- | :--- | :--- | :--- |
+| `Status.IsInPit` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Status.IsInPitLane` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
-## Damage **NEW**{: .label .label-green }
+## Damage
 
-| Property Name | Type | Definition |
-| :--- | :--- | :--- |
-| `Damage.Front` | `double` | 0-100 Damage Front |
-| `Damage.Rear` | `double` | 0-100 Damage Rear |
-| `Damage.Left` | `double` | 0-100 Damage Left |
-| `Damage.Right` | `double` | 0-100 Damage Right |
-| `Damage.Overall` | `double` | 0-100 Damage Overall |
+| Property Name | Type | Definition | Tier |
+| :--- | :--- | :--- | :--- |
+| `Damage.Front` | `double` | 0-100 Damage Front | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Damage.Rear` | `double` | 0-100 Damage Rear | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Damage.Left` | `double` | 0-100 Damage Left | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Damage.Right` | `double` | 0-100 Damage Right | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Damage.Overall` | `double` | 0-100 Damage Overall | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## Fuel
 
-| Property Name | Type | Definition |
-| :--- | :--- | :--- |
-| `Fuel.Current` | `double` |  |
-| `Fuel.Max` | `double` |  |
-| `Fuel.PerLap` | `double` |  |
-| `Fuel.RemainingTime` | `TimeSpan` |  |
-| `Fuel.EstimatedLaps` | `double` |  |
-| `Fuel.Percent` | `double` |  |
-| `Fuel.LastLapConsumption` | `double` |  |
-| `Fuel.CurrentLapConsumption` | `double` |  |
-| `Fuel.InstantConsumption` | `double` |  |
+| Property Name | Type | Definition | Tier |
+| :--- | :--- | :--- | :--- |
+| `Fuel.Current` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Fuel.Max` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Fuel.PerLap` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Fuel.RemainingTime` | `TimeSpan` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Fuel.EstimatedLaps` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Fuel.Percent` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Fuel.LastLapConsumption` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Fuel.CurrentLapConsumption` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Fuel.InstantConsumption` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## Tyres
 
-| Property Name | Type | Definition |
-| :--- | :--- | :--- |
-| `Tyres.PressureFL` | `double` |  |
-| `Tyres.PressureFLAvg` | `double` |  |
-| `Tyres.TempFL` | `double` |  |
-| `Tyres.TempFLAvg` | `double` |  |
-| `Tyres.TempFLInner` | `double` |  |
-| `Tyres.TempFLMiddle` | `double` |  |
-| `Tyres.TempFLOuter` | `double` |  |
-| `Tyres.WearFL` | `double` |  |
+| Property Name | Type | Definition | Tier |
+| :--- | :--- | :--- | :--- |
+| `Tyres.PressureFL` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.PressureFLAvg` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.TempFL` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.TempFLAvg` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.TempFLInner` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.TempFLMiddle` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.TempFLOuter` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.WearFL` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
-| `Tyres.PressureFR` | `double` |  |
-| `Tyres.PressureFRAvg` | `double` |  |
-| `Tyres.TempFR` | `double` |  |
-| `Tyres.TempFRAvg` | `double` |  |
-| `Tyres.TempFRInner` | `double` |  |
-| `Tyres.TempFRMiddle` | `double` |  |
-| `Tyres.TempFROuter` | `double` |  |
-| `Tyres.WearFR` | `double` |  |
+| `Tyres.PressureFR` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.PressureFRAvg` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.TempFR` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.TempFRAvg` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.TempFRInner` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.TempFRMiddle` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.TempFROuter` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.WearFR` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
-| `Tyres.PressureRL` | `double` |  |
-| `Tyres.PressureRFLAvg` | `double` |  |
-| `Tyres.TempRL` | `double` |  |
-| `Tyres.TempRLAvg` | `double` |  |
-| `Tyres.TempRLInner` | `double` |  |
-| `Tyres.TempRLMiddle` | `double` |  |
-| `Tyres.TempRLOuter` | `double` |  |
-| `Tyres.WearRL` | `double` |  |
+| `Tyres.PressureRL` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.PressureRFLAvg` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.TempRL` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.TempRLAvg` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.TempRLInner` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.TempRLMiddle` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.TempRLOuter` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.WearRL` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
-| `Tyres.PressureRR` | `double` |  |
-| `Tyres.PressureRRAvg` | `double` |  |
-| `Tyres.TempRR` | `double` |  |
-| `Tyres.TempRRAvg` | `double` |  |
-| `Tyres.TempRRInner` | `double` |  |
-| `Tyres.TempRRMiddle` | `double` |  |
-| `Tyres.TempRROuter` | `double` |  |
-| `Tyres.WearRR` | `double` |  |
+| `Tyres.PressureRR` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.PressureRRAvg` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.TempRR` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.TempRRAvg` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.TempRRInner` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.TempRRMiddle` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.TempRROuter` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.WearRR` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 
 ## Brakes
 
-| Property Name | Type | Definition |
-| :--- | :--- | :--- |
-| `Brakes.TempFL` | `double` |  |
-| `Brakes.TempFLAvg` | `double` |  |
-| `Brakes.TempFR` | `double` |  |
-| `Brakes.TempFRAvg` | `double` |  |
-| `Brakes.TempRL` | `double` |  |
-| `Brakes.TempRLAvg` | `double` |  |
-| `Brakes.TempRR` | `double` |  |
-| `Brakes.TempRRAvg` | `double` |  |
+| Property Name | Type | Definition | Tier |
+| :--- | :--- | :--- | :--- |
+| `Brakes.TempFL` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Brakes.TempFLAvg` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Brakes.TempFR` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Brakes.TempFRAvg` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Brakes.TempRL` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Brakes.TempRLAvg` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Brakes.TempRR` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Brakes.TempRRAvg` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## Vehicle Settings
 
-| Property Name | Type | Definition |
-| :--- | :--- | :--- |
-| `Vehicle.TC` | `double` |  |
-| `Vehicle.TCActive` | `int` |  |
-| `Vehicle.TCCut` | `double` |  |
-| `Vehicle.ABS` | `double` |  |
-| `Vehicle.ABSActive` | `int` |  |
-| `Vehicle.Bias` | `double` |  |
-| `Vehicle.EngineMap` | `double` |  |
-| `Vehicle.ERS` | `double` |  |
-| `Vehicle.TurboPercent` | `double` |  |
-| `Vehicle.Turbo` | `double` |  |
-| `Vehicle.MGUK` | `double` |  |
-| `Vehicle.ERSDeployment` | `double` |  |
-| `Vehicle.KERS` | `double` |  |
+| Property Name | Type | Definition | Tier |
+| :--- | :--- | :--- | :--- |
+| `Vehicle.TC` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.TCActive` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.TCCut` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.ABS` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.ABSActive` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.Bias` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.EngineMap` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.ERS` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.TurboPercent` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.Turbo` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.MGUK` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.ERSDeployment` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.KERS` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## Lap Times
 
-| Property Name | Type | Definition |
-| :--- | :--- | :--- |
-| `LapTime.Current` | `TimeSpan` |  |
-| `LapTime.Last` | `TimeSpan` |  |
-| `LapTime.Best` | `TimeSpan` |  |
-| `LapTime.AllTimeBest` | `TimeSpan` |  |
-| `LapTime.EstimatedSessionBestBased` | `TimeSpan` |  |
-| `LapTime.EstimatedSessionBestBasedSimhub` | `TimeSpan` |  |
-| `LapTime.EstimatedLapTime_AllTimeBestBased` | `TimeSpan` |  |
+| Property Name | Type | Definition | Tier |
+| :--- | :--- | :--- | :--- |
+| `LapTime.Current` | `TimeSpan` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapTime.Last` | `TimeSpan` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapTime.Best` | `TimeSpan` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapTime.AllTimeBest` | `TimeSpan` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapTime.EstimatedSessionBestBased` | `TimeSpan` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapTime.EstimatedSessionBestBasedSimhub` | `TimeSpan` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapTime.EstimatedLapTime_AllTimeBestBased` | `TimeSpan` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
-## Sector Times **NEW**{: .label .label-green } 
+## Sector Times
 
-| Property Name | Type | Definition |
-| :--- | :--- | :--- |
-| `Session.S1Time` | `TimeSpan` |  |
-| `Session.S1LastTime` | `TimeSpan` |  |
-| `Session.S1BestTime` | `TimeSpan` |  |
-| `Session.S1BestLapTime` | `TimeSpan` |  |
+| Property Name | Type | Definition | Tier |
+| :--- | :--- | :--- | :--- |
+| `Session.S1Time` | `TimeSpan` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.S1LastTime` | `TimeSpan` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.S1BestTime` | `TimeSpan` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.S1BestLapTime` | `TimeSpan` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
-| `Session.S2Time` | `TimeSpan` |  |
-| `Session.S2LastTime` | `TimeSpan` |  |
-| `Session.S2BestTime` | `TimeSpan` |  |
-| `Session.S2BestLapTime` | `TimeSpan` |  |
+| `Session.S2Time` | `TimeSpan` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.S2LastTime` | `TimeSpan` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.S2BestTime` | `TimeSpan` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.S2BestLapTime` | `TimeSpan` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
-| `Session.S3LastTime` | `TimeSpan` |  |
-| `Session.S3BestTime` | `TimeSpan` |  |
-| `Session.S3BestLapTime` | `TimeSpan` |  |
+| `Session.S3LastTime` | `TimeSpan` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.S3BestTime` | `TimeSpan` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.S3BestLapTime` | `TimeSpan` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## Lap History
 
-| Property Name | Type | Definition |
-| :--- | :--- | :--- |
-| `LapHistory.00` | `TimeSpan` |  |
-| `LapHistory.PreviousLap_00_DeltaToAllTimeBest` | `double` |  |
-| `LapHistory.PreviousLap_00_DeltaToSessionBest` | `double` |  |
-| `LapHistory.PreviousLap_00_IsCurrentSession` | `int` |  |
+| Property Name | Type | Definition | Tier |
+| :--- | :--- | :--- | :--- |
+| `LapHistory.00` | `TimeSpan` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapHistory.PreviousLap_00_DeltaToAllTimeBest` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapHistory.PreviousLap_00_DeltaToSessionBest` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapHistory.PreviousLap_00_IsCurrentSession` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
-| `LapHistory.01` | `TimeSpan` |  |
-| `LapHistory.PreviousLap_01_DeltaToAllTimeBest` | `double` |  |
-| `LapHistory.PreviousLap_01_DeltaToSessionBest` | `double` |  |
-| `LapHistory.PreviousLap_01_IsCurrentSession` | `int` |  |
+| `LapHistory.01` | `TimeSpan` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapHistory.PreviousLap_01_DeltaToAllTimeBest` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapHistory.PreviousLap_01_DeltaToSessionBest` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapHistory.PreviousLap_01_IsCurrentSession` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
-| `LapHistory.02` | `TimeSpan` |  |
-| `LapHistory.PreviousLap_02_DeltaToAllTimeBest` | `double` |  |
-| `LapHistory.PreviousLap_02_DeltaToSessionBest` | `double` |  |
-| `LapHistory.PreviousLap_02_IsCurrentSession` | `int` |  |
+| `LapHistory.02` | `TimeSpan` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapHistory.PreviousLap_02_DeltaToAllTimeBest` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapHistory.PreviousLap_02_DeltaToSessionBest` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapHistory.PreviousLap_02_IsCurrentSession` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
-| `LapHistory.03` | `TimeSpan` |  |
-| `LapHistory.PreviousLap_03_DeltaToAllTimeBest` | `double` |  |
-| `LapHistory.PreviousLap_03_DeltaToSessionBest` | `double` |  |
-| `LapHistory.PreviousLap_03_IsCurrentSession` | `int` |  |
+| `LapHistory.03` | `TimeSpan` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapHistory.PreviousLap_03_DeltaToAllTimeBest` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapHistory.PreviousLap_03_DeltaToSessionBest` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapHistory.PreviousLap_03_IsCurrentSession` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
-| `LapHistory.04` | `TimeSpan` |  |
-| `LapHistory.PreviousLap_04_DeltaToAllTimeBest` | `double` |  |
-| `LapHistory.PreviousLap_04_DeltaToSessionBest` | `double` |  |
-| `LapHistory.PreviousLap_04_IsCurrentSession` | `int` |  |
+| `LapHistory.04` | `TimeSpan` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapHistory.PreviousLap_04_DeltaToAllTimeBest` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapHistory.PreviousLap_04_DeltaToSessionBest` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapHistory.PreviousLap_04_IsCurrentSession` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
-| `LapHistory.05` | `TimeSpan` |  |
-| `LapHistory.PreviousLap_05_DeltaToAllTimeBest` | `double` |  |
-| `LapHistory.PreviousLap_05_DeltaToSessionBest` | `double` |  |
-| `LapHistory.PreviousLap_05_IsCurrentSession` | `int` |  |
+| `LapHistory.05` | `TimeSpan` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapHistory.PreviousLap_05_DeltaToAllTimeBest` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapHistory.PreviousLap_05_DeltaToSessionBest` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapHistory.PreviousLap_05_IsCurrentSession` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
-| `LapHistory.06` | `TimeSpan` |  |
-| `LapHistory.PreviousLap_06_DeltaToAllTimeBest` | `double` |  |
-| `LapHistory.PreviousLap_06_DeltaToSessionBest` | `double` |  |
-| `LapHistory.PreviousLap_06_IsCurrentSession` | `int` |  |
+| `LapHistory.06` | `TimeSpan` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapHistory.PreviousLap_06_DeltaToAllTimeBest` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapHistory.PreviousLap_06_DeltaToSessionBest` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapHistory.PreviousLap_06_IsCurrentSession` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
-| `LapHistory.07` | `TimeSpan` |  |
-| `LapHistory.PreviousLap_07_DeltaToAllTimeBest` | `double` |  |
-| `LapHistory.PreviousLap_07_DeltaToSessionBest` | `double` |  |
-| `LapHistory.PreviousLap_07_IsCurrentSession` | `int` |  |
+| `LapHistory.07` | `TimeSpan` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapHistory.PreviousLap_07_DeltaToAllTimeBest` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapHistory.PreviousLap_07_DeltaToSessionBest` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapHistory.PreviousLap_07_IsCurrentSession` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
-| `LapHistory.08` | `TimeSpan` |  |
-| `LapHistory.PreviousLap_08_DeltaToAllTimeBest` | `double` |  |
-| `LapHistory.PreviousLap_08_DeltaToSessionBest` | `double` |  |
-| `LapHistory.PreviousLap_08_IsCurrentSession` | `int` |  |
+| `LapHistory.08` | `TimeSpan` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapHistory.PreviousLap_08_DeltaToAllTimeBest` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapHistory.PreviousLap_08_DeltaToSessionBest` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapHistory.PreviousLap_08_IsCurrentSession` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 
-| `LapHistory.09` | `TimeSpan` |  |
-| `LapHistory.PreviousLap_09_DeltaToAllTimeBest` | `double` |  |
-| `LapHistory.PreviousLap_09_DeltaToSessionBest` | `double` |  |
-| `LapHistory.PreviousLap_09_IsCurrentSession` | `int` |  |
+| `LapHistory.09` | `TimeSpan` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapHistory.PreviousLap_09_DeltaToAllTimeBest` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapHistory.PreviousLap_09_DeltaToSessionBest` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapHistory.PreviousLap_09_IsCurrentSession` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |

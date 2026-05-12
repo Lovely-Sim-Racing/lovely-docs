@@ -6,107 +6,106 @@ nav_order: 60
 ---
 
 # iRacing
-Always use the full property name, as demonstrated below:
+The full inventory of iRacing related properties.
 
-**LovelyPlugin.TeamLINQ.** + `Property Name`
-{: .note }
+**P**{: .label .label-pro .mx-0 .mb-1 } Available in **Team Pro**{: .mr-6 }
+**S**{: .label .label-starter .mx-0 .mb-1 } Available in **Team Starter**
 
 ## Session
 
-| Property Name | Type | Definition |
-| :--- | :--- | :--- |
-| `Session.Time` | `DateTime` |   |
+| Property Name | Type | Definition | Tier |
+| :--- | :--- | :--- | :--- |
+| `Session.Time` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
-| `Session.IsLimitedTime` | `bool` |  |
-| `Session.IsLimitedLaps` | `int` |  |
+| `Session.IsLimitedTime` | `bool` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.IsLimitedLaps` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
-| `Session.Skies` | `string` |  |
-| `Session.WindSpeed` | `double` |  |
-| `Session.WindDirection` | `double` |  |
+| `Session.Skies` | `string` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.WindSpeed` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.WindDirection` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
-| `Session.TrackStatus` | `double` |  |
+| `Session.TrackStatus` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## DRS
 
-| Property Name | Type | Definition |
-| :--- | :--- | :--- |
-| `DRS.Status` | `int` |  |
+| Property Name | Type | Definition | Tier |
+| :--- | :--- | :--- | :--- |
+| `DRS.Status` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## Incidents
 
-| Property Name | Type | Definition |
-| :--- | :--- | :--- |
-| `Incident.Limit` | `int` |  |
-| `Incident.Count` | `int` |  |
-| `Incident.Max` | `int` |  |
+| Property Name | Type | Definition | Tier |
+| :--- | :--- | :--- | :--- |
+| `Incident.Limit` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Incident.Count` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Incident.Max` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## Flags
 
-| Property Name | Type | Definition |
-| :--- | :--- | :--- |
-| `Flag.YellowGlobal` | `bool` |   |
-| `Flag.Debris` | `bool` |   |
+| Property Name | Type | Definition | Tier |
+| :--- | :--- | :--- | :--- |
+| `Flag.YellowGlobal` | `bool` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Flag.Debris` | `bool` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## Info
 
-| Property Name | Type | Definition |
-| :--- | :--- | :--- |
-| `Info.FlashingLights` | `bool` |   |
+| Property Name | Type | Definition | Tier |
+| :--- | :--- | :--- | :--- |
+| `Info.FlashingLights` | `bool` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## Status
 
-| Property Name | Type | Definition |
-| :--- | :--- | :--- |
-| `Status.TrackSurface` | `string` |   |
+| Property Name | Type | Definition | Tier |
+| :--- | :--- | :--- | :--- |
+| `Status.TrackSurface` | `string` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## Fuel
 
-| Property Name | Type | Definition |
-| :--- | :--- | :--- |
-| `Fuel.Pressure` | `double` |   |
+| Property Name | Type | Definition | Tier |
+| :--- | :--- | :--- | :--- |
+| `Fuel.Pressure` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## Tyres
 
-| Property Name | Type | Definition |
-| :--- | :--- | :--- |
-| `Tyres.Compound` | `int` |  |
-| `Tyres.PitSv` | `int` |  |
+| Property Name | Type | Definition | Tier |
+| :--- | :--- | :--- | :--- |
+| `Tyres.Compound` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.PitSv` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## Brakes
 
-| Property Name | Type | Definition |
-| :--- | :--- | :--- |
-| `Brakes.AttachedToggleFR` | `bool` |   |
+| Property Name | Type | Definition | Tier |
+| :--- | :--- | :--- | :--- |
+| `Brakes.AttachedToggleFR` | `bool` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## Vehicle Settings
 
-| Property Name | Type | Definition |
-| :--- | :--- | :--- |
-| `Vehicle.TCToggle` | `int` |   |
-| `Vehicle.ABSToggle` | `int` |   |
-| `Vehicle.ERSBattery` | `double` |   |
-| `Vehicle.ShockFL` | `double` |   |
-| `Vehicle.ShockFR` | `double` |   |
-| `Vehicle.ShockRL` | `double` |   |
-| `Vehicle.ShockRR` | `double` |   |
-| `Vehicle.WingRear` | `double` |   |
-| `Vehicle.PlayerP2PCount` | `int` |   |
-| `Vehicle.PlayerP2PStatus` | `int` |   |
-| `Vehicle.ThrottleShape` | `double` |   |
-| `Vehicle.FuelMix` | `double` |   |
-| `Vehicle.EnginePower` | `double` |   |
-| `Vehicle.EngineBrake` | `double` |   |
-| `Vehicle.Boost` | `double` |   |
-| `Vehicle.BiasFine` | `double` |   |
-| `Vehicle.BrakeMIG` | `double` |   |
-| `Vehicle.BrakeMAG` | `double` |   |
-| `Vehicle.DiffPreload` **DEPRECATED**{: .label .label-red } | `double` |   |
-| `Vehicle.Diff` **NEW**{: .label .label-green} | `double` |   |
-| `Vehicle.DiffEntry` | `double` |   |
-| `Vehicle.DiffMid` | `double` |   |
-| `Vehicle.DiffExit` | `double` |   |
-| `Vehicle.FARB` | `double` |   |
-| `Vehicle.RARB` | `double` |   |
-| `Vehicle.FARBArm` | `double` |   |
-| `Vehicle.RARBArm` | `double` |   |
-| `Vehicle.WeightJack` | `double` |   |
+| Property Name | Type | Definition | Tier |
+| :--- | :--- | :--- | :--- |
+| `Vehicle.TCToggle` | `int` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.ABSToggle` | `int` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.ERSBattery` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.ShockFL` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.ShockFR` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.ShockRL` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.ShockRR` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.WingRear` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.PlayerP2PCount` | `int` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.PlayerP2PStatus` | `int` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.ThrottleShape` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.FuelMix` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.EnginePower` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.EngineBrake` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.Boost` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.BiasFine` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.BrakeMIG` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.BrakeMAG` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.Diff` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.DiffEntry` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.DiffMid` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.DiffExit` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.FARB` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.RARB` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.FARBArm` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.RARBArm` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.WeightJack` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |

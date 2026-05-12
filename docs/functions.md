@@ -5,8 +5,17 @@ nav_order: 40
 ---
 
 # JavaScript Extensions
+{: .no_toc }
 
 The TeamLINQ JavaScript Extensions are a series of functions that replace the native SimHub JavaScript functions in the dash editor, while taking advantage of all of TeamLINQ's features.
+
+<details markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+1. TOC
+{:toc}
+</details>
 
 ## Download & Usage
 To use these functions, copy the file into your dashboard's `JavascriptExtensions` folder.
@@ -17,6 +26,7 @@ To use these functions, copy the file into your dashboard's `JavascriptExtension
 
 {: .mt-6 }
 ### Convert String to TimeSpan
+
 ```js
 ld_stringToTimespan()
 ```
@@ -292,6 +302,14 @@ Returns for the race position the driver's track position, 0.0-1.0 (when availab
 ### Get Driver Delta To Player
 ```js
 ld_driverdeltatoplayer(position)
+```
+Returns for the race position the driver's delta to the current player best lap (when available).
+{: .mb-8 }
+
+{: .mt-6 }
+### Get Driver Delta To Best
+```js
+ld_driverdeltatobest(position)
 ```
 Returns for the race position the driver's delta to the opponent's best lap (when available).
 {: .mb-8 }

@@ -6,28 +6,28 @@ nav_order: 110
 ---
 
 # rFactor 2
-Always use the full property name, as demonstrated below:
+The full inventory of rFactor 2 related properties.
 
-**LovelyPlugin.TeamLINQ.** + `Property Name`
-{: .note }
+**P**{: .label .label-pro .mx-0 .mb-1 } Available in **Team Pro**{: .mr-6 }
+**S**{: .label .label-starter .mx-0 .mb-1 } Available in **Team Starter**
 
 ## Info
 
-| Property Name | Type | Definition |
-| :--- | :--- | :--- |
-| `Info.ElectricBoostMotorState` | `int` |   |
-| `Info.HeadLights` | `int` |   |
+| Property Name | Type | Definition | Tier |
+| :--- | :--- | :--- | :--- |
+| `Info.ElectricBoostMotorState` | `int` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Info.HeadLights` | `int` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## Tyres
 
-| Property Name | Type | Definition |
-| :--- | :--- | :--- |
-| `Tyres.CompoundFront` | `int` |   |
-| `Tyres.CompoundRear` | `int` |   |
-| `Tyres.SlipSpeed01` | `double` |   |
-| `Tyres.SlipSpeed02` | `double` |   |
-| `Tyres.SlipSpeed03` | `double` |   |
-| `Tyres.SlipSpeed04` | `double` |   |
+| Property Name | Type | Definition | Tier |
+| :--- | :--- | :--- | :--- |
+| `Tyres.CompoundFront` | `int` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.CompoundRear` | `int` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.SlipSpeed01` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.SlipSpeed02` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.SlipSpeed03` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.SlipSpeed04` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 
 
