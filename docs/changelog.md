@@ -7,7 +7,13 @@ nav_order: 50
 # Changelog
 All notable TeamLINQ changes related to the available properties and features are documented in this file. 
 
-## v3.3.0.0 (May 12, 2026) **Beta**{: .label .label-red .mx-0 } **Latest**{: .label .label-green .mx-0 }
+## v3.4.0.0 (May 28, 2026) **Beta**{: .label .label-red .mx-0 } **Latest**{: .label .label-green .mx-0 }
+
+* New [iRacing Properties](/properties/iracing.html)
+  * Added `(double) TeamLINQ.Vehicle.SoC` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+
+
+## v3.3.0.0 (May 12, 2026) **Beta**{: .label .label-red .mx-0 }
 
 * Support for Mutliple Tiers (Team Starter **S**{: .label .label-starter .mx-0 } & Teamp Pro **P**{: .label .label-pro .mx-0 })
 * Added `ld_driverdeltatobest()` in [TeamLINQ_extensions.js](/functions.html)
