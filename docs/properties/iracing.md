@@ -23,8 +23,8 @@ The full inventory of iRacing related properties.
 | `Session.Skies` | `string` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Session.WindSpeed` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Session.WindDirection` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-
 | `Session.TrackStatus` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+
 
 ## DRS
 
@@ -85,6 +85,7 @@ The full inventory of iRacing related properties.
 | `Vehicle.TCToggle` | `int` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Vehicle.ABSToggle` | `int` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Vehicle.ERSBattery` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.SoC` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Vehicle.ShockFL` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Vehicle.ShockFR` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Vehicle.ShockRL` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
