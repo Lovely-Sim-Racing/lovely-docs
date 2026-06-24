@@ -41,13 +41,13 @@ The Opponent Leaderboard properties return an array, representing each driver on
 | `Opponents.Coordinates` | `Array` of `string` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Opponents.IsConnected` | `Array` of `string` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Opponents.Initials` | `Array` of `string` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-| `Opponents.IsInGarage` | `Array` of `string` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Opponents.TeamName` | `Array` of `string` |   | **P**{: .label .label-pro .mx-0 } |
 | `Opponents.CarName` | `Array` of `string` |   | **P**{: .label .label-pro .mx-0 } |
 | `Opponents.Number` | `Array` of `string ` |   | **P**{: .label .label-pro .mx-0 } |
 | `Opponents.License` | `Array` of `string` |   | **P**{: .label .label-pro .mx-0 } |
 | `Opponents.iRating` | `Array` of `string` |   | **P**{: .label .label-pro .mx-0 } |
 | `Opponents.Category` | `Array` of `string` |   | **P**{: .label .label-pro .mx-0 } |
+| `Opponents.Speed` | `Array` of `string ` |   | **P**{: .label .label-pro .mx-0 } |
 
 | `Opponents.Position` | `Array` of `string ` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Opponents.ClassPosition` | `Array` of `string` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |

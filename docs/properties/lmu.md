@@ -2,7 +2,7 @@
 title: LeMans Ultimate
 layout: default
 parent: Game Specific
-nav_order: 120
+nav_order: 55
 ---
 
 # LeMans Ultimate
@@ -18,6 +18,14 @@ The full inventory of LeMans Ultimate related properties.
 | `Session.Time` | `DateTime` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Session.lapInvalidated` | `int` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Session.Wetness` | `double` | 0 (Dry) ... 1 (Flooded) | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+
+## Flags 
+
+| Property Name | Type | Definition | Tier |
+| :--- | :--- | :--- | :--- |
+| `Flag.Yellow1` | `int` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Flag.Yellow2` | `int` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Flag.Yellow3` | `int` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## Info
 

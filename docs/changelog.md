@@ -7,7 +7,15 @@ nav_order: 50
 # Changelog
 All notable TeamLINQ changes related to the available properties and features are documented in this file. 
 
-## v3.4.0.0 (May 28, 2026) **Beta**{: .label .label-red .mx-0 } **Latest**{: .label .label-green .mx-0 }
+## v3.5.0.0 (June 23, 2026) **Beta**{: .label .label-red .mx-0 } **Latest**{: .label .label-green .mx-0 }
+
+* New [LMU Properties](/properties/lmu.html)
+  * Added `(int) TeamLINQ.Flag.Yellow1` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(int) TeamLINQ.Flag.Yellow2` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(int) TeamLINQ.Flag.Yellow3` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.Opponents.Speed` **P**{: .label .label-pro .mx-0 }
+
+## v3.4.0.0 (May 28, 2026) **Beta**{: .label .label-red .mx-0 }
 
 * New [iRacing Properties](/properties/iracing.html)
   * Added `(double) TeamLINQ.Vehicle.SoC` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
