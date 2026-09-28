@@ -4,7 +4,13 @@ layout: default
 nav_order: 10
 ---
 
-<center><img src="./images/TeamLINQ-logo-light.png" alt="drawing" width="450"/></center>{: .mt-6 .mb-8 .fw-300 }
+<center>
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="./images/teamlinq-logo-light.png" width="450">
+  <source media="(prefers-color-scheme: dark)" srcset="./images/teamlinq-logo-dark.png" width="450">
+  <img alt="TeamLINQ" src="./images/teamlinq-logo-light.png" width="450">
+</picture>
+</center>{: .mt-6 .mb-8 .fw-300 }
 
 Create your own Dashboards or Applications using TeamLINQ's SimHub Properties.
 {: .fs-6 .fw-300 }
