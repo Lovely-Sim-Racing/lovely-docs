@@ -10,7 +10,10 @@ Create your own Dashboards or Applications using TeamLINQ's SimHub Properties.
 {: .fs-6 .fw-300 }
 
 {: .note .green .my-6 }
-**NEW in v3.3.0.0**{: .label .label-green } **TeamLINQ now available on all Team Plans.**{: .text-green-300 } [**Read more.**](/tiers.html)
+**v4.0.0.0**{: .label .label-green } **TeamLINQ is now out of Beta.**{: .text-green-300 }
+
+{: .note .green .my-6 }
+**v3.3.0.0**{: .label .label-green } **TeamLINQ now available on all Team Plans.**{: .text-green-300 } [**Read more.**](/tiers.html)
 
 ## What is TeamLINQ
 TeamLINQ enables real-time sharing of SimHub telemetry among teammates[^1]. Its intuitive interface makes team racing feel more authentic than ever.

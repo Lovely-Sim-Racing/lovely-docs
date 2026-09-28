@@ -17,6 +17,7 @@ The full inventory of session related properties.
 | :--- | :---- | :---- | :---- |
 | `Session.GameId` | `string` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Session.Type` | `string` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.TypeNormalised` | `string` | `P`, `Q`, `R` or `[NULL]` | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Session.AirTemp` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Session.TrackTemp` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Session.TrackId` | `string` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
