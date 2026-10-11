@@ -7,7 +7,15 @@ nav_order: 50
 # Changelog
 All notable TeamLINQ changes related to the available properties and features are documented in this file. 
 
-## v3.5.0.0 (June 23, 2026) **Beta**{: .label .label-red .mx-0 } **Latest**{: .label .label-green .mx-0 }
+## v3.6.0.2 (Oct 12, 2026) **Latest**{: .label .label-green .mx-0 }
+
+* Added `(string) TeamLINQ.Session.TypeNormalised` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+
+## v3.6.0.0 (Sep 10, 2026)
+
+* TeamLINQ is out of **BETA**
+
+## v3.5.0.0 (June 23, 2026) **Beta**{: .label .label-red .mx-0 }
 
 * New [LMU Properties](/properties/lmu.html)
   * Added `(int) TeamLINQ.Flag.Yellow1` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
