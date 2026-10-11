@@ -7,7 +7,7 @@ nav_order: 50
 # Changelog
 All notable TeamLINQ changes related to the available properties and features are documented in this file. 
 
-## v4.0.0.0 (Oct ??, 2026) **Latest**{: .label .label-green .mx-0 }
+## v3.6.0.2 (Oct 12, 2026) **Latest**{: .label .label-green .mx-0 }
 
 * Added `(string) TeamLINQ.Session.TypeNormalised` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
 
