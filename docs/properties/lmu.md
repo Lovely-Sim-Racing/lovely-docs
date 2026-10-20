@@ -45,6 +45,9 @@ The full inventory of LeMans Ultimate related properties.
 | Property Name | Type | Definition |
 | :--- | :--- | :--- |
 | `VE.Current` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `VE.LastLapConsumption` | `double` | Virtual Energy % used on the last completed lap, `0` until a lap is completed | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `VE.EstimatedLaps` | `double` | Laps the Virtual Energy left lasts, at `VE.Average5` (`VE.LastLapConsumption` until 5 laps are completed), `0` when unknown | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `VE.Average5` | `double` | Average Virtual Energy % per lap over the last 5 clean laps (no pit lane, no refuel), `0` until 5 laps are completed | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## Tyres
 
@@ -95,7 +98,6 @@ Read more about the [NeoRed Plugin](https://lsr.gg/neored)
 | `Tyres.CompoundRR` | `string` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 | `VE.Max` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-| `VE.LastLapConsumption` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 | `Vehicle.FuelMix` | `string` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 

@@ -100,6 +100,7 @@ The full inventory of player related properties.
 | `Fuel.Current` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Fuel.Max` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Fuel.PerLap` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Fuel.Average5` | `double` | Average fuel per lap over the last 5 clean laps (no pit lane, no refuel), `0` until 5 laps are completed | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Fuel.RemainingTime` | `TimeSpan` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Fuel.EstimatedLaps` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Fuel.Percent` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
@@ -187,6 +188,8 @@ The full inventory of player related properties.
 | `LapTime.Last` | `TimeSpan` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `LapTime.Best` | `TimeSpan` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `LapTime.AllTimeBest` | `TimeSpan` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapTime.Average5` | `TimeSpan` | Average of the last 5 laps this session, `00:00:00` until 5 laps are completed | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapTime.Average10` | `TimeSpan` | Average of the last 10 laps this session, `00:00:00` until 10 laps are completed | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `LapTime.EstimatedSessionBestBased` | `TimeSpan` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `LapTime.EstimatedSessionBestBasedSimhub` | `TimeSpan` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `LapTime.EstimatedLapTime_AllTimeBestBased` | `TimeSpan` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
