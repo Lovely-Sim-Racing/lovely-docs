@@ -16,6 +16,8 @@ All notable TeamLINQ changes related to the available properties and features ar
   * Added `(double) TeamLINQ.VE.Average5` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
   * Added `(double) TeamLINQ.VE.EstimatedLaps` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
   * Changed `(double) TeamLINQ.VE.LastLapConsumption` is now measured by the plugin and no longer needs the NeoRed Plugin **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+* New [iRacing Properties](/properties/iracing.html)
+  * Added `(double) TeamLINQ.Player.iRatingChange` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
 
 ## v3.6.0.2 (Oct 12, 2026)
 
