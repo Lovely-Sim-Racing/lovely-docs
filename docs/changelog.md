@@ -18,6 +18,28 @@ All notable TeamLINQ changes related to the available properties and features ar
   * Changed `(double) TeamLINQ.VE.LastLapConsumption` is now measured by the plugin and no longer needs the NeoRed Plugin **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
 * New [iRacing Properties](/properties/iracing.html)
   * Added `(double) TeamLINQ.Player.iRatingChange` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+* New [Lap Review Properties](/properties/player.html#lap-review): the last completed lap, measured by the plugin
+  * Added `(string) TeamLINQ.LapReview.Lap` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.LapReview.LapTime` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.LapReview.Delta` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.LapReview.DeltaReference` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.LapReview.Valid` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.LapReview.Incidents` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.LapReview.Sectors` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.LapReview.FuelUsed` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.LapReview.TopSpeed` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.LapReview.TyreWearFL` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.LapReview.TyreWearFR` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.LapReview.TyreWearRL` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.LapReview.TyreWearRR` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.LapReview.Position` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.LapReview.PositionGain` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.LapReview.ClassPosition` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.LapReview.ClassPositionGain` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.LapReview.GapAhead` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.LapReview.GapAheadChange` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.LapReview.GapBehind` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.LapReview.GapBehindChange` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
 
 ## v3.6.0.2 (Oct 12, 2026)
 

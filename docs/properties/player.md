@@ -266,3 +266,31 @@ The full inventory of player related properties.
 | `LapHistory.PreviousLap_09_DeltaToAllTimeBest` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `LapHistory.PreviousLap_09_DeltaToSessionBest` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `LapHistory.PreviousLap_09_IsCurrentSession` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+
+## Lap Review
+
+Everything about the last completed lap, measured by the plugin lap by lap (used by the Dash Pro Lap Review). Every value is text, with numbers in invariant format (`3.71`): a value that couldn't be measured is empty, for example when the lap was joined part way, after a reset or in a new session. The values stay the same until the next lap is completed.
+
+| Property Name | Type | Definition | Tier |
+| :--- | :--- | :--- | :--- |
+| `LapReview.Lap` | `string` | The last completed lap measured by the plugin (the completed laps count at the line), `0` until one is completed in the session. Changes with every completed lap | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapReview.LapTime` | `string` | Last lap time in seconds (`123.355`) | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapReview.Delta` | `string` | Last lap time minus the session best from before the lap (the all-time best when there's no session best yet), in seconds; negative for a new best | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapReview.DeltaReference` | `string` | What `LapReview.Delta` compares with: `session` or `alltime` | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapReview.Valid` | `string` | `true`, or `false` when the lap was invalidated at any point | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapReview.Incidents` | `string` | Incidents added during the lap (games with an incident count) | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapReview.Sectors` | `string` | JSON list of the lap's sectors (any number), each `{ "Time": 41.102, "Delta": -0.084, "State": "faster" }`: the sector time in seconds, the delta to the player's best sector from before the lap, and `fastest` (the session's best sector by anyone), `faster` (the player's best) or `slower` | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapReview.FuelUsed` | `string` | Fuel used during the lap; empty when the lap touched the pit lane or was refuelled | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapReview.TopSpeed` | `string` | Top speed during the lap, in the game's speed unit | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapReview.TyreWearFL` | `string` | Tyre wear added during the lap, front left; empty when the lap touched the pit lane | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapReview.TyreWearFR` | `string` | Tyre wear added during the lap, front right | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapReview.TyreWearRL` | `string` | Tyre wear added during the lap, rear left | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapReview.TyreWearRR` | `string` | Tyre wear added during the lap, rear right | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapReview.Position` | `string` | Position at the line | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapReview.PositionGain` | `string` | Positions gained during the lap (negative when lost) | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapReview.ClassPosition` | `string` | Class position at the line | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapReview.ClassPositionGain` | `string` | Class positions gained during the lap (negative when lost) | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapReview.GapAhead` | `string` | Gap in seconds to the car directly ahead in the class, at the line | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapReview.GapAheadChange` | `string` | How much `LapReview.GapAhead` changed during the lap (negative: closer); empty when it's a different car | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapReview.GapBehind` | `string` | Gap in seconds to the car directly behind in the class, at the line | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapReview.GapBehindChange` | `string` | How much `LapReview.GapBehind` changed during the lap (positive: further away); empty when it's a different car | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
