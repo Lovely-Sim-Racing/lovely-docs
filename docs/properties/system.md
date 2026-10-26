@@ -19,7 +19,7 @@ The full inventory of system related properties.
 | `IsStreaming` | `bool` | Returns true when data is remote | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 | `Time` | `DateTime` | Returns the PC Time | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-| `SimHubVersion` | `string` | Returns the SimHub Version | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `SimhubVersion` | `string` | Returns the SimHub Version | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `PluginVersion` | `string` | Returns the Lovely Plugin Version | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `GamePaused` | `int` | Returns `1` or `0` if game is paused | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `GameRunning` | `int` | Returns `1` or `0` if game is running | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |

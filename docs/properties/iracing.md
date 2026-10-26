@@ -15,30 +15,30 @@ The full inventory of iRacing related properties.
 
 | Property Name | Type | Definition | Tier |
 | :--- | :--- | :--- | :--- |
-| `Session.Time` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.Time` | `double` | In-game time of day, in seconds since midnight | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
-| `Session.IsLimitedTime` | `bool` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-| `Session.IsLimitedLaps` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.IsLimitedTime` | `bool` | `true` when the session ends on time | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.IsLimitedLaps` | `int` | `1` when the session ends on laps | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
-| `Session.Skies` | `string` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-| `Session.WindSpeed` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-| `Session.WindDirection` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-| `Session.TrackStatus` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.Skies` | `string` | Sky condition (clear, partly cloudy, mostly cloudy, overcast) | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.WindSpeed` | `double` | Wind speed, in m/s | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.WindDirection` | `double` | Wind direction, in radians | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.TrackStatus` | `double` | Track wetness, from iRacing's `TrackWetness` (`1` dry, higher is wetter) | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 
 ## DRS
 
 | Property Name | Type | Definition | Tier |
 | :--- | :--- | :--- | :--- |
-| `DRS.Status` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `DRS.Status` | `int` | DRS state: `0` not available, `1` available soon, `2` available, `3` open | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## Incidents
 
 | Property Name | Type | Definition | Tier |
 | :--- | :--- | :--- | :--- |
-| `Incident.Limit` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-| `Incident.Count` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-| `Incident.Max` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Incident.Limit` | `int` | Incident limit for the event | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Incident.Count` | `int` | The player's incident points this session | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Incident.Max` | `int` | Incident points allowed before a penalty or disqualification | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## iRating
 
@@ -50,69 +50,71 @@ The full inventory of iRacing related properties.
 
 | Property Name | Type | Definition | Tier |
 | :--- | :--- | :--- | :--- |
-| `Flag.YellowGlobal` | `bool` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-| `Flag.Debris` | `bool` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Flag.YellowGlobal` | `bool` | `true` under a full course yellow | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Flag.Debris` | `bool` | `true` while the debris flag is shown | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## Info
 
 | Property Name | Type | Definition | Tier |
 | :--- | :--- | :--- | :--- |
-| `Info.FlashingLights` | `bool` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Info.FlashingLights` | `bool` | `true` while the headlights are flashing | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## Status
 
 | Property Name | Type | Definition | Tier |
 | :--- | :--- | :--- | :--- |
-| `Status.TrackSurface` | `string` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Status.TrackSurface` | `string` | What the player's car is on: on track, off track, pit stall, approaching pits or not in world | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## Fuel
 
 | Property Name | Type | Definition | Tier |
 | :--- | :--- | :--- | :--- |
-| `Fuel.Pressure` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Fuel.Pressure` | `double` | Fuel pressure | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## Tyres
 
 | Property Name | Type | Definition | Tier |
 | :--- | :--- | :--- | :--- |
-| `Tyres.Compound` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-| `Tyres.PitSv` | `int` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.Compound` | `int` | Compound of the tyres fitted | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.PitSv` | `int` | Compound selected for the next pit stop | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## Brakes
 
 | Property Name | Type | Definition | Tier |
 | :--- | :--- | :--- | :--- |
-| `Brakes.AttachedToggleFR` | `bool` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Brakes.AttachedToggleFR` | `bool` | Front right brake attached toggle (cars with a brake disconnect control) | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## Vehicle Settings
 
+These are the in-car adjustments (`dc...` values) of cars that have them.
+
 | Property Name | Type | Definition | Tier |
 | :--- | :--- | :--- | :--- |
-| `Vehicle.TCToggle` | `int` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-| `Vehicle.ABSToggle` | `int` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-| `Vehicle.ERSBattery` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-| `Vehicle.SoC` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-| `Vehicle.ShockFL` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-| `Vehicle.ShockFR` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-| `Vehicle.ShockRL` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-| `Vehicle.ShockRR` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-| `Vehicle.WingRear` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-| `Vehicle.PlayerP2PCount` | `int` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-| `Vehicle.PlayerP2PStatus` | `int` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-| `Vehicle.ThrottleShape` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-| `Vehicle.FuelMix` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-| `Vehicle.EnginePower` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-| `Vehicle.EngineBrake` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-| `Vehicle.Boost` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-| `Vehicle.BiasFine` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-| `Vehicle.BrakeMIG` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-| `Vehicle.BrakeMAG` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-| `Vehicle.Diff` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-| `Vehicle.DiffEntry` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-| `Vehicle.DiffMid` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-| `Vehicle.DiffExit` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-| `Vehicle.FARB` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-| `Vehicle.RARB` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-| `Vehicle.FARBArm` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-| `Vehicle.RARBArm` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-| `Vehicle.WeightJack` | `double` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.TCToggle` | `int` | Traction control on/off switch | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.ABSToggle` | `int` | ABS on/off switch | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.ERSBattery` | `double` | ERS battery energy | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.SoC` | `double` | ERS battery state of charge, percentage | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.ShockFL` | `double` | Front left shock setting | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.ShockFR` | `double` | Front right shock setting | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.ShockRL` | `double` | Rear left shock setting | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.ShockRR` | `double` | Rear right shock setting | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.WingRear` | `double` | Rear wing setting | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.PlayerP2PCount` | `int` | Push-to-pass activations left | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.PlayerP2PStatus` | `int` | `1` while push-to-pass is active | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.ThrottleShape` | `double` | Throttle map setting | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.FuelMix` | `double` | Fuel mixture setting | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.EnginePower` | `double` | Engine power setting | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.EngineBrake` | `double` | Engine braking setting | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.Boost` | `double` | Boost level setting | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.BiasFine` | `double` | Brake bias fine adjustment | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.BrakeMIG` | `double` | Brake bias migration, from the car setup | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.BrakeMAG` | `double` | Brake misc (MAG) setting | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.Diff` | `double` | Differential preload setting | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.DiffEntry` | `double` | Differential entry setting | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.DiffMid` | `double` | Differential middle setting | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.DiffExit` | `double` | Differential exit setting | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.FARB` | `double` | Front anti-roll bar setting | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.RARB` | `double` | Rear anti-roll bar setting | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.FARBArm` | `double` | Front anti-roll bar arm, from the car setup | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.RARBArm` | `double` | Rear anti-roll bar arm, from the car setup | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.WeightJack` | `double` | Weight jacker setting | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |

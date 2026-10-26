@@ -15,4 +15,4 @@ The full inventory of Assetto Corsa Rally related properties.
 
 | Property Name | Type | Definition | Tier |
 | :--- | :--- | :--- | :--- |
-| `Session.TrackPositionDistance` | `double` |  | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.TrackPositionDistance` | `double` | Distance driven along the stage, in meters | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |

@@ -14,13 +14,13 @@ The full inventory of Assetto Corsa related properties.
 ## DRS
 
 | Property Name | Type | Definition | Tier |
-| :--- | :--- | :--- |
-| `DRS.Status` | `int` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-| `DRS.Enabled` | `int` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-| `DRS.Available` | `int` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| :--- | :--- | :--- | :--- |
+| `DRS.Status` | `int` | `1` when the car has DRS | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `DRS.Enabled` | `int` | `1` while DRS is open | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `DRS.Available` | `int` | `1` when DRS can be used | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## ERS
 
 | Property Name | Type | Definition | Tier |
 | :--- | :--- | :--- | :--- |
-| `ERS.Available` | `int` |   | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `ERS.Available` | `int` | `1` when the car has ERS | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
