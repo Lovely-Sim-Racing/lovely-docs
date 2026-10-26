@@ -287,6 +287,9 @@ Everything about the last completed lap, measured by the plugin lap by lap (used
 | `LapReview.Incidents` | `string` | Incidents added during the lap (games with an incident count) | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `LapReview.Sectors` | `string` | JSON list of the lap's sectors (any number), each `{ "Time": 41.102, "Delta": -0.084, "State": "faster" }`: the sector time in seconds, the delta to the player's best sector from before the lap, and `fastest` (the session's best sector by anyone), `faster` (the player's best) or `slower` | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `LapReview.FuelUsed` | `string` | Fuel used during the lap; empty when the lap touched the pit lane or was refuelled | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapReview.FuelLeft` | `string` | Fuel left at the line | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapReview.VEUsed` | `string` | Virtual Energy % used during the lap (LMU); empty in other games, or when it was refilled during the lap | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapReview.VELeft` | `string` | Virtual Energy % left at the line (LMU); empty in other games | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `LapReview.TopSpeed` | `string` | Top speed during the lap, in the game's speed unit | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `LapReview.TyreWearFL` | `string` | Tyre wear added during the lap, front left; empty when the lap touched the pit lane | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `LapReview.TyreWearFR` | `string` | Tyre wear added during the lap, front right | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |

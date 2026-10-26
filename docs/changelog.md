@@ -27,6 +27,9 @@ All notable TeamLINQ changes related to the available properties and features ar
   * Added `(string) TeamLINQ.LapReview.Incidents` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
   * Added `(string) TeamLINQ.LapReview.Sectors` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
   * Added `(string) TeamLINQ.LapReview.FuelUsed` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.LapReview.FuelLeft` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.LapReview.VEUsed` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.LapReview.VELeft` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
   * Added `(string) TeamLINQ.LapReview.TopSpeed` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
   * Added `(string) TeamLINQ.LapReview.TyreWearFL` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
   * Added `(string) TeamLINQ.LapReview.TyreWearFR` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
