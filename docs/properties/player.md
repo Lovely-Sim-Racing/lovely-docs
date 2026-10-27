@@ -27,6 +27,9 @@ The full inventory of player related properties.
 | `Session.RemainingLaps` | `int` | Laps left in a lap-limited session | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Session.LapInvalidated` | `int` | `1` when the current lap has been invalidated, `0` otherwise | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Session.CurrentSector` | `int` | The sector the player is in, starting from `1` | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.SectorProgress` | `double` | How far through the current sector the player is, `0.0` to `1.0`. The plugin learns where each sector starts as the player drives into it; until it knows both ends of a sector, the sectors are taken as equal lengths | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.SectorTime` | `double` | Seconds the player has spent in the current sector | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.SectorLearned` | `int` | `1` when the plugin knows where the current sector starts and ends, so `Session.SectorProgress` is exact, `0` while it's still learning (usually the first lap on a track) | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## Info
 
