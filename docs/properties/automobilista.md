@@ -19,6 +19,7 @@ The full inventory of Automobilista 2 related properties.
 | `Session.WindSpeed` | `double` | Wind speed | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Session.WindDirectionY` | `double` | Wind direction, Y component | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Session.WindDirectionX` | `double` | Wind direction, X component | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Weather.Rain` | `double` | Rain density, 0-1 | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## DRS
 

@@ -67,6 +67,8 @@ The full inventory of LeMans Ultimate related properties.
 | `Vehicle.SoC` | `double` | Hybrid battery state of charge | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Vehicle.LiCo` | `int` | Lift and coast progress, 0-255 | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Vehicle.EngineMapMax` | `int` | Highest engine (motor) map setting available | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.Regen` | `double` | Regeneration level setting | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.TCSlip` | `int` | Traction control slip setting | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## Damage
 

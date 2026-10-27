@@ -16,7 +16,7 @@ The full inventory of opponent related properties.
 | Property Name | Type | Definition | Tier |
 | :--- | :--- | :--- | :--- |
 | `Session.BestLapOpponentPosition` | `int` | Leaderboard position of the driver with the session's best lap | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-| `Session.BestLapOpponentSameClassPosition ` | `int` | Leaderboard position of the driver with the best lap in the player's class | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.BestLapOpponentSameClassPosition` | `int` | Leaderboard position of the driver with the best lap in the player's class | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Session.MultiClass` | `bool` | `true` when the session has more than one car class | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 | `Opponents.Count` | `int` | Number of cars in the session | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
@@ -41,6 +41,7 @@ The Opponent Leaderboard properties return an array, representing each driver on
 | `Opponents.Coordinates` | `Array` of `string` | The car's position on the track map | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Opponents.IsConnected` | `Array` of `string` | `true` while the driver is connected to the session | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Opponents.Initials` | `Array` of `string` | The driver's initials | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Opponents.MapLayout` | `string` | The track map layout the opponents are drawn on, compressed, sent by the streaming driver | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Opponents.TeamName` | `Array` of `string` | Team name | **P**{: .label .label-pro .mx-0 } |
 | `Opponents.CarName` | `Array` of `string` | Car name | **P**{: .label .label-pro .mx-0 } |
 | `Opponents.Number` | `Array` of `string ` | Car number | **P**{: .label .label-pro .mx-0 } |

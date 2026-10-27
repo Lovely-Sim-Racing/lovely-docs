@@ -200,6 +200,10 @@ Values ending in `Avg` are rolling averages, like the tyre averages. Temperature
 | `LapTime.EstimatedSessionBestBased` | `TimeSpan` | Predicted time of the current lap, from the live delta to the session best | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `LapTime.EstimatedSessionBestBasedSimhub` | `TimeSpan` | Predicted time of the current lap, from SimHub's own session best estimate | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `LapTime.EstimatedAllTimeBestBased` | `TimeSpan` | Predicted time of the current lap, from the live delta to the all-time best | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapTime.SessionBestLiveDeltaSeconds` | `double` | Live delta to the session best lap, in seconds | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapTime.AllTimeBestLiveDeltaSeconds` | `double` | Live delta to the all-time best lap, in seconds | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapTime.SessionBestLiveDeltaProgressSeconds` | `double` | SimHub's track-progress based live delta to the session best lap, in seconds | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `LapTime.AllTimeBestLiveDeltaProgressSeconds` | `double` | SimHub's track-progress based live delta to the all-time best lap, in seconds | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## Sector Times
 

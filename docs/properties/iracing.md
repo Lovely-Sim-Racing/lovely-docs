@@ -108,6 +108,7 @@ These are the in-car adjustments (`dc...` values) of cars that have them.
 | `Vehicle.Boost` | `double` | Boost level setting | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Vehicle.BiasFine` | `double` | Brake bias fine adjustment | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Vehicle.BrakeMIG` | `double` | Brake bias migration, from the car setup | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Vehicle.BrakePeak` | `double` | Peak brake bias setting, on cars with an in-car adjustment | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Vehicle.BrakeMAG` | `double` | Brake misc (MAG) setting | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Vehicle.Diff` | `double` | Differential preload setting | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Vehicle.DiffEntry` | `double` | Differential entry setting | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |

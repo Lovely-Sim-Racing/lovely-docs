@@ -60,6 +60,10 @@ The full inventory of Assetto Corsa Competizione related properties.
 | :--- | :--- | :--- | :--- |
 | `Tyres.CurrentSet` | `string` | Number of the tyre set fitted | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Tyres.Compound` | `string` | Compound of the tyres fitted (`dry_compound` or `wet_compound`) | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.AngularSpeed01` | `double` | Front left wheel rotation speed, in rad/s (also in Assetto Corsa) | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.AngularSpeed02` | `double` | Front right wheel rotation speed, in rad/s (also in Assetto Corsa) | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.AngularSpeed03` | `double` | Rear left wheel rotation speed, in rad/s (also in Assetto Corsa) | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.AngularSpeed04` | `double` | Rear right wheel rotation speed, in rad/s (also in Assetto Corsa) | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## Lap Times
 

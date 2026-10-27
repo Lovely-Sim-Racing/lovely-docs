@@ -17,6 +17,7 @@ The full inventory of system related properties.
 | :--- | :---- | :---- | :---- | 
 | `PcName` | `string` | Returns the registered name | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `IsStreaming` | `bool` | Returns true when data is remote | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Syncing` | `bool` | Returns true while syncing with the team member whose data you follow | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 | `Time` | `DateTime` | Returns the PC Time | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `SimhubVersion` | `string` | Returns the SimHub Version | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
