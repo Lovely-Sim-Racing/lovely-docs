@@ -19,6 +19,13 @@ The full inventory of LeMans Ultimate related properties.
 | `Session.LapInvalidated` | `int` | `1` when the current lap has been invalidated | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Session.Wetness` | `double` | 0 (Dry) ... 1 (Flooded) | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
+## Weather
+
+| Property Name | Type | Definition | Tier |
+| :--- | :--- | :--- | :--- |
+| `Weather.Raining` | `double` | Rain severity now, 0 (none) ... 1 (heaviest) | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Weather.DarkCloud` | `double` | Cloud darkness now, 0 (clear) ... 1 (darkest) | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+
 ## Flags 
 
 | Property Name | Type | Definition | Tier |
