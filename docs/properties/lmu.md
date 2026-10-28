@@ -40,7 +40,7 @@ The full inventory of LeMans Ultimate related properties.
 | :--- | :--- | :--- |
 | `Info.HeadLights` | `int` | `1` while the headlights are on | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Info.Wiper` | `int` | Wiper setting | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-
+| `Info.Overheating` | `int` | `1` while the engine is overheating | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Info.Torque` | `double` | Engine torque | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Info.ElectricBoostMotorState` | `int` | Hybrid motor state: `0` unavailable, `1` inactive, `2` deploying, `3` regenerating | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Info.ElectricMotorTemp` | `double` | Hybrid motor temperature | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |

@@ -58,6 +58,7 @@ The full inventory of iRacing related properties.
 | Property Name | Type | Definition | Tier |
 | :--- | :--- | :--- | :--- |
 | `Info.FlashingLights` | `bool` | `true` while the headlights are flashing | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Info.EngineWarnings` | `string` | The car's warning lights, as SimHub gives them: a number (bits: `1` water temp, `2` fuel pressure, `4` oil pressure, `8` engine stalled, `16` pit limiter, `32` rev limiter, `64` oil temp, `128` mandatory repair, `256` optional repair) or the flag names | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## Status
 

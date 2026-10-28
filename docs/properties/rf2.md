@@ -30,6 +30,7 @@ The full inventory of rFactor 2 related properties.
 | :--- | :--- | :--- | :--- |
 | `Info.ElectricBoostMotorState` | `int` | Hybrid motor state: `0` unavailable, `1` inactive, `2` deploying, `3` regenerating | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Info.HeadLights` | `int` | `1` while the headlights are on | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Info.Overheating` | `int` | `1` while the engine is overheating | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## Tyres
 
