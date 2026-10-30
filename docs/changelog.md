@@ -22,6 +22,7 @@ All notable TeamLINQ changes related to the available properties and features ar
   * Added `(double) TeamLINQ.Weather.Raining` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
   * Added `(double) TeamLINQ.Weather.DarkCloud` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
   * Added `(int) TeamLINQ.Info.Overheating` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(int) TeamLINQ.Session.Penalty` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
 * New [iRacing Properties](/properties/iracing.html)
   * Added `(double) TeamLINQ.Player.iRatingChange` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
   * Added `(string) TeamLINQ.Info.EngineWarnings` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
@@ -30,6 +31,7 @@ All notable TeamLINQ changes related to the available properties and features ar
   * Added `(double) TeamLINQ.Weather.Raining` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
   * Added `(double) TeamLINQ.Weather.DarkCloud` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
   * Added `(int) TeamLINQ.Info.Overheating` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(int) TeamLINQ.Session.Penalty` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
 * New [Lap Review Properties](/properties/player.html#lap-review): the last completed lap, measured by the plugin
   * Added `(string) TeamLINQ.LapReview.Lap` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
   * Added `(string) TeamLINQ.LapReview.LapTime` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }

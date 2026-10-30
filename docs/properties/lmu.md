@@ -17,6 +17,7 @@ The full inventory of LeMans Ultimate related properties.
 | :--- | :--- | :--- |
 | `Session.Time` | `DateTime` | In-game time of day | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Session.LapInvalidated` | `int` | `1` when the current lap has been invalidated | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.Penalty` | `int` | Penalties the player still has to serve (`0` none); the game doesn't say which kind | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Session.Wetness` | `double` | 0 (Dry) ... 1 (Flooded) | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## Weather

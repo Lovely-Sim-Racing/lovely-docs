@@ -15,6 +15,7 @@ The full inventory of rFactor 2 related properties.
 
 | Property Name | Type | Definition | Tier |
 | :--- | :--- | :--- | :--- |
+| `Session.Penalty` | `int` | Penalties the player still has to serve (`0` none); the game doesn't say which kind | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Session.Wetness` | `double` | 0 (Dry) ... 1 (Flooded) | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## Weather
