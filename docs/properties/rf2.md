@@ -39,6 +39,10 @@ The full inventory of rFactor 2 related properties.
 | :--- | :--- | :--- | :--- |
 | `Tyres.CompoundFront` | `int` | Front tyre compound index | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Tyres.CompoundRear` | `int` | Rear tyre compound index | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.CompoundFL` | `string` | Front left tyre compound name, same as front right | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.CompoundFR` | `string` | Front right tyre compound name, same as front left | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.CompoundRL` | `string` | Rear left tyre compound name, same as rear right | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.CompoundRR` | `string` | Rear right tyre compound name, same as rear left | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Tyres.SlipSpeed01` | `double` | Front left tyre slip speed | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Tyres.SlipSpeed02` | `double` | Front right tyre slip speed | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Tyres.SlipSpeed03` | `double` | Rear left tyre slip speed | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
