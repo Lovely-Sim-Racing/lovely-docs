@@ -63,6 +63,10 @@ The full inventory of LeMans Ultimate related properties.
 | :--- | :--- | :--- |
 | `Tyres.CompoundFront` | `int` | Front tyre compound index | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Tyres.CompoundRear` | `int` | Rear tyre compound index | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.CompoundFL` | `string` | Front left tyre compound name (Soft, Medium, Hard, Wet), same as front right | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.CompoundFR` | `string` | Front right tyre compound name, same as front left | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.CompoundRL` | `string` | Rear left tyre compound name, same as rear right | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Tyres.CompoundRR` | `string` | Rear right tyre compound name, same as rear left | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Tyres.SlipSpeed01` | `double` | Front left tyre slip speed | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Tyres.SlipSpeed02` | `double` | Front right tyre slip speed | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Tyres.SlipSpeed03` | `double` | Rear left tyre slip speed | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
@@ -101,13 +105,6 @@ Read more about the [NeoRed Plugin](https://lsr.gg/neored)
 | `Tyres.OptimalTempMedium` | `double` | Optimal temperature of the medium compound | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Tyres.OptimalTempHard` | `double` | Optimal temperature of the hard compound | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Tyres.OptimalTempWet` | `double` | Optimal temperature of the wet compound | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-
-| `Tyres.CompoundFL` | `string` | Front left tyre compound name | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-| `Tyres.CompoundFR` | `string` | Front right tyre compound name | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-| `Tyres.CompoundRL` | `string` | Rear left tyre compound name | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-| `Tyres.CompoundRR` | `string` | Rear right tyre compound name | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-
-| `VE.Max` | `double` | Virtual Energy capacity | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 | `Vehicle.FuelMix` | `string` | Engine mixture setting | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
