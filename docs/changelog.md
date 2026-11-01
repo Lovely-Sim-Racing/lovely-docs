@@ -28,6 +28,8 @@ All notable TeamLINQ changes related to the available properties and features ar
 * New [iRacing Properties](/properties/iracing.html)
   * Added `(double) TeamLINQ.Player.iRatingChange` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
   * Added `(string) TeamLINQ.Info.EngineWarnings` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+* New [EA Sports WRC Properties](/properties/eawrc.html)
+  * Added `(double) TeamLINQ.Session.TrackPositionDistance` (distance along the stage, as Assetto Corsa Rally) **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
 * New [rFactor 2 Properties](/properties/rf2.html)
   * Added `(string) TeamLINQ.Tyres.CompoundFL/FR/RL/RR` (one compound per axle) **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
   * Added `(double) TeamLINQ.Session.Wetness` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
