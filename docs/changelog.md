@@ -22,6 +22,7 @@ All notable TeamLINQ changes related to the available properties and features ar
   * Changed `(string) TeamLINQ.Tyres.CompoundFL/FR/RL/RR` now come from LMU itself (one compound per axle) and no longer need the NeoRed Plugin **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
   * Removed `(double) TeamLINQ.VE.Max` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
   * Added `(Array) TeamLINQ.Opponents.VE`, `TeamLINQ.Opponents.TyreCompound` and `TeamLINQ.Opponents.TyreWear`: each car's virtual energy, tyre compound and tread left **P**{: .label .label-pro .mx-0 }
+  * Added `(Array) TeamLINQ.Opponents.ClassLabel` and `(string) TeamLINQ.Session.CarClassLabel`: each car's class label from the car data **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
   * Added `(double) TeamLINQ.Weather.Raining` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
   * Added `(double) TeamLINQ.Weather.DarkCloud` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
   * Added `(int) TeamLINQ.Info.Overheating` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }

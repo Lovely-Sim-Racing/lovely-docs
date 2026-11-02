@@ -22,6 +22,7 @@ The full inventory of player related properties.
 | `Session.CarId` | `string` | The game's id of the player's car | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Session.CarModel` | `string` | The player's car name | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Session.CarClass` | `string` | The player's car class | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.CarClassLabel` | `string` | The player's car class label from its car data file, e.g. `GT3`; the sim's class name until it's known, or when the car isn't in the car data | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Session.CurrentLap` | `int` | The lap the player is on | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Session.CompletedLaps` | `int` | Laps the player has completed this session | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Session.RemainingLaps` | `int` | Laps left in a lap-limited session | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |

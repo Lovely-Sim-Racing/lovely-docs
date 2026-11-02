@@ -35,6 +35,7 @@ The Opponent Leaderboard properties return an array, representing each driver on
 | `Opponents.DriverName` | `Array` of `string` | Driver name | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Opponents.Id` | `Array` of `string ` | The driver's unique id | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Opponents.Class` | `Array` of `string` | Car class | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Opponents.ClassLabel` | `Array` of `string` | Car class label from the car's car data file, e.g. `HYP`; the sim's class name until it's known, or when the car isn't in the car data | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Opponents.ClassColor` | `Array` of `string` | Car class colour (from iRacing, assigned automatically in other games) | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Opponents.ClassColorText` | `Array` of `string` | Text colour readable over the class colour, white or black | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Opponents.isPlayer` | `Array` of `string ` | `true` for the player's own entry | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
