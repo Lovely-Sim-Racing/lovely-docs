@@ -52,6 +52,7 @@ The Opponent Leaderboard properties return an array, representing each driver on
 | `Opponents.VE` | `Array` of `double` | Virtual energy left, 0-1; `null` for classes without VE (LMU only) | **P**{: .label .label-pro .mx-0 } |
 | `Opponents.TyreCompound` | `Array` of `string` | Front tyre compound name, e.g. `Medium` (LMU only) | **P**{: .label .label-pro .mx-0 } |
 | `Opponents.TyreWear` | `Array` of `double` | Tread left in %, average of the four tyres (LMU only) | **P**{: .label .label-pro .mx-0 } |
+| `Opponents.Flags` | `Array` of `string` | The car's flags, comma-separated, empty when none. iRacing: `BLACK`, `FURLED`, `REPAIR`, `BLUE`, `DQ`. LMU: `BLUE`, `YELLOW`, `PENALTY`, `DQ` (iRacing and LMU only) | **P**{: .label .label-pro .mx-0 } |
 | `Opponents.Speed` | `Array` of `string ` | Car speed | **P**{: .label .label-pro .mx-0 } |
 
 | `Opponents.Position` | `Array` of `string ` | Overall position | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |

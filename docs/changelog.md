@@ -27,7 +27,9 @@ All notable TeamLINQ changes related to the available properties and features ar
   * Added `(double) TeamLINQ.Weather.DarkCloud` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
   * Added `(int) TeamLINQ.Info.Overheating` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
   * Added `(int) TeamLINQ.Session.Penalty` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(Array) TeamLINQ.Opponents.Flags`: each car's blue flag, local yellow, penalties and disqualification **P**{: .label .label-pro .mx-0 }
 * New [iRacing Properties](/properties/iracing.html)
+  * Added `(Array) TeamLINQ.Opponents.Flags`: each car's black, furled black, repair (meatball), blue and disqualified flags **P**{: .label .label-pro .mx-0 }
   * Added `(double) TeamLINQ.Player.iRatingChange` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
   * Added `(string) TeamLINQ.Info.EngineWarnings` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
 * New [EA Sports WRC Properties](/properties/eawrc.html)
