@@ -72,6 +72,8 @@ All notable TeamLINQ changes related to the available properties and features ar
   * Added `(string) TeamLINQ.PitLoss.Standing` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
   * Added `(string) TeamLINQ.PitLoss.Stretch` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
   * Added `(int) TeamLINQ.PitLoss.Samples` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.PitLoss.Spent` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.PitLoss.Stood` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
 
 ## v3.6.0.2 (Oct 12, 2026)
 
