@@ -54,3 +54,15 @@ Each flag is `1` while it's shown to the player, `0` otherwise.
 | `Flag.Orange` | `int` | Orange (meatball) flag | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Flag.White` | `int` | White flag | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Flag.Yellow` | `int` | Yellow flag | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+
+## Pit Loss
+
+What a pit stop costs the player's class at the current track, learned by the plugin from every pit lane visit of the cars in the player's class (in any session, kept on the PC and used again in later sessions). The time spent in the pit lane is learned from the visits; the time the same stretch of track takes on a normal lap is timed live in the current session, so the values follow rain, a drying track and pace. Times are text in seconds, in invariant format (`33.4`), and stay empty until the class has at least 3 pit visits at the track.
+
+| Property Name | Type | Definition | Tier |
+| :--- | :--- | :--- | :--- |
+| `PitLoss.DriveThrough` | `string` | Time lost by driving through the pit lane without stopping, compared with staying on track. From the class's drive-throughs, or estimated from its stops until it has 3 | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `PitLoss.Stop` | `string` | Time lost by a typical pit stop of the class (the pit lane plus the usual time standing in the box), compared with staying on track | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `PitLoss.Standing` | `string` | The usual time the class stands still in the box (refuelling, tyres, driver change); included in `PitLoss.Stop` | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `PitLoss.Stretch` | `string` | Time the class takes to drive the stretch of track the pit lane bypasses, from pit entry to pit exit: timed live in the session, or as learned before until 3 cars of the class have driven it | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `PitLoss.Samples` | `int` | Pit visits (stops and drive-throughs) the values are based on | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |

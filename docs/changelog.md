@@ -66,6 +66,12 @@ All notable TeamLINQ changes related to the available properties and features ar
   * Added `(string) TeamLINQ.LapReview.GapAheadChange` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
   * Added `(string) TeamLINQ.LapReview.GapBehind` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
   * Added `(string) TeamLINQ.LapReview.GapBehindChange` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+* New [Pit Loss Properties](/properties/session.html#pit-loss): what a pit stop costs the player's class at the track, learned by the plugin
+  * Added `(string) TeamLINQ.PitLoss.DriveThrough` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.PitLoss.Stop` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.PitLoss.Standing` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.PitLoss.Stretch` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(int) TeamLINQ.PitLoss.Samples` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
 
 ## v3.6.0.2 (Oct 12, 2026)
 
