@@ -45,6 +45,7 @@ The full inventory of iRacing related properties.
 | Property Name | Type | Definition | Tier |
 | :--- | :--- | :--- | :--- |
 | `Player.iRatingChange` | `double` | The player's estimated iRating change for this race, from the current positions in their class (community iRacing SOF iRating formula, the same estimate other iRacing tools use). Updated once a second, races only; `null` in practice, qualifying and when there's no field to compare against | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Player.ClassSoF` | `double` | Strength of field of the player's class (iRacing's SoF formula), from the iRating of every driver in the class, the player included. Updated once a second, every session; `null` when no one in the class has an iRating | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## Flags
 

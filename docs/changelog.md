@@ -31,6 +31,7 @@ All notable TeamLINQ changes related to the available properties and features ar
 * New [iRacing Properties](/properties/iracing.html)
   * Added `(Array) TeamLINQ.Opponents.Flags`: each car's black, furled black, repair (meatball), blue and disqualified flags **P**{: .label .label-pro .mx-0 }
   * Added `(double) TeamLINQ.Player.iRatingChange` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(double) TeamLINQ.Player.ClassSoF` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
   * Added `(string) TeamLINQ.Info.EngineWarnings` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
 * New [EA Sports WRC Properties](/properties/eawrc.html)
   * Added `(double) TeamLINQ.Session.TrackPositionDistance` (distance along the stage, as Assetto Corsa Rally) **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
