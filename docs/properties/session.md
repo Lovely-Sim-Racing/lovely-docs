@@ -29,6 +29,7 @@ The full inventory of session related properties.
 | `Session.TotalLaps` | `int` | Total laps in a lap-limited session | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Session.SectorsCount` | `int` | Number of sectors on the track | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Session.MultiClass` | `string` | `True` when the session has more than one car class | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.IsSimhubReplay` | `int` | `1` while SimHub plays back one of its own recordings, `0` otherwise. A game's own replay viewer isn't detected (it looks live to SimHub) | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 ## Units
 
@@ -57,7 +58,7 @@ Each flag is `1` while it's shown to the player, `0` otherwise.
 
 ## Pit Loss
 
-What a pit stop costs the player's class at the current track, learned by the plugin from every pit lane visit of the cars in the player's class (in any session, kept on the PC and used again in later sessions). The time spent in the pit lane is learned from the visits; the time the same stretch of track takes on a normal lap is timed live in the current session, so the values follow rain, a drying track and pace. Times are text in seconds, in invariant format (`33.4`), and stay empty until the class has at least 3 pit visits at the track.
+What a pit stop costs the player's class at the current track, learned by the plugin from every pit lane visit of the cars in the player's class (in any session, kept on the PC and used again in later sessions). The time spent in the pit lane is learned from the visits; the time the same stretch of track takes on a normal lap is timed live in the current session, so the values follow rain, a drying track and pace. Times are text in seconds, in invariant format (`33.4`), and stay empty until the class has at least 3 pit visits at the track (or the track data has an estimate). Members also get the values other drivers share from their online races, so at tracks the PC hasn't learned yet they show once a few cars of the class have driven past the pit lane (`PitLoss.Source` says which are used).
 
 | Property Name | Type | Definition | Tier |
 | :--- | :--- | :--- | :--- |
@@ -65,6 +66,7 @@ What a pit stop costs the player's class at the current track, learned by the pl
 | `PitLoss.Stop` | `string` | Time lost by a typical pit stop of the class (the pit lane plus the usual time standing in the box), compared with staying on track | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `PitLoss.Standing` | `string` | The usual time the class stands still in the box (refuelling, tyres, driver change); included in `PitLoss.Stop` | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `PitLoss.Stretch` | `string` | Time the class takes to drive the stretch of track the pit lane bypasses, from pit entry to pit exit: timed live in the session, or as learned before until 3 cars of the class have driven it | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
-| `PitLoss.Samples` | `int` | Pit visits (stops and drive-throughs) the values are based on | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `PitLoss.Samples` | `int` | Pit visits (stops and drive-throughs) the values are based on; with `PitLoss.Source` `shared`, the races they're from. Until there are values, the visits kept so far (0: none seen yet) | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `PitLoss.Source` | `string` | Where the values come from: `session` (3 or more pit visits of the class in this session; 5 or more for members when shared values exist), `shared` (what other drivers' online races share, for members, until this session has enough), `local` (the visits learned on this PC before), `track` (the track data's basic estimate, whole seconds, no standing time; when nothing else is known). Empty until known | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `PitLoss.Spent` | `string` | While the player is in the pit lane: the time the visit has cost so far, compared with staying on track. It grows by a second a second while standing in the box and more slowly at the pit speed limit, and reaches the visit's whole loss at the pit exit; subtract it from `PitLoss.Stop` or `PitLoss.DriveThrough` for the time still to come. Empty outside the pit lane | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `PitLoss.Stood` | `string` | While the player is in the pit lane: how long they've stood still in the visit so far. Once they drive out of the box, it's what this stop's standing actually took: use it in place of `PitLoss.Standing` (`PitLoss.Stop - PitLoss.Standing + PitLoss.Stood`) for what this stop costs. Empty outside the pit lane | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |

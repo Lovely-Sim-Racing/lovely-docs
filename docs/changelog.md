@@ -15,6 +15,7 @@ All notable TeamLINQ changes related to the available properties and features ar
 * Added `(double) TeamLINQ.Session.SectorProgress` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
 * Added `(double) TeamLINQ.Session.SectorTime` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
 * Added `(int) TeamLINQ.Session.SectorLearned` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+* Added `(int) TeamLINQ.Session.IsSimhubReplay` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
 * New [LMU Properties](/properties/lmu.html)
   * Added `(double) TeamLINQ.VE.Average5` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
   * Added `(double) TeamLINQ.VE.EstimatedLaps` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
@@ -75,6 +76,7 @@ All notable TeamLINQ changes related to the available properties and features ar
   * Added `(int) TeamLINQ.PitLoss.Samples` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
   * Added `(string) TeamLINQ.PitLoss.Spent` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
   * Added `(string) TeamLINQ.PitLoss.Stood` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.PitLoss.Source` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
 
 ## v3.6.0.2 (Oct 12, 2026)
 
