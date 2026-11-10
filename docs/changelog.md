@@ -85,6 +85,11 @@ All notable TeamLINQ changes related to the available properties and features ar
   * Added `(bool) TeamLINQ.Held.VELastLap` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
   * Added `(bool) TeamLINQ.Held.VEAverage5` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
   * Added `(bool) TeamLINQ.Held.Tyres` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+* New Tire Dirt Properties: dirt on each tire, 0-1 (RaceRoom and Assetto Corsa; 0 in other sims)
+  * Added `(double) TeamLINQ.Tyres.DirtFL` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(double) TeamLINQ.Tyres.DirtFR` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(double) TeamLINQ.Tyres.DirtRL` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(double) TeamLINQ.Tyres.DirtRR` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
 
 ## v3.6.0.2 (Oct 12, 2026)
 
