@@ -77,6 +77,14 @@ All notable TeamLINQ changes related to the available properties and features ar
   * Added `(string) TeamLINQ.PitLoss.Spent` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
   * Added `(string) TeamLINQ.PitLoss.Stood` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
   * Added `(string) TeamLINQ.PitLoss.Source` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+* Fuel averages, last lap consumption and tire / brake values now keep their last known value when the sim stops sending them (garage, menus, a new session), until the car or track changes
+* New Held Properties: true while that value shows its last known value instead of a live one
+  * Added `(bool) TeamLINQ.Held.FuelPerLap` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(bool) TeamLINQ.Held.FuelAverage5` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(bool) TeamLINQ.Held.FuelLastLap` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(bool) TeamLINQ.Held.VELastLap` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(bool) TeamLINQ.Held.VEAverage5` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(bool) TeamLINQ.Held.Tyres` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
 
 ## v3.6.0.2 (Oct 12, 2026)
 
