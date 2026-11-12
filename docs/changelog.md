@@ -7,7 +7,91 @@ nav_order: 50
 # Changelog
 All notable TeamLINQ changes related to the available properties and features are documented in this file. 
 
-## v3.6.0.2 (Oct 12, 2026) **Latest**{: .label .label-green .mx-0 }
+## v4.0.0.0 (Oct 20, 2026) **Latest**{: .label .label-green .mx-0 }
+
+* Added `(TimeSpan) TeamLINQ.LapTime.Average5` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+* Added `(TimeSpan) TeamLINQ.LapTime.Average10` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+* Added `(double) TeamLINQ.Fuel.Average5` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+* Added `(double) TeamLINQ.Session.SectorProgress` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+* Added `(double) TeamLINQ.Session.SectorTime` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+* Added `(int) TeamLINQ.Session.SectorLearned` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+* Added `(int) TeamLINQ.Session.IsSimhubReplay` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+* New [LMU Properties](/properties/lmu.html)
+  * Added `(double) TeamLINQ.VE.Average5` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(double) TeamLINQ.VE.EstimatedLaps` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Changed `(double) TeamLINQ.VE.LastLapConsumption` is now measured by the plugin and no longer needs the NeoRed Plugin **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Changed `(string) TeamLINQ.Tyres.CompoundFL/FR/RL/RR` now come from LMU itself (one compound per axle) and no longer need the NeoRed Plugin **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Removed `(double) TeamLINQ.VE.Max` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(Array) TeamLINQ.Opponents.VE`, `TeamLINQ.Opponents.TyreCompound` and `TeamLINQ.Opponents.TyreWear`: each car's virtual energy, tyre compound and tread left **P**{: .label .label-pro .mx-0 }
+  * Added `(Array) TeamLINQ.Opponents.ClassLabel` and `(string) TeamLINQ.Session.CarClassLabel`: each car's class label from the car data **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(double) TeamLINQ.Weather.Raining` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(double) TeamLINQ.Weather.DarkCloud` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(int) TeamLINQ.Info.Overheating` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(int) TeamLINQ.Session.Penalty` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(Array) TeamLINQ.Opponents.Flags`: each car's blue flag, local yellow, penalties and disqualification **P**{: .label .label-pro .mx-0 }
+* New [iRacing Properties](/properties/iracing.html)
+  * Added `(Array) TeamLINQ.Opponents.Flags`: each car's black, furled black, repair (meatball), blue and disqualified flags **P**{: .label .label-pro .mx-0 }
+  * Added `(double) TeamLINQ.Player.iRatingChange` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(double) TeamLINQ.Player.ClassSoF` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.Info.EngineWarnings` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+* New [EA Sports WRC Properties](/properties/eawrc.html)
+  * Added `(double) TeamLINQ.Session.TrackPositionDistance` (distance along the stage, as Assetto Corsa Rally) **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+* New [rFactor 2 Properties](/properties/rf2.html)
+  * Added `(string) TeamLINQ.Tyres.CompoundFL/FR/RL/RR` (one compound per axle) **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(double) TeamLINQ.Session.Wetness` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(double) TeamLINQ.Weather.Raining` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(double) TeamLINQ.Weather.DarkCloud` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(int) TeamLINQ.Info.Overheating` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(int) TeamLINQ.Session.Penalty` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+* New [Lap Review Properties](/properties/player.html#lap-review): the last completed lap, measured by the plugin
+  * Added `(string) TeamLINQ.LapReview.Lap` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.LapReview.LapTime` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.LapReview.Delta` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.LapReview.DeltaReference` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.LapReview.Valid` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.LapReview.Incidents` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.LapReview.Sectors` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.LapReview.FuelUsed` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.LapReview.FuelLeft` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.LapReview.VEUsed` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.LapReview.VELeft` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.LapReview.TopSpeed` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.LapReview.TyreWearFL` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.LapReview.TyreWearFR` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.LapReview.TyreWearRL` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.LapReview.TyreWearRR` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.LapReview.Position` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.LapReview.PositionGain` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.LapReview.ClassPosition` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.LapReview.ClassPositionGain` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.LapReview.GapAhead` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.LapReview.GapAheadChange` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.LapReview.GapBehind` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.LapReview.GapBehindChange` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+* New [Pit Loss Properties](/properties/session.html#pit-loss): what a pit stop costs the player's class at the track, learned by the plugin
+  * Added `(string) TeamLINQ.PitLoss.DriveThrough` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.PitLoss.Stop` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.PitLoss.Standing` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.PitLoss.Stretch` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(int) TeamLINQ.PitLoss.Samples` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.PitLoss.Spent` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.PitLoss.Stood` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(string) TeamLINQ.PitLoss.Source` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+* Fuel averages, last lap consumption and tire / brake values now keep their last known value when the sim stops sending them (garage, menus, a new session), until the car or track changes
+* New Held Properties: true while that value shows its last known value instead of a live one
+  * Added `(bool) TeamLINQ.Held.FuelPerLap` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(bool) TeamLINQ.Held.FuelAverage5` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(bool) TeamLINQ.Held.FuelLastLap` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(bool) TeamLINQ.Held.VELastLap` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(bool) TeamLINQ.Held.VEAverage5` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(bool) TeamLINQ.Held.Tyres` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+* New Tire Dirt Properties: dirt on each tire, 0-1 (RaceRoom and Assetto Corsa; 0 in other sims)
+  * Added `(double) TeamLINQ.Tyres.DirtFL` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(double) TeamLINQ.Tyres.DirtFR` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(double) TeamLINQ.Tyres.DirtRL` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+  * Added `(double) TeamLINQ.Tyres.DirtRR` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+
+## v3.6.0.2 (Oct 12, 2026)
 
 * Added `(string) TeamLINQ.Session.TypeNormalised` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
 
