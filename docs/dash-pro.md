@@ -5,9 +5,12 @@ nav_order: 60
 has_children: true
 ---
 
-# Dash Pro
+<center><img alt="Lovely Dash Pro" src="./images/dash-pro-logo.png" width="450"></center>{: .mt-6 .mb-8 .fw-300 }
+
 Build your own dashboard from ready-made modules, without editing a single dashboard file.
 {: .fs-6 .fw-300 }
+
+<img alt="Lovely Dashboard Pro" src="./images/dash-pro-dashboard.png" width="100%">{: .mb-6 }
 
 ## What is Dash Pro
 Dash Pro is the editor in the Lovely Plugin for **Lovely Dashboard Pro**. Instead of opening the dashboard in SimHub's designer, you choose what each page shows from a library of modules, and the dashboard follows your choices live.
