@@ -10,10 +10,10 @@ has_children: true
 Build your own dashboard from ready-made modules, without editing a single dashboard file.
 {: .fs-6 .fw-300 }
 
-<img alt="Lovely Dashboard Pro" src="./images/dash-pro-dashboard.png" width="100%">{: .mb-6 }
+<img alt="Lovely Dash Pro" src="./images/dash-pro-dashboard.png" width="100%">{: .mb-6 }
 
 ## What is Dash Pro
-Dash Pro is the editor in the Lovely Plugin for **Lovely Dashboard Pro**. Instead of opening the dashboard in SimHub's designer, you choose what each page shows from a library of modules, and the dashboard follows your choices live.
+Dash Pro is the editor in the Lovely Plugin for the **Lovely Dash Pro** dashboard. Instead of opening the dashboard in SimHub's designer, you choose what each page shows from a library of modules, and the dashboard follows your choices live.
 
 With Dash Pro you can:
 
@@ -25,7 +25,7 @@ With Dash Pro you can:
 * Import, export and browse presets, and share yours with the community.
 
 ## Where to find it
-In SimHub, open the **Lovely Plugin** and go to **Dash Pro**. Load **Lovely Dashboard Pro** on the device you want to use it on.
+In SimHub, open the **Lovely Plugin** and go to **Dash Pro**. Load **Lovely Dash Pro** on the device you want to use it on.
 
 The first time you open Dash Pro, a short tutorial walks you through each part of the editor. You can run it again at any time.
 

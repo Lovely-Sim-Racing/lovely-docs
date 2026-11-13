@@ -16,7 +16,7 @@ The row at the top of Dash Pro decides which Preset you're editing: **Device**, 
 What you edit is what you see on the dash. Unticking a level only hides its Presets, so ticking it again brings them back.
 
 ## Managing your Device(s)
-Open **Manage Devices & Controls** to add the SimHub devices you run Lovely Dashboard Pro on.
+Open **Manage Devices & Controls** to add the SimHub devices you run Lovely Dash Pro on.
 
 * **Add a device** from the list of your SimHub devices. Start it from a copy of **All Devices**, or from the pages Dash Pro comes with.
 * **Set its paging controls**: each device has its own **Next Page** and **Previous Page** buttons.
