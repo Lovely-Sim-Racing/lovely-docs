@@ -13,7 +13,42 @@ code {
   background-color: #999;
 }
 
-.label-pro:not(g) { 
+.label-pro:not(g) {
   color: #fff;
   background-color: #2B98FB;
+}
+
+// Dash Pro module previews: a wrapping grid of images with captions
+.dp-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 1rem 0.75rem;
+  margin: 0.75rem 0 1.5rem;
+
+  figure {
+    margin: 0;
+    text-align: center;
+  }
+
+  img,
+  .dp-none {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    background: #111;
+    border-radius: 4px;
+  }
+
+  .dp-none {
+    padding: 2rem 0;
+    color: #888;
+    font-size: 0.75rem;
+  }
+
+  figcaption {
+    margin-top: 0.35rem;
+    font-size: 0.75rem;
+    line-height: 1.2;
+  }
 }
