@@ -82,7 +82,7 @@ The large modules in a page's main grid.
   <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/diff-exit.png" alt="Diff Exit" width="140" loading="lazy"><figcaption>Diff Exit</figcaption></figure>
   <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/front-roll-bar.png" alt="Front Roll Bar" width="140" loading="lazy"><figcaption>Front Roll Bar</figcaption></figure>
   <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/rear-roll-bar.png" alt="Rear Roll Bar" width="140" loading="lazy"><figcaption>Rear Roll Bar</figcaption></figure>
-  <figure><div class="dp-none" style="width:140px">No preview</div><figcaption>Roll Bars</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/roll-bars.png" alt="Roll Bars" width="140" loading="lazy"><figcaption>Roll Bars</figcaption></figure>
   <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/weight-jacker.png" alt="Weight Jacker" width="140" loading="lazy"><figcaption>Weight Jacker</figcaption></figure>
 </div>
 
@@ -187,7 +187,7 @@ The smaller data modules in a page's central column.
 <div class="dp-grid">
   <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/topbar/delta.png" alt="Delta" width="417" loading="lazy"><figcaption>Delta</figcaption></figure>
   <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/topbar/track-gaps.png" alt="Track Gaps" width="417" loading="lazy"><figcaption>Track Gaps</figcaption></figure>
-  <figure><div class="dp-none" style="width:417px">No preview</div><figcaption>Class Gaps</figcaption></figure>
+  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/topbar/class-gaps.png" alt="Class Gaps" width="417" loading="lazy"><figcaption>Class Gaps</figcaption></figure>
   <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/topbar/virtual-rpm.png" alt="Virtual RPM" width="417" loading="lazy"><figcaption>Virtual RPM</figcaption></figure>
   <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/topbar/virtual-rpm-atsr.png" alt="Virtual RPM - ATSR" width="417" loading="lazy"><figcaption>Virtual RPM - ATSR</figcaption></figure>
   <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/topbar/inputs.png" alt="Inputs" width="417" loading="lazy"><figcaption>Inputs</figcaption></figure>
