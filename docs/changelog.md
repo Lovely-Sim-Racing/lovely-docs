@@ -16,6 +16,8 @@ All notable TeamLINQ changes related to the available properties and features ar
 * Added `(double) TeamLINQ.Session.SectorTime` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
 * Added `(int) TeamLINQ.Session.SectorLearned` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
 * Added `(int) TeamLINQ.Session.IsSimhubReplay` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+* Added `(int) TeamLINQ.Session.WetnessTrend`: the track getting wetter or drying (iRacing, LMU, rFactor 2, ACC) **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+* Changed `(double) TeamLINQ.Session.AirTemp` and `TeamLINQ.Session.TrackTemp` now follow `Unit.Temp` in F1 and Automobilista 2 too (they were always °C there) **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
 * New [LMU Properties](/properties/lmu.html)
   * Added `(double) TeamLINQ.VE.Average5` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
   * Added `(double) TeamLINQ.VE.EstimatedLaps` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }

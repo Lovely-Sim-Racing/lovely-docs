@@ -20,6 +20,7 @@ The full inventory of session related properties.
 | `Session.TypeNormalised` | `string` | `P`, `Q`, `R` or `[NULL]` | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Session.AirTemp` | `double` | Air temperature, in `Unit.Temp` | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Session.TrackTemp` | `double` | Track surface temperature, in `Unit.Temp` | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Session.WetnessTrend` | `int` | `1` while the track is getting wetter, `-1` while it's drying, `0` when steady or not known. It stays for 5 minutes after the wetness last changed that way. iRacing, LMU, rFactor 2 and ACC (from the grip status: greasy to flooded); `0` in other sims | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Session.TrackId` | `string` | The game's id of the track | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Session.TrackLength` | `double` | Track length, in meters | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Session.TrackName` | `string` | Track name, from the Lovely track data | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
