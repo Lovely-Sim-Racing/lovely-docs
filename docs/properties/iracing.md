@@ -24,6 +24,7 @@ The full inventory of iRacing related properties.
 | `Session.WindSpeed` | `double` | Wind speed, in m/s | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Session.WindDirection` | `double` | Wind direction, in radians | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 | `Session.TrackStatus` | `double` | Track wetness, from iRacing's `TrackWetness` (`1` dry, higher is wetter) | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
+| `Weather.Raining` | `double` | How hard it's raining now, from iRacing's `Precipitation`: 0 (none) ... 1 (heaviest) | **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 } |
 
 
 ## DRS

@@ -11,6 +11,8 @@ All notable TeamLINQ changes related to the available properties and features ar
 
 * Added `(int) TeamLINQ.Session.WetnessTrend`: the track getting wetter or drying (iRacing, LMU, rFactor 2, ACC) **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
 * Changed `(double) TeamLINQ.Session.AirTemp` and `TeamLINQ.Session.TrackTemp` now follow `Unit.Temp` in F1 and Automobilista 2 too (they were always °C there) **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
+* New [iRacing Properties](/properties/iracing.html)
+  * Added `(double) TeamLINQ.Weather.Raining`: how hard it's raining now, from iRacing's `Precipitation` **P**{: .label .label-pro .mx-0 } **S**{: .label .label-starter .mx-0 }
 
 ## v4.0.0.0 (Oct 20, 2026)
 
