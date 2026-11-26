@@ -4,6 +4,7 @@ layout: default
 parent: Dash Pro
 nav_order: 60
 has_children: true
+has_toc: false
 ---
 
 # Modules

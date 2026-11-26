@@ -3,6 +3,7 @@ title: Dash Pro
 layout: default
 nav_order: 60
 has_children: true
+has_toc: false
 ---
 
 <center><img alt="Lovely Dash Pro" src="./images/dash-pro-logo.png" width="450"></center>{: .mt-6 .mb-8 .fw-300 }
