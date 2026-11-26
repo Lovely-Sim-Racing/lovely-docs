@@ -3,253 +3,177 @@ title: Modules
 layout: default
 parent: Dash Pro
 nav_order: 60
+has_children: true
 ---
 
 # Modules
-Every module you can place with Dash Pro, grouped by where it goes. **Blank** leaves a slot empty.
+Every module you can place with Dash Pro, grouped by what it's about.
 {: .fs-5 .fw-300 }
 
-Previews use sample values.
-{: .text-grey-dk-000 }
+Modules go in four places on a page:
 
-## Main Modules (Module Pro)
-The large modules in a page's main grid.
+* **Main**: the large modules in a page's main grid (Module Pro).
+* **Data**: the smaller modules in the central column (Module Data).
+* **Topbar** and **Sidebar**: the bars along the top and the sides.
 
-### Timing
-<div class="dp-grid">
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/last-lap.png" alt="Last Lap" width="140" loading="lazy"><figcaption>Last Lap</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/current-lap.png" alt="Current Lap" width="140" loading="lazy"><figcaption>Current Lap</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/estimated-lap.png" alt="Estimated Lap" width="140" loading="lazy"><figcaption>Estimated Lap</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/delta.png" alt="Delta" width="140" loading="lazy"><figcaption>Delta</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/session-best.png" alt="Session Best" width="140" loading="lazy"><figcaption>Session Best</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/overall-session-best.png" alt="Overall Session Best" width="140" loading="lazy"><figcaption>Overall Session Best</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/class-session-best.png" alt="Class Session Best" width="140" loading="lazy"><figcaption>Class Session Best</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/optimal-best-lap.png" alt="Optimal Best Lap" width="140" loading="lazy"><figcaption>Optimal Best Lap</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/5-lap-average.png" alt="5 Lap Average" width="140" loading="lazy"><figcaption>5 Lap Average</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/10-lap-average.png" alt="10 Lap Average" width="140" loading="lazy"><figcaption>10 Lap Average</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/all-time-best.png" alt="All-Time Best" width="140" loading="lazy"><figcaption>All-Time Best</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/position.png" alt="Position" width="140" loading="lazy"><figcaption>Position</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/pit-loss.png" alt="Pit Loss" width="140" loading="lazy"><figcaption>Pit Loss</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/track-ahead.png" alt="Track Ahead" width="140" loading="lazy"><figcaption>Track Ahead</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/track-behind.png" alt="Track Behind" width="140" loading="lazy"><figcaption>Track Behind</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/track-gaps.png" alt="Track Gaps" width="140" loading="lazy"><figcaption>Track Gaps</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/class-ahead.png" alt="Class Ahead" width="140" loading="lazy"><figcaption>Class Ahead</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/class-behind.png" alt="Class Behind" width="140" loading="lazy"><figcaption>Class Behind</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/class-gaps.png" alt="Class Gaps" width="140" loading="lazy"><figcaption>Class Gaps</figcaption></figure>
-</div>
+Most modules are a label and a value. Modules that show more have their own page: follow their name. **Blank** leaves a slot empty.
 
-### Fuel and energy
-<div class="dp-grid">
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/fuel.png" alt="Fuel" width="140" loading="lazy"><figcaption>Fuel</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/fuel-pct.png" alt="Fuel %" width="140" loading="lazy"><figcaption>Fuel %</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/fuel-average.png" alt="Fuel Average" width="140" loading="lazy"><figcaption>Fuel Average</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/fuel-5-lap-average.png" alt="Fuel 5 Lap Average" width="140" loading="lazy"><figcaption>Fuel 5 Lap Average</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/fuel-laps-left.png" alt="Fuel Laps Left" width="140" loading="lazy"><figcaption>Fuel Laps Left</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/fuel-time-left.png" alt="Fuel Time Left" width="140" loading="lazy"><figcaption>Fuel Time Left</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/fuel-last-lap.png" alt="Fuel Last Lap" width="140" loading="lazy"><figcaption>Fuel Last Lap</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/fuel-this-lap.png" alt="Fuel This Lap" width="140" loading="lazy"><figcaption>Fuel This Lap</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/refuel.png" alt="Refuel" width="140" loading="lazy"><figcaption>Refuel</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/ve-pct.png" alt="VE %" width="140" loading="lazy"><figcaption>VE %</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/ve-average.png" alt="VE Average" width="140" loading="lazy"><figcaption>VE Average</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/ve-5-lap-average.png" alt="VE 5 Lap Average" width="140" loading="lazy"><figcaption>VE 5 Lap Average</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/ve-laps-left.png" alt="VE Laps Left" width="140" loading="lazy"><figcaption>VE Laps Left</figcaption></figure>
-</div>
+A page can also show a [Full Screen page](./modules/full-screen-pages.html) instead of modules, and a side column can be an [MFM](./modules/mfm-pages.html).
 
-### Car controls
-<div class="dp-grid">
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/tc.png" alt="TC" width="140" loading="lazy"><figcaption>TC</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/tc-2.png" alt="TC 2" width="140" loading="lazy"><figcaption>TC 2</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/tc-slip.png" alt="TC Slip" width="140" loading="lazy"><figcaption>TC Slip</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/abs.png" alt="ABS" width="140" loading="lazy"><figcaption>ABS</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/brake-bias.png" alt="Brake Bias" width="140" loading="lazy"><figcaption>Brake Bias</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/brake-migration.png" alt="Brake Migration" width="140" loading="lazy"><figcaption>Brake Migration</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/engine-map.png" alt="Engine Map" width="140" loading="lazy"><figcaption>Engine Map</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/fuel-mix.png" alt="Fuel Mix" width="140" loading="lazy"><figcaption>Fuel Mix</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/engine-power.png" alt="Engine Power" width="140" loading="lazy"><figcaption>Engine Power</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/engine-brake.png" alt="Engine Brake" width="140" loading="lazy"><figcaption>Engine Brake</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/turbo.png" alt="Turbo" width="140" loading="lazy"><figcaption>Turbo</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/boost.png" alt="Boost" width="140" loading="lazy"><figcaption>Boost</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/ers.png" alt="ERS" width="140" loading="lazy"><figcaption>ERS</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/mgu.png" alt="MGU" width="140" loading="lazy"><figcaption>MGU</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/mgu-k.png" alt="MGU-K" width="140" loading="lazy"><figcaption>MGU-K</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/regen.png" alt="Regen" width="140" loading="lazy"><figcaption>Regen</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/ers-mode.png" alt="ERS Mode" width="140" loading="lazy"><figcaption>ERS Mode</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/p2p.png" alt="P2P" width="140" loading="lazy"><figcaption>P2P</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/throttle-shape.png" alt="Throttle Shape" width="140" loading="lazy"><figcaption>Throttle Shape</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/differential.png" alt="Differential" width="140" loading="lazy"><figcaption>Differential</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/diff-entry.png" alt="Diff Entry" width="140" loading="lazy"><figcaption>Diff Entry</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/diff-mid.png" alt="Diff Mid" width="140" loading="lazy"><figcaption>Diff Mid</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/diff-exit.png" alt="Diff Exit" width="140" loading="lazy"><figcaption>Diff Exit</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/front-roll-bar.png" alt="Front Roll Bar" width="140" loading="lazy"><figcaption>Front Roll Bar</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/rear-roll-bar.png" alt="Rear Roll Bar" width="140" loading="lazy"><figcaption>Rear Roll Bar</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/roll-bars.png" alt="Roll Bars" width="140" loading="lazy"><figcaption>Roll Bars</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/weight-jacker.png" alt="Weight Jacker" width="140" loading="lazy"><figcaption>Weight Jacker</figcaption></figure>
-</div>
+## Timing
+Lap times, sector times and the clock.
 
-### Car status
-<div class="dp-grid">
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/speed.png" alt="Speed" width="140" loading="lazy"><figcaption>Speed</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/soc.png" alt="SoC" width="140" loading="lazy"><figcaption>SoC</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/battery.png" alt="Battery" width="140" loading="lazy"><figcaption>Battery</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/oil-pressure.png" alt="Oil Pressure" width="140" loading="lazy"><figcaption>Oil Pressure</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/oil-temp.png" alt="Oil Temp" width="140" loading="lazy"><figcaption>Oil Temp</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/water-temp.png" alt="Water Temp" width="140" loading="lazy"><figcaption>Water Temp</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/oil-level.png" alt="Oil Level" width="140" loading="lazy"><figcaption>Oil Level</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/fuel-pressure.png" alt="Fuel Pressure" width="140" loading="lazy"><figcaption>Fuel Pressure</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/torque.png" alt="Torque" width="140" loading="lazy"><figcaption>Torque</figcaption></figure>
-</div>
+| Module | Where |
+| :--- | :--- |
+| Session Name | Data |
+| Session Time | Data |
+| PC Time | Data |
+| Time Remaining | Data |
+| Lap | Data |
+| Last Lap | Main · Data |
+| Current Lap | Main · Data |
+| Estimated Lap | Main · Data |
+| Delta ([bar](./modules/delta.html)) | Main · Data · Topbar · Sidebar |
+| Session Best | Main · Data |
+| Overall Session Best | Main · Data |
+| Class Session Best | Main · Data |
+| Optimal Best Lap | Main · Data |
+| 5 Lap Average | Main · Data |
+| 10 Lap Average | Main · Data |
+| All-Time Best | Main · Data |
+| [Current Lap Sectors](./modules/sectors.html) | Data |
+| [Sector Bar](./modules/sectors.html) | Topbar |
+| [Next Race](./modules/next-race.html) | Topbar |
 
-### Tires
-<div class="dp-grid">
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/tire-front-left.png" alt="Tire Front Left" width="140" loading="lazy"><figcaption>Tire Front Left</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/tire-front-right.png" alt="Tire Front Right" width="140" loading="lazy"><figcaption>Tire Front Right</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/tire-rear-left.png" alt="Tire Rear Left" width="140" loading="lazy"><figcaption>Tire Rear Left</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/tire-rear-right.png" alt="Tire Rear Right" width="140" loading="lazy"><figcaption>Tire Rear Right</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/tire-front-left-avg.png" alt="Tire Front Left AVG" width="140" loading="lazy"><figcaption>Tire Front Left AVG</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/tire-front-right-avg.png" alt="Tire Front Right AVG" width="140" loading="lazy"><figcaption>Tire Front Right AVG</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/tire-rear-left-avg.png" alt="Tire Rear Left AVG" width="140" loading="lazy"><figcaption>Tire Rear Left AVG</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-pro/tire-rear-right-avg.png" alt="Tire Rear Right AVG" width="140" loading="lazy"><figcaption>Tire Rear Right AVG</figcaption></figure>
-</div>
+## Position and Opponents
+Where you are, and who is around you.
 
-## Data Modules (Module Data)
-The smaller data modules in a page's central column.
+| Module | Where |
+| :--- | :--- |
+| Position | Main · Data |
+| [Track Ahead](./modules/gaps.html) | Main · Data |
+| [Track Behind](./modules/gaps.html) | Main · Data |
+| [Track Gaps](./modules/gaps.html) | Main · Topbar |
+| [Class Ahead](./modules/gaps.html) | Main · Data |
+| [Class Behind](./modules/gaps.html) | Main · Data |
+| [Class Gaps](./modules/gaps.html) | Main · Topbar |
+| [Linear Map](./modules/linear-map.html) | Topbar · Sidebar |
+| [Spotter](./modules/spotter.html) | Topbar · Sidebar |
+| [Pit Loss](./modules/pit-loss.html) | Main · Data |
+| iRating Estimate | Main · Data |
+| Incidents | Main · Data |
 
-### Session
-<div class="dp-grid">
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/session-name.png" alt="Session Name" width="140" loading="lazy"><figcaption>Session Name</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/session-time.png" alt="Session Time" width="140" loading="lazy"><figcaption>Session Time</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/pc-time.png" alt="PC Time" width="140" loading="lazy"><figcaption>PC Time</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/time-remaining.png" alt="Time Remaining" width="140" loading="lazy"><figcaption>Time Remaining</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/lap.png" alt="Lap" width="140" loading="lazy"><figcaption>Lap</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/weather.png" alt="Weather" width="140" loading="lazy"><figcaption>Weather</figcaption></figure>
-</div>
+## Fuel and Energy
+Fuel, Virtual Energy (Le Mans Ultimate) and hybrid battery, and the strategy around them.
 
-### Timing
-<div class="dp-grid">
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/position.png" alt="Position" width="140" loading="lazy"><figcaption>Position</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/pit-loss.png" alt="Pit Loss" width="140" loading="lazy"><figcaption>Pit Loss</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/track-ahead.png" alt="Track Ahead" width="140" loading="lazy"><figcaption>Track Ahead</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/track-behind.png" alt="Track Behind" width="140" loading="lazy"><figcaption>Track Behind</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/class-ahead.png" alt="Class Ahead" width="140" loading="lazy"><figcaption>Class Ahead</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/class-behind.png" alt="Class Behind" width="140" loading="lazy"><figcaption>Class Behind</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/last-lap.png" alt="Last Lap" width="140" loading="lazy"><figcaption>Last Lap</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/current-lap.png" alt="Current Lap" width="140" loading="lazy"><figcaption>Current Lap</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/estimated-lap.png" alt="Estimated Lap" width="140" loading="lazy"><figcaption>Estimated Lap</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/delta.png" alt="Delta" width="140" loading="lazy"><figcaption>Delta</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/session-best.png" alt="Session Best" width="140" loading="lazy"><figcaption>Session Best</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/overall-session-best.png" alt="Overall Session Best" width="140" loading="lazy"><figcaption>Overall Session Best</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/class-session-best.png" alt="Class Session Best" width="140" loading="lazy"><figcaption>Class Session Best</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/optimal-best-lap.png" alt="Optimal Best Lap" width="140" loading="lazy"><figcaption>Optimal Best Lap</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/5-lap-average.png" alt="5 Lap Average" width="140" loading="lazy"><figcaption>5 Lap Average</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/10-lap-average.png" alt="10 Lap Average" width="140" loading="lazy"><figcaption>10 Lap Average</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/all-time-best.png" alt="All-Time Best" width="140" loading="lazy"><figcaption>All-Time Best</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/current-lap-sectors.png" alt="Current Lap Sectors" width="140" loading="lazy"><figcaption>Current Lap Sectors</figcaption></figure>
-</div>
+| Module | Where |
+| :--- | :--- |
+| Fuel ([bar](./modules/fuel-and-energy-bars.html)) | Main · Data · Topbar · Sidebar |
+| Fuel % | Main · Data |
+| Fuel Average | Main · Data |
+| Fuel 5 Lap Average | Main · Data |
+| Fuel Laps Left | Main · Data |
+| Fuel Time Left | Main · Data |
+| Fuel Last Lap | Main · Data |
+| Fuel This Lap | Main · Data |
+| [Refuel](./modules/refuel.html) | Main · Data |
+| [Pit Window](./modules/pit-window.html) | Main · Data |
+| [Target](./modules/target.html) | Main · Data |
+| [Virtual Energy](./modules/fuel-and-energy-bars.html) | Topbar · Sidebar |
+| VE % | Main · Data |
+| VE Average | Main · Data |
+| VE 5 Lap Average | Main · Data |
+| VE Laps Left | Main · Data |
+| VE Time Left | Main · Data |
+| VE Last Lap | Main · Data |
+| VE This Lap | Main · Data |
+| VE Ratio | Main · Data |
+| [Fuel / VE](./modules/fuel-and-energy-bars.html) | Topbar · Sidebar |
+| SoC ([bar](./modules/fuel-and-energy-bars.html)) | Main · Topbar · Sidebar |
 
-### Fuel and energy
-<div class="dp-grid">
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/fuel.png" alt="Fuel" width="140" loading="lazy"><figcaption>Fuel</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/fuel-pct.png" alt="Fuel %" width="140" loading="lazy"><figcaption>Fuel %</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/fuel-average.png" alt="Fuel Average" width="140" loading="lazy"><figcaption>Fuel Average</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/fuel-5-lap-average.png" alt="Fuel 5 Lap Average" width="140" loading="lazy"><figcaption>Fuel 5 Lap Average</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/fuel-laps-left.png" alt="Fuel Laps Left" width="140" loading="lazy"><figcaption>Fuel Laps Left</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/fuel-time-left.png" alt="Fuel Time Left" width="140" loading="lazy"><figcaption>Fuel Time Left</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/fuel-last-lap.png" alt="Fuel Last Lap" width="140" loading="lazy"><figcaption>Fuel Last Lap</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/fuel-this-lap.png" alt="Fuel This Lap" width="140" loading="lazy"><figcaption>Fuel This Lap</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/refuel.png" alt="Refuel" width="140" loading="lazy"><figcaption>Refuel</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/ve-pct.png" alt="VE %" width="140" loading="lazy"><figcaption>VE %</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/ve-average.png" alt="VE Average" width="140" loading="lazy"><figcaption>VE Average</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/ve-5-lap-average.png" alt="VE 5 Lap Average" width="140" loading="lazy"><figcaption>VE 5 Lap Average</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/ve-laps-left.png" alt="VE Laps Left" width="140" loading="lazy"><figcaption>VE Laps Left</figcaption></figure>
-</div>
+## Car Settings
+The car's adjustable settings: each shows its current value and pops up when you change it.
 
-### Car and driver
-<div class="dp-grid">
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/rpm.png" alt="RPM" width="140" loading="lazy"><figcaption>RPM</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/speed.png" alt="Speed" width="140" loading="lazy"><figcaption>Speed</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/throttle.png" alt="Throttle" width="140" loading="lazy"><figcaption>Throttle</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/brake.png" alt="Brake" width="140" loading="lazy"><figcaption>Brake</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/clutch.png" alt="Clutch" width="140" loading="lazy"><figcaption>Clutch</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/ers-mode.png" alt="ERS Mode" width="140" loading="lazy"><figcaption>ERS Mode</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/p2p.png" alt="P2P" width="140" loading="lazy"><figcaption>P2P</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/lift-and-coast.png" alt="Lift & Coast" width="140" loading="lazy"><figcaption>Lift & Coast</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/functions.png" alt="Functions" width="140" loading="lazy"><figcaption>Functions</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/race-controls.png" alt="Race Controls" width="140" loading="lazy"><figcaption>Race Controls</figcaption></figure>
-</div>
+| Module | Where |
+| :--- | :--- |
+| TC | Main |
+| TC 2 | Main |
+| TC Slip | Main |
+| ABS | Main |
+| Brake Bias | Main |
+| Brake Migration | Main |
+| Engine Map | Main |
+| Fuel Mix | Main |
+| Engine Power | Main |
+| Engine Brake | Main |
+| Turbo | Main |
+| Boost | Main |
+| ERS | Main |
+| MGU | Main |
+| MGU-K | Main |
+| Regen | Main |
+| ERS Mode | Main · Data |
+| P2P | Main · Data |
+| Throttle Shape | Main |
+| Differential | Main |
+| Diff Entry | Main |
+| Diff Mid | Main |
+| Diff Exit | Main |
+| Front Roll Bar | Main |
+| Rear Roll Bar | Main |
+| Roll Bars | Main |
+| Weight Jacker | Main |
 
-### Ratings and incidents
-<div class="dp-grid">
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/irating-estimate-iracing.png" alt="iRating Estimate (iRacing)" width="140" loading="lazy"><figcaption>iRating Estimate (iRacing)</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/module-data/incidents-iracing-and-raceroom.png" alt="Incidents (iRacing and RaceRoom)" width="140" loading="lazy"><figcaption>Incidents (iRacing and RaceRoom)</figcaption></figure>
-</div>
+## Car Status
+How the car is doing.
 
-## Topbar
-<div class="dp-grid">
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/topbar/delta.png" alt="Delta" width="417" loading="lazy"><figcaption>Delta</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/topbar/track-gaps.png" alt="Track Gaps" width="417" loading="lazy"><figcaption>Track Gaps</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/topbar/class-gaps.png" alt="Class Gaps" width="417" loading="lazy"><figcaption>Class Gaps</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/topbar/virtual-rpm.png" alt="Virtual RPM" width="417" loading="lazy"><figcaption>Virtual RPM</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/topbar/virtual-rpm-atsr.png" alt="Virtual RPM - ATSR" width="417" loading="lazy"><figcaption>Virtual RPM - ATSR</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/topbar/inputs.png" alt="Inputs" width="417" loading="lazy"><figcaption>Inputs</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/topbar/spotter.png" alt="Spotter" width="417" loading="lazy"><figcaption>Spotter</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/topbar/fuel.png" alt="Fuel" width="417" loading="lazy"><figcaption>Fuel</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/topbar/virtual-energy.png" alt="Virtual Energy" width="417" loading="lazy"><figcaption>Virtual Energy</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/topbar/fuel-ve.png" alt="Fuel / VE" width="417" loading="lazy"><figcaption>Fuel / VE</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/topbar/linear-map.png" alt="Linear Map" width="417" loading="lazy"><figcaption>Linear Map</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/topbar/soc.png" alt="SoC" width="417" loading="lazy"><figcaption>SoC</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/topbar/next-race.png" alt="Next Race" width="417" loading="lazy"><figcaption>Next Race</figcaption></figure>
-</div>
+| Module | Where |
+| :--- | :--- |
+| RPM | Main · Data |
+| Speed | Main · Data |
+| Battery | Main · Data |
+| Oil Pressure | Main · Data |
+| Oil Temp | Main · Data |
+| Water Temp | Main · Data |
+| Oil Level | Main · Data |
+| Fuel Pressure | Main · Data |
+| Torque | Main · Data |
+| [Tire Front Left / Front Right / Rear Left / Rear Right, and their AVG](./modules/tires.html) | Main |
+| [Functions](./modules/functions.html) | Data |
 
-## Sidebar
-<div class="dp-grid">
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/sidebar/fuel.png" alt="Fuel" width="14" loading="lazy"><figcaption>Fuel</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/sidebar/throttle.png" alt="Throttle" width="14" loading="lazy"><figcaption>Throttle</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/sidebar/brake.png" alt="Brake" width="14" loading="lazy"><figcaption>Brake</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/sidebar/inputs.png" alt="Inputs" width="14" loading="lazy"><figcaption>Inputs</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/sidebar/virtual-rpm.png" alt="Virtual RPM" width="14" loading="lazy"><figcaption>Virtual RPM</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/sidebar/virtual-rpm-atsr.png" alt="Virtual RPM - ATSR" width="14" loading="lazy"><figcaption>Virtual RPM - ATSR</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/sidebar/spotter.png" alt="Spotter" width="14" loading="lazy"><figcaption>Spotter</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/sidebar/virtual-energy.png" alt="Virtual Energy" width="14" loading="lazy"><figcaption>Virtual Energy</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/sidebar/fuel-ve.png" alt="Fuel / VE" width="14" loading="lazy"><figcaption>Fuel / VE</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/sidebar/linear-map.png" alt="Linear Map" width="14" loading="lazy"><figcaption>Linear Map</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/sidebar/soc.png" alt="SoC" width="14" loading="lazy"><figcaption>SoC</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/sidebar/delta.png" alt="Delta" width="14" loading="lazy"><figcaption>Delta</figcaption></figure>
-</div>
+## Driver Inputs and Aids
+Pedals, shift lights and in-race controls.
 
-## Lap Review Modules
-Every Lap Review module is about the lap you just completed.
+| Module | Where |
+| :--- | :--- |
+| Throttle ([bar](./modules/inputs.html)) | Data · Sidebar |
+| Brake ([bar](./modules/inputs.html)) | Data · Sidebar |
+| Clutch | Data |
+| [Inputs](./modules/inputs.html) | Topbar · Sidebar |
+| [Virtual RPM](./modules/rev-lights.html) | Topbar · Sidebar |
+| [Virtual RPM - ATSR](./modules/rev-lights.html) | Topbar · Sidebar |
+| [Rev Bar](./modules/rev-lights.html) | Topbar |
+| [Race Controls](./modules/race-controls.html) | Data |
+| [Lift & Coast](./modules/lift-and-coast.html) | Data |
+| [Left Dial](./modules/rotary-dials.html) | Data |
+| [Right Dial](./modules/rotary-dials.html) | Data |
 
-<div class="dp-grid">
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/lap-review/lap-time.png" alt="Lap Time" width="294" loading="lazy"><figcaption>Lap Time</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/lap-review/lap-delta.png" alt="Lap Delta" width="294" loading="lazy"><figcaption>Lap Delta</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/lap-review/sectors.png" alt="Sectors" width="294" loading="lazy"><figcaption>Sectors</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/lap-review/sector-deltas.png" alt="Sector Deltas" width="294" loading="lazy"><figcaption>Sector Deltas</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/lap-review/position.png" alt="Position" width="294" loading="lazy"><figcaption>Position</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/lap-review/gaps.png" alt="Gaps" width="294" loading="lazy"><figcaption>Gaps</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/lap-review/fuel-used.png" alt="Fuel Used" width="294" loading="lazy"><figcaption>Fuel Used</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/lap-review/fuel-left.png" alt="Fuel Left" width="294" loading="lazy"><figcaption>Fuel Left</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/lap-review/ve-used.png" alt="VE Used" width="294" loading="lazy"><figcaption>VE Used</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/lap-review/ve-left.png" alt="VE Left" width="294" loading="lazy"><figcaption>VE Left</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/lap-review/fuel-ve-used.png" alt="Fuel / VE Used" width="294" loading="lazy"><figcaption>Fuel / VE Used</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/lap-review/tire-wear.png" alt="Tire Wear" width="294" loading="lazy"><figcaption>Tire Wear</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/lap-review/lap-validity.png" alt="Lap Validity" width="294" loading="lazy"><figcaption>Lap Validity</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/lap-review/top-speed.png" alt="Top Speed" width="294" loading="lazy"><figcaption>Top Speed</figcaption></figure>
-</div>
+## Track and Weather
+Conditions and flags.
 
-## Full Screen Pages
-A Full Screen page shows one of these instead of modules.
+| Module | Where |
+| :--- | :--- |
+| [Weather](./modules/weather.html) | Data |
+| [Flag](./modules/flag.html) | Topbar · Sidebar |
 
-<div class="dp-grid">
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/full-screen/relative.png" alt="Relative" width="379" loading="lazy"><figcaption>Relative</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/full-screen/standings.png" alt="Standings" width="379" loading="lazy"><figcaption>Standings</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/full-screen/track-opponents.png" alt="Track Opponents" width="379" loading="lazy"><figcaption>Track Opponents</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/full-screen/class-opponents.png" alt="Class Opponents" width="379" loading="lazy"><figcaption>Class Opponents</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/full-screen/map-animated.png" alt="Map Animated" width="379" loading="lazy"><figcaption>Map Animated</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/full-screen/map-static.png" alt="Map Static" width="379" loading="lazy"><figcaption>Map Static</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/full-screen/radar.png" alt="Radar" width="379" loading="lazy"><figcaption>Radar</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/full-screen/telemetry.png" alt="Telemetry" width="379" loading="lazy"><figcaption>Telemetry</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/full-screen/lap-history.png" alt="Lap History" width="379" loading="lazy"><figcaption>Lap History</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/full-screen/race-flags.png" alt="Race Flags" width="379" loading="lazy"><figcaption>Race Flags</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/full-screen/tire-info.png" alt="Tire Info" width="379" loading="lazy"><figcaption>Tire Info</figcaption></figure>
-  <figure><img src="{{ site.baseurl }}/images/dash-pro/modules/full-screen/damage.png" alt="Damage" width="379" loading="lazy"><figcaption>Damage</figcaption></figure>
-</div>
+## Combined
+Several modules in one bar.
+
+| Module | Where |
+| :--- | :--- |
+| [Utility Bar](./modules/utility-bar.html) | Topbar |
+
+## Lap Review
+The modules of the [Lap Review](./lap-review.html), all about the lap you just completed.
+
+Lap Time · Lap Delta · Sectors · Sector Deltas · Position · Gaps · Fuel Used · Fuel Left · VE Used · VE Left · Fuel / VE Used · Tire Wear · Lap Validity · Top Speed

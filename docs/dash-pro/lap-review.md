@@ -17,4 +17,4 @@ Set it up in the **Lap Review** tab:
 
 The Lap Review's colors and how long it stays on screen are set in [Alerts & Notifications](./alerts.html).
 
-See [Lap Review Modules](./modules.html#lap-review-modules) for the list of modules.
+See [Modules](./modules.html#lap-review) for the list of modules.
